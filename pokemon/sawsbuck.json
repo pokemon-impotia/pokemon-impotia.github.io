@@ -147,7 +147,7 @@
         {
           "klass": "LevelLearnableMove",
           "level": 44,
-          "move": "raporeurre_power"
+          "move": "nature_power"
         },
         {
           "klass": "LevelLearnableMove",
@@ -285,7 +285,7 @@
         },
         {
           "klass": "TechLearnableMove",
-          "move": "raporeurre_power"
+          "move": "nature_power"
         },
         {
           "klass": "TechLearnableMove",
@@ -469,7 +469,7 @@
         {
           "klass": "LevelLearnableMove",
           "level": 44,
-          "move": "raporeurre_power"
+          "move": "nature_power"
         },
         {
           "klass": "LevelLearnableMove",
@@ -579,7 +579,7 @@
         },
         {
           "klass": "TechLearnableMove",
-          "move": "raporeurre_power"
+          "move": "nature_power"
         },
         {
           "klass": "TechLearnableMove",
@@ -763,7 +763,7 @@
         {
           "klass": "LevelLearnableMove",
           "level": 44,
-          "move": "raporeurre_power"
+          "move": "nature_power"
         },
         {
           "klass": "LevelLearnableMove",
@@ -873,7 +873,7 @@
         },
         {
           "klass": "TechLearnableMove",
-          "move": "raporeurre_power"
+          "move": "nature_power"
         },
         {
           "klass": "TechLearnableMove",
@@ -1057,7 +1057,7 @@
         {
           "klass": "LevelLearnableMove",
           "level": 44,
-          "move": "raporeurre_power"
+          "move": "nature_power"
         },
         {
           "klass": "LevelLearnableMove",
@@ -1167,7 +1167,7 @@
         },
         {
           "klass": "TechLearnableMove",
-          "move": "raporeurre_power"
+          "move": "nature_power"
         },
         {
           "klass": "TechLearnableMove",

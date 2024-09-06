@@ -34,11 +34,20 @@
       "hatchSteps": 5120,
       "babyDbSymbol": "comfey",
       "babyForm": 0,
-      "itemHeld": [],
+      "itemHeld": [
+        {
+          "dbSymbol": "none",
+          "chance": 0
+        },
+        {
+          "dbSymbol": "none",
+          "chance": 0
+        }
+      ],
       "abilities": [
         "flower_veil",
         "triage",
-        "raporeurral_cure"
+        "natural_cure"
       ],
       "frontOffsetY": 20,
       "resources": {

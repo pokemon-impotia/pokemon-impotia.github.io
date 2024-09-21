@@ -5,6 +5,10 @@
   "forms": [
     {
       "form": 0,
+      "formTextId": {
+        "name": 880,
+        "description": 0
+      },
       "height": 1.5,
       "weight": 40.5,
       "type1": "ghost",
@@ -32,7 +36,7 @@
         11
       ],
       "hatchSteps": 5120,
-      "babyDbSymbol": "posette",
+      "babyDbSymbol": "suffog",
       "babyForm": 0,
       "itemHeld": [
         {
@@ -188,6 +192,10 @@
     },
     {
       "form": 30,
+      "formTextId": {
+        "name": 881,
+        "description": 258
+      },
       "height": 1.4,
       "weight": 40.5,
       "type1": "ghost",

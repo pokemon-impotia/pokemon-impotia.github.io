@@ -1,31 +1,42 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pokédex</title>
+    <title>Accueil</title>
     <link rel="stylesheet" href="css/styles_pokedex.css">
+    <link rel="stylesheet" href="css/navbar.css">
+    <style>
+        body {
+            background-color: #1d1c22;
+            color: #ffffff;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding: 20px;
+        }
+        h1 {
+            margin-bottom: 30px;
+        }
+        p {
+            max-width: 600px;
+            margin: 0 auto;
+            line-height: 1.6;
+        }
+        footer {
+            margin-top: 50px;
+            font-size: 14px;
+        }
+    </style>
 </head>
 <body>
-<header>
-    <div id="searchContainer">
-        <input type="text" id="searchBar" placeholder="Search for a Pokémon..." autocomplete="off">
-        <button data-language="fr"><img src="imgs/flag_fr.png" alt="Switch to french"></button>
-        <button data-language="en"><img src="imgs/flag_en.png" alt="Switch to english"></button>
-    </div>
-    <ul id="suggestions"></ul>
-</header>
+    <link rel="stylesheet" href="css/navbar.css">
+    <div id="navbar"></div>
 
-<div class="container">
-    <p>The pokédex takes about 10 seconds for the first search you will do. Then, it will take about 3 seconds for each search.</p>
-    <div id="pokemonData" class="grid-container"></div>
-</div>
+    <h1>Bienvenue sur le pokédex de Pokémon Impotia.</h1>
+    <p>Explorez et découvrez une multitude de Fakemons en utilisant la navigation ci-dessus.</p>
 
-<script src="script.js"></script>
+    <div id="footer"></div>
 </body>
-
-<footer>
-    <a href="https://github.com/fuyutaaProjects" target="_blank">Built by @fuyutaaProjects on GitHub</a>
-</footer>
-
+<script src="loadFooter.js"></script>
+<script src="loadNavbar.js"></script>
 </html>

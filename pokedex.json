@@ -73,10 +73,6 @@
       "form": 0
     },
     {
-      "dbSymbol": "grillur",
-      "form": 0
-    },
-    {
       "dbSymbol": "criquage",
       "form": 0
     },
@@ -117,10 +113,6 @@
       "form": 0
     },
     {
-      "dbSymbol": "tromal",
-      "form": 0
-    },
-    {
       "dbSymbol": "amprise",
       "form": 0
     },
@@ -134,14 +126,6 @@
     },
     {
       "dbSymbol": "gardamandre",
-      "form": 0
-    },
-    {
-      "dbSymbol": "epison",
-      "form": 0
-    },
-    {
-      "dbSymbol": "teledar",
       "form": 0
     },
     {
@@ -177,7 +161,7 @@
       "form": 0
     },
     {
-      "dbSymbol": "oddish",
+      "dbSymbol": "qualtox",
       "form": 0
     },
     {
@@ -185,15 +169,11 @@
       "form": 0
     },
     {
+      "dbSymbol": "vilearcane",
+      "form": 0
+    },
+    {
       "dbSymbol": "robarome",
-      "form": 0
-    },
-    {
-      "dbSymbol": "vilea",
-      "form": 0
-    },
-    {
-      "dbSymbol": "vileaect",
       "form": 0
     },
     {
@@ -241,7 +221,7 @@
       "form": 0
     },
     {
-      "dbSymbol": "kadpeion",
+      "dbSymbol": "foodelik",
       "form": 0
     },
     {
@@ -269,14 +249,6 @@
       "form": 0
     },
     {
-      "dbSymbol": "scarpin",
-      "form": 0
-    },
-    {
-      "dbSymbol": "labouro",
-      "form": 0
-    },
-    {
       "dbSymbol": "yamete",
       "form": 0
     },
@@ -285,7 +257,7 @@
       "form": 0
     },
     {
-      "dbSymbol": "tentacruel",
+      "dbSymbol": "rainatal",
       "form": 0
     },
     {
@@ -449,10 +421,6 @@
       "form": 0
     },
     {
-      "dbSymbol": "nosfoltaj",
-      "form": 0
-    },
-    {
       "dbSymbol": "coraprenti",
       "form": 0
     },
@@ -470,14 +438,6 @@
     },
     {
       "dbSymbol": "wyvaurien",
-      "form": 0
-    },
-    {
-      "dbSymbol": "songita",
-      "form": 0
-    },
-    {
-      "dbSymbol": "songitatwo",
       "form": 0
     },
     {
@@ -569,11 +529,11 @@
       "form": 0
     },
     {
-      "dbSymbol": "cosmog",
+      "dbSymbol": "satun",
       "form": 0
     },
     {
-      "dbSymbol": "cosmoem",
+      "dbSymbol": "maskolar",
       "form": 0
     },
     {
@@ -586,10 +546,6 @@
     },
     {
       "dbSymbol": "kapadepe",
-      "form": 0
-    },
-    {
-      "dbSymbol": "natu",
       "form": 0
     },
     {
@@ -689,10 +645,6 @@
       "form": 0
     },
     {
-      "dbSymbol": "crobol",
-      "form": 0
-    },
-    {
       "dbSymbol": "egicroc",
       "form": 0
     },
@@ -701,7 +653,7 @@
       "form": 0
     },
     {
-      "dbSymbol": "tyrogue",
+      "dbSymbol": "orko",
       "form": 0
     },
     {
@@ -709,7 +661,7 @@
       "form": 0
     },
     {
-      "dbSymbol": "cromagla",
+      "dbSymbol": "stalglama",
       "form": 0
     },
     {
@@ -738,14 +690,6 @@
     },
     {
       "dbSymbol": "piskinus",
-      "form": 0
-    },
-    {
-      "dbSymbol": "jouflo",
-      "form": 0
-    },
-    {
-      "dbSymbol": "givrerable",
       "form": 0
     },
     {
@@ -797,10 +741,6 @@
       "form": 0
     },
     {
-      "dbSymbol": "manectric",
-      "form": 0
-    },
-    {
       "dbSymbol": "formin",
       "form": 0
     },
@@ -818,10 +758,6 @@
     },
     {
       "dbSymbol": "bouffeleon",
-      "form": 0
-    },
-    {
-      "dbSymbol": "auberance",
       "form": 0
     },
     {
@@ -861,19 +797,7 @@
       "form": 0
     },
     {
-      "dbSymbol": "klinroubot",
-      "form": 0
-    },
-    {
-      "dbSymbol": "excrok",
-      "form": 0
-    },
-    {
-      "dbSymbol": "bronzor",
-      "form": 0
-    },
-    {
-      "dbSymbol": "armumage",
+      "dbSymbol": "gentlebot",
       "form": 0
     },
     {
@@ -925,7 +849,7 @@
       "form": 0
     },
     {
-      "dbSymbol": "seel",
+      "dbSymbol": "valanguy",
       "form": 0
     },
     {

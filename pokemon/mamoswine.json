@@ -32,7 +32,7 @@
         5
       ],
       "hatchSteps": 5120,
-      "babyDbSymbol": "cromagla",
+      "babyDbSymbol": "stalglama",
       "babyForm": 0,
       "itemHeld": [
         {
@@ -336,7 +336,11 @@
           "klass": "TechLearnableMove",
           "move": "confide"
         }
-      ]
+      ],
+      "formTextId": {
+        "name": 540,
+        "description": 0
+      }
     }
   ]
 }

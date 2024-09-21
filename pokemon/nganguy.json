@@ -32,7 +32,7 @@
         5
       ],
       "hatchSteps": 5120,
-      "babyDbSymbol": "seel",
+      "babyDbSymbol": "valanguy",
       "babyForm": 0,
       "itemHeld": [
         {
@@ -292,7 +292,11 @@
           "klass": "TechLearnableMove",
           "move": "fly"
         }
-      ]
+      ],
+      "formTextId": {
+        "name": 613,
+        "description": 0
+      }
     }
   ]
 }

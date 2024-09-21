@@ -1,49 +1,42 @@
 {
   "klass": "Specie",
-  "id": 543,
-  "dbSymbol": "venipede",
+  "id": 544,
+  "dbSymbol": "aralame",
   "forms": [
     {
       "form": 0,
-      "height": 0.4,
-      "weight": 5.3,
+      "formTextId": {
+        "name": 998,
+        "description": 0
+      },
+      "height": 1.2,
+      "weight": 58.5,
       "type1": "bug",
-      "type2": "poison",
-      "baseHp": 30,
-      "baseAtk": 45,
-      "baseDfe": 59,
-      "baseSpd": 57,
-      "baseAts": 30,
-      "baseDfs": 39,
+      "type2": "fighting",
+      "baseHp": 40,
+      "baseAtk": 55,
+      "baseDfe": 99,
+      "baseSpd": 47,
+      "baseAts": 40,
+      "baseDfs": 79,
       "evHp": 0,
       "evAtk": 0,
-      "evDfe": 1,
+      "evDfe": 2,
       "evSpd": 0,
       "evAts": 0,
       "evDfs": 0,
-      "evolutions": [
-        {
-          "dbSymbol": "whirlipede",
-          "form": 0,
-          "conditions": [
-            {
-              "type": "minLevel",
-              "value": 22
-            }
-          ]
-        }
-      ],
+      "evolutions": [],
       "experienceType": 3,
-      "baseExperience": 52,
+      "baseExperience": 126,
       "baseLoyalty": 70,
-      "catchRate": 255,
+      "catchRate": 120,
       "femaleRate": 50,
       "breedGroups": [
         3,
         3
       ],
       "hatchSteps": 5120,
-      "babyDbSymbol": "venipede",
+      "babyDbSymbol": "araclaw",
       "babyForm": 0,
       "itemHeld": [
         {
@@ -60,18 +53,18 @@
         "swarm",
         "speed_boost"
       ],
-      "frontOffsetY": 31,
+      "frontOffsetY": 26,
       "resources": {
-        "icon": "543",
-        "iconShiny": "543",
-        "front": "543",
-        "frontShiny": "543",
-        "back": "543",
-        "backShiny": "543",
-        "footprint": "543",
-        "character": "543",
-        "characterShiny": "543",
-        "cry": "543cry.ogg",
+        "icon": "544",
+        "iconShiny": "544",
+        "front": "Aralame",
+        "frontShiny": "544",
+        "back": "Aralame",
+        "backShiny": "544",
+        "footprint": "544",
+        "character": "544",
+        "characterShiny": "544",
+        "cry": "544cry.ogg",
         "hasFemale": false
       },
       "moveSet": [
@@ -83,6 +76,16 @@
         {
           "klass": "LevelLearnableMove",
           "move": "rollout",
+          "level": 1
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "poison_sting",
+          "level": 1
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "screech",
           "level": 1
         },
         {
@@ -112,43 +115,48 @@
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "bug_bite",
+          "move": "iron_defense",
           "level": 22
         },
         {
           "klass": "LevelLearnableMove",
+          "move": "bug_bite",
+          "level": 23
+        },
+        {
+          "klass": "LevelLearnableMove",
           "move": "venoshock",
-          "level": 26
+          "level": 28
         },
         {
           "klass": "LevelLearnableMove",
           "move": "agility",
-          "level": 29
+          "level": 32
         },
         {
           "klass": "LevelLearnableMove",
           "move": "steamroller",
-          "level": 33
+          "level": 37
         },
         {
           "klass": "LevelLearnableMove",
           "move": "toxic",
-          "level": 36
+          "level": 41
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "venoshock",
-          "level": 38
+          "move": "venom_drench",
+          "level": 43
         },
         {
           "klass": "LevelLearnableMove",
           "move": "rock_climb",
-          "level": 40
+          "level": 46
         },
         {
           "klass": "LevelLearnableMove",
           "move": "double_edge",
-          "level": 43
+          "level": 50
         },
         {
           "klass": "TutorLearnableMove",
@@ -269,36 +277,8 @@
         {
           "klass": "TechLearnableMove",
           "move": "infestation"
-        },
-        {
-          "klass": "BreedLearnableMove",
-          "move": "take_down"
-        },
-        {
-          "klass": "BreedLearnableMove",
-          "move": "twineedle"
-        },
-        {
-          "klass": "BreedLearnableMove",
-          "move": "pin_missile"
-        },
-        {
-          "klass": "BreedLearnableMove",
-          "move": "spikes"
-        },
-        {
-          "klass": "BreedLearnableMove",
-          "move": "toxic_spikes"
-        },
-        {
-          "klass": "BreedLearnableMove",
-          "move": "rock_climb"
         }
-      ],
-      "formTextId": {
-        "name": 950,
-        "description": 0
-      }
+      ]
     }
   ]
 }

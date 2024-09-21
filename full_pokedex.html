@@ -84,7 +84,7 @@ async function fetchAllFakemons() {
                     const fakemonCard = document.createElement('div');
                     fakemonCard.className = 'fakemon-card';
                     fakemonCard.innerHTML = `
-                        <a href="http://localhost/pokedex/index.html?pokemon=${name}&lang=fr">
+                        <a href="pokemon_description.html?pokemon=${name}&lang=fr">
                             <img src="pokefront/${img}" alt="${name}">
                             <h4>${capitalizedName}</h4>
                         </a>`;

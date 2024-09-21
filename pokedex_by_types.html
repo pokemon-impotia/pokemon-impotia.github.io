@@ -191,7 +191,7 @@ function displayFakemons(type, fakemons) {
         const fakemonCard = document.createElement('div');
         fakemonCard.className = 'fakemon-card';
         fakemonCard.innerHTML = `
-            <a href="http://localhost/pokedex/pokemon_description.html?pokemon=${fakemon.name}&lang=fr&type=${type}">
+            <a href="pokemon_description.html?pokemon=${fakemon.name}&lang=fr">
                 <img src="pokefront/${fakemon.img}" alt="${fakemon.name}">
                 <h4>${capitalizedName}</h4>
             </a>`;

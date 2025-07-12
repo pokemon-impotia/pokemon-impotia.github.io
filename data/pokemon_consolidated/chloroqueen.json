@@ -1,0 +1,2815 @@
+{
+  "klass": "Specie",
+  "id": 3,
+  "dbSymbol": "chloroqueen",
+  "forms": [
+    {
+      "form": 0,
+      "formTextId": {
+        "name": 161,
+        "description": 0
+      },
+      "height": 1.8,
+      "weight": 34.5,
+      "type1": "grass",
+      "type2": "fairy",
+      "baseHp": 85,
+      "baseAtk": 70,
+      "baseDfe": 83,
+      "baseSpd": 72,
+      "baseAts": 117,
+      "baseDfs": 103,
+      "evHp": 0,
+      "evAtk": 0,
+      "evDfe": 0,
+      "evSpd": 0,
+      "evAts": 2,
+      "evDfs": 1,
+      "evolutions": [],
+      "experienceType": 3,
+      "baseExperience": 236,
+      "baseLoyalty": 70,
+      "catchRate": 45,
+      "femaleRate": 12.5,
+      "breedGroups": [
+        1,
+        7
+      ],
+      "hatchSteps": 5120,
+      "babyDbSymbol": "chlorofyte",
+      "babyForm": 0,
+      "itemHeld": [
+        {
+          "dbSymbol": "none",
+          "chance": 0
+        },
+        {
+          "dbSymbol": "none",
+          "chance": 0
+        }
+      ],
+      "abilities": [
+        "overgrow",
+        "flower_veil",
+        "wonder_guard"
+      ],
+      "frontOffsetY": 13,
+      "resources": {
+        "icon": "chloroqueen",
+        "iconShiny": "chloroqueen_shiny",
+        "front": "Chloroqueen",
+        "frontF": "chloroqueen",
+        "frontShiny": "chloroqueen",
+        "frontShinyF": "chloroqueen",
+        "back": "Chloroqueen",
+        "backF": "chloroqueen",
+        "backShiny": "chloroqueen",
+        "backShinyF": "chloroqueen",
+        "footprint": "chloroqueen",
+        "character": "chloroqueen",
+        "characterF": "Chloroqueen",
+        "characterShiny": "chloroqueen",
+        "characterShinyF": "Chloroqueen",
+        "cry": "003cry.ogg",
+        "hasFemale": false,
+        "egg": "",
+        "iconEgg": ""
+      },
+      "moveSet": [
+        {
+          "klass": "LevelLearnableMove",
+          "move": "tackle",
+          "level": 1
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "play_nice",
+          "level": 1
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "leafage",
+          "level": 6
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "double_ironbash",
+          "level": 8
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "fairy_wind",
+          "level": 10
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "mega_drain",
+          "level": 14
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "stun_spore",
+          "level": 18
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "leech_seed",
+          "level": 21
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "draining_kiss",
+          "level": 25
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "clear_smog",
+          "level": 29
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "giga_drain",
+          "level": 32
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "synthesis",
+          "level": 35
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "aromatherapy",
+          "level": 39
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "grass_pledge",
+          "level": 41
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "energy_ball",
+          "level": 43
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "flower_shield",
+          "level": 48
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "calm_mind",
+          "level": 50
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "pollen_puff",
+          "level": 52
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "fleur_cannon",
+          "level": 56
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "trop_kick",
+          "level": 69
+        },
+        {
+          "klass": "TutorLearnableMove",
+          "move": "bind"
+        },
+        {
+          "klass": "TutorLearnableMove",
+          "move": "snore"
+        },
+        {
+          "klass": "TutorLearnableMove",
+          "move": "outrage"
+        },
+        {
+          "klass": "TutorLearnableMove",
+          "move": "giga_drain"
+        },
+        {
+          "klass": "TutorLearnableMove",
+          "move": "synthesis"
+        },
+        {
+          "klass": "TutorLearnableMove",
+          "move": "knock_off"
+        },
+        {
+          "klass": "TutorLearnableMove",
+          "move": "block"
+        },
+        {
+          "klass": "TutorLearnableMove",
+          "move": "frenzy_plant"
+        },
+        {
+          "klass": "TutorLearnableMove",
+          "move": "worry_seed"
+        },
+        {
+          "klass": "TutorLearnableMove",
+          "move": "seed_bomb"
+        },
+        {
+          "klass": "TutorLearnableMove",
+          "move": "grass_pledge"
+        },
+        {
+          "klass": "EvolutionLearnableMove",
+          "move": "dazzling_gleam"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "cut"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "strength"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "calm_mind"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "toxic"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "venoshock"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "hidden_power"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "sunny_day"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "hyper_beam"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "light_screen"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "protect"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "safeguard"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "frustration"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "solar_beam"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "return"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "psychic"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "double_team"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "sludge_bomb"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "facade"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "rest"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "attract"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "round"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "echoed_voice"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "energy_ball"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "giga_impact"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "flash"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "psych_up"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "grass_knot"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "swagger"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "substitute"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "nature_power"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "dazzling_gleam"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "confide"
+        },
+        {
+          "klass": "TutorLearnableMove",
+          "move": "psychic"
+        },
+        {
+          "klass": "TutorLearnableMove",
+          "move": "trick_room"
+        },
+        {
+          "klass": "TutorLearnableMove",
+          "move": "draining_kiss"
+        }
+      ],
+      "abilities_data": [
+        {
+          "symbol": "overgrow",
+          "textId": 65,
+          "names": {
+            "en": "Liquid Ooze",
+            "fr": "Suintement",
+            "it": "Melma",
+            "de": "Kloakensoße",
+            "es": "Lodo Líquido",
+            "ko": "해감액"
+          },
+          "descriptions": {
+            "en": "The oozed liquid has a strong stench, which damages attackers using any draining move.",
+            "fr": "Le Pokémon suinte un liquide toxique nauséabond qui blesse tous ceux qui tentent de voler ses PV.",
+            "it": "Il Pokémon secerne delle sostanze tossiche. Se un nemico manda a segno una mossa che assorbe i PS, subisce dei danni.",
+            "de": "Angreifer, die durch Saug-Attacken Kloakensoße in sich aufgenommen haben, nehmen durch deren widerwärtigen Gestank Schaden.",
+            "es": "Exuda una sustancia tóxica de intenso hedor que hiere a quienes intentan drenarle PS.",
+            "ko": "해감액을 흡수한 상대는 강렬한 악취로 데미지를 받아 HP가 줄어든다."
+          }
+        },
+        {
+          "symbol": "flower_veil",
+          "textId": 166,
+          "names": {
+            "en": "Aroma Veil",
+            "fr": "Aroma-Voile",
+            "it": "Aromavelo",
+            "de": "Dufthülle",
+            "es": "Velo Aroma",
+            "ko": "아로마베일"
+          },
+          "descriptions": {
+            "en": "Protects itself and its allies from attacks that limit their move choices.",
+            "fr": "Protège l’équipe des effets limitant le libre arbitre.",
+            "it": "Protegge tutta la squadra da effetti che ne limitano la libertà di scelta delle mosse.",
+            "de": "Kann alle Team-Pokémon vor mentalen Angriffen schützen.",
+            "es": "Se protege a sí mismo y a sus aliados de ataques que impiden elegir movimientos.",
+            "ko": "자신과 같은 편으로 향하는 멘탈 공격을 막을 수 있다."
+          }
+        },
+        {
+          "symbol": "wonder_guard",
+          "textId": 25,
+          "names": {
+            "en": "Rough Skin",
+            "fr": "Peau Dure",
+            "it": "Cartavetro",
+            "de": "Rauhaut",
+            "es": "Piel Tosca",
+            "ko": "까칠한피부"
+          },
+          "descriptions": {
+            "en": "This Pokémon inflicts damage with its rough skin to the attacker on contact.",
+            "fr": "Blesse l’attaquant lorsque le Pokémon subit une attaque directe.",
+            "it": "Se il Pokémon è colpito da un attacco diretto, grazie alla sua pelle ruvida infligge danni a sua volta.",
+            "de": "Angreifer werden durch die raue Haut des Pokémon bei direkten Attacken verletzt.",
+            "es": "Hiere con su piel áspera al rival que lo ataque con un movimiento de contacto.",
+            "ko": "공격을 받았을 때 자신에게 접촉한 상대를 까칠까칠한 피부로 상처를 입힌다."
+          }
+        }
+      ],
+      "moves_data": [
+        {
+          "symbol": "tackle",
+          "id": 33,
+          "klass": "LevelLearnableMove",
+          "level": 1,
+          "names": {
+            "en": "Horn Drill",
+            "fr": "Empal’Korne",
+            "it": "Perforcorno",
+            "de": "Hornbohrer",
+            "es": "Perforador",
+            "ko": "뿔드릴"
+          },
+          "category": "physical",
+          "type": "normal",
+          "pp": 35,
+          "power": 40,
+          "accuracy": 100
+        },
+        {
+          "symbol": "play_nice",
+          "id": 589,
+          "klass": "LevelLearnableMove",
+          "level": 1,
+          "names": {
+            "en": "King’s Shield",
+            "fr": "Bouclier Royal",
+            "it": "Scudo Reale",
+            "de": "Königsschild",
+            "es": "Escudo Real",
+            "ko": "킹실드"
+          },
+          "category": "status",
+          "type": "normal",
+          "pp": 20,
+          "power": 0,
+          "accuracy": 0
+        },
+        {
+          "symbol": "leafage",
+          "id": 670,
+          "klass": "LevelLearnableMove",
+          "level": 6,
+          "names": {
+            "en": "Solar Blade",
+            "fr": "Lame Solaire",
+            "it": "Lama Solare",
+            "de": "Solarklinge",
+            "es": "Cuchilla Solar",
+            "ko": "솔라블레이드"
+          },
+          "category": "physical",
+          "type": "grass",
+          "pp": 40,
+          "power": 40,
+          "accuracy": 100
+        },
+        {
+          "symbol": "double_ironbash",
+          "id": 805,
+          "klass": "LevelLearnableMove",
+          "level": 8,
+          "names": {
+            "en": "Rising Voltage",
+            "fr": "Monte-Tension",
+            "it": "Elettroimpennata",
+            "de": "Hochspannung",
+            "es": "Alto Voltaje",
+            "ko": "라이징볼트"
+          },
+          "category": "physical",
+          "type": "steel",
+          "pp": 5,
+          "power": 60,
+          "accuracy": 100
+        },
+        {
+          "symbol": "fairy_wind",
+          "id": 584,
+          "klass": "LevelLearnableMove",
+          "level": 10,
+          "names": {
+            "en": "Play Rough",
+            "fr": "Câlinerie",
+            "it": "Carineria",
+            "de": "Knuddler",
+            "es": "Carantoña",
+            "ko": "치근거리기"
+          },
+          "category": "special",
+          "type": "fairy",
+          "pp": 30,
+          "power": 40,
+          "accuracy": 100
+        },
+        {
+          "symbol": "mega_drain",
+          "id": 72,
+          "klass": "LevelLearnableMove",
+          "level": 14,
+          "names": {
+            "en": "Absorb",
+            "fr": "Vole-Vie",
+            "it": "Assorbimento",
+            "de": "Absorber",
+            "es": "Absorber",
+            "ko": "흡수"
+          },
+          "category": "special",
+          "type": "grass",
+          "pp": 15,
+          "power": 40,
+          "accuracy": 100
+        },
+        {
+          "symbol": "stun_spore",
+          "id": 78,
+          "klass": "LevelLearnableMove",
+          "level": 18,
+          "names": {
+            "en": "Poison Powder",
+            "fr": "Poudre Toxik",
+            "it": "Velenpolvere",
+            "de": "Giftpuder",
+            "es": "Polvo Veneno",
+            "ko": "독가루"
+          },
+          "category": "status",
+          "type": "grass",
+          "pp": 30,
+          "power": 0,
+          "accuracy": 75
+        },
+        {
+          "symbol": "leech_seed",
+          "id": 73,
+          "klass": "LevelLearnableMove",
+          "level": 21,
+          "names": {
+            "en": "Mega Drain",
+            "fr": "Méga-Sangsue",
+            "it": "Megassorbimento",
+            "de": "Megasauger",
+            "es": "Megaagotar",
+            "ko": "메가드레인"
+          },
+          "category": "status",
+          "type": "grass",
+          "pp": 10,
+          "power": 0,
+          "accuracy": 90
+        },
+        {
+          "symbol": "draining_kiss",
+          "id": 577,
+          "klass": "LevelLearnableMove",
+          "level": 25,
+          "names": {
+            "en": "Topsy-Turvy",
+            "fr": "Renversement",
+            "it": "Sottosopra",
+            "de": "Invertigo",
+            "es": "Reversión",
+            "ko": "뒤집어엎기"
+          },
+          "category": "special",
+          "type": "fairy",
+          "pp": 10,
+          "power": 50,
+          "accuracy": 100
+        },
+        {
+          "symbol": "clear_smog",
+          "id": 499,
+          "klass": "LevelLearnableMove",
+          "level": 29,
+          "names": {
+            "en": "Chip Away",
+            "fr": "Attrition",
+            "it": "Insidia",
+            "de": "Zermürben",
+            "es": "Guardia Baja",
+            "ko": "야금야금"
+          },
+          "category": "special",
+          "type": "poison",
+          "pp": 15,
+          "power": 50,
+          "accuracy": 0
+        },
+        {
+          "symbol": "giga_drain",
+          "id": 202,
+          "klass": "LevelLearnableMove",
+          "level": 32,
+          "names": {
+            "en": "Sandstorm",
+            "fr": "Tempête de Sable",
+            "it": "Terrempesta",
+            "de": "Sandsturm",
+            "es": "Tormenta Arena",
+            "ko": "모래바람"
+          },
+          "category": "special",
+          "type": "grass",
+          "pp": 10,
+          "power": 75,
+          "accuracy": 100
+        },
+        {
+          "symbol": "synthesis",
+          "id": 235,
+          "klass": "LevelLearnableMove",
+          "level": 35,
+          "names": {
+            "en": "Morning Sun",
+            "fr": "Aurore",
+            "it": "Mattindoro",
+            "de": "Morgengrauen",
+            "es": "Sol Matinal",
+            "ko": "아침햇살"
+          },
+          "category": "status",
+          "type": "grass",
+          "pp": 5,
+          "power": 0,
+          "accuracy": 0
+        },
+        {
+          "symbol": "aromatherapy",
+          "id": 312,
+          "klass": "LevelLearnableMove",
+          "level": 39,
+          "names": {
+            "en": "Weather Ball",
+            "fr": "Ball’Météo",
+            "it": "Palla Clima",
+            "de": "Meteorologe",
+            "es": "Meteorobola",
+            "ko": "웨더볼"
+          },
+          "category": "status",
+          "type": "grass",
+          "pp": 5,
+          "power": 0,
+          "accuracy": 0
+        },
+        {
+          "symbol": "grass_pledge",
+          "id": 520,
+          "klass": "LevelLearnableMove",
+          "level": 41,
+          "names": {
+            "en": "Fire Pledge",
+            "fr": "Aire de Feu",
+            "it": "Fiammapatto",
+            "de": "Feuersäulen",
+            "es": "Voto Fuego",
+            "ko": "불꽃의맹세"
+          },
+          "category": "special",
+          "type": "grass",
+          "pp": 10,
+          "power": 80,
+          "accuracy": 100
+        },
+        {
+          "symbol": "energy_ball",
+          "id": 412,
+          "klass": "LevelLearnableMove",
+          "level": 43,
+          "names": {
+            "en": "Focus Blast",
+            "fr": "Exploforce",
+            "it": "Focalcolpo",
+            "de": "Fokusstoß",
+            "es": "Onda Certera",
+            "ko": "기합구슬"
+          },
+          "category": "special",
+          "type": "grass",
+          "pp": 10,
+          "power": 90,
+          "accuracy": 100
+        },
+        {
+          "symbol": "flower_shield",
+          "id": 579,
+          "klass": "LevelLearnableMove",
+          "level": 48,
+          "names": {
+            "en": "Crafty Shield",
+            "fr": "Vigilance",
+            "it": "Truccodifesa",
+            "de": "Trickschutz",
+            "es": "Truco Defensa",
+            "ko": "트릭가드"
+          },
+          "category": "status",
+          "type": "fairy",
+          "pp": 10,
+          "power": 0,
+          "accuracy": 0
+        },
+        {
+          "symbol": "calm_mind",
+          "id": 347,
+          "klass": "LevelLearnableMove",
+          "level": 50,
+          "names": {
+            "en": "Water Sport",
+            "fr": "Tourniquet",
+            "it": "Docciascudo",
+            "de": "Nassmacher",
+            "es": "Hidrochorro",
+            "ko": "물놀이"
+          },
+          "category": "status",
+          "type": "psychic",
+          "pp": 20,
+          "power": 0,
+          "accuracy": 0
+        },
+        {
+          "symbol": "pollen_puff",
+          "id": 676,
+          "klass": "LevelLearnableMove",
+          "level": 52,
+          "names": {
+            "en": "Throat Chop",
+            "fr": "Exécu-Son",
+            "it": "Colpo Infernale",
+            "de": "Neck Strike",
+            "es": "Golpe Mordaza",
+            "ko": "지옥찌르기"
+          },
+          "category": "special",
+          "type": "bug",
+          "pp": 15,
+          "power": 90,
+          "accuracy": 100
+        },
+        {
+          "symbol": "fleur_cannon",
+          "id": 705,
+          "klass": "LevelLearnableMove",
+          "level": 56,
+          "names": {
+            "en": "Shell Trap",
+            "fr": "Carapiège",
+            "it": "Gusciotrappola",
+            "de": "Panzerfalle",
+            "es": "Coraza Trampa",
+            "ko": "트랩셸"
+          },
+          "category": "special",
+          "type": "fairy",
+          "pp": 5,
+          "power": 130,
+          "accuracy": 90
+        },
+        {
+          "symbol": "trop_kick",
+          "id": 688,
+          "klass": "LevelLearnableMove",
+          "level": 69,
+          "names": {
+            "en": "Core Enforcer",
+            "fr": "Sanction Suprême",
+            "it": "Nucleocastigo",
+            "de": "Sanktionskern",
+            "es": "Núcleo Castigo",
+            "ko": "코어퍼니셔"
+          },
+          "category": "physical",
+          "type": "grass",
+          "pp": 15,
+          "power": 70,
+          "accuracy": 100
+        },
+        {
+          "symbol": "bind",
+          "id": 20,
+          "klass": "TutorLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Fly",
+            "fr": "Vol",
+            "it": "Volo",
+            "de": "Fliegen",
+            "es": "Vuelo",
+            "ko": "공중날기"
+          },
+          "category": "physical",
+          "type": "normal",
+          "pp": 20,
+          "power": 15,
+          "accuracy": 85
+        },
+        {
+          "symbol": "snore",
+          "id": 173,
+          "klass": "TutorLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Flame Wheel",
+            "fr": "Roue de Feu",
+            "it": "Ruotafuoco",
+            "de": "Flammenrad",
+            "es": "Rueda Fuego",
+            "ko": "화염자동차"
+          },
+          "category": "special",
+          "type": "normal",
+          "pp": 15,
+          "power": 50,
+          "accuracy": 100
+        },
+        {
+          "symbol": "outrage",
+          "id": 200,
+          "klass": "TutorLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Lock-On",
+            "fr": "Verrouillage",
+            "it": "Localizza",
+            "de": "Zielschuss",
+            "es": "Fijar Blanco",
+            "ko": "록온"
+          },
+          "category": "physical",
+          "type": "dragon",
+          "pp": 10,
+          "power": 120,
+          "accuracy": 100
+        },
+        {
+          "symbol": "knock_off",
+          "id": 282,
+          "klass": "TutorLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Yawn",
+            "fr": "Bâillement",
+            "it": "Sbadiglio",
+            "de": "Gähner",
+            "es": "Bostezo",
+            "ko": "하품"
+          },
+          "category": "physical",
+          "type": "dark",
+          "pp": 20,
+          "power": 65,
+          "accuracy": 100
+        },
+        {
+          "symbol": "block",
+          "id": 335,
+          "klass": "TutorLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Iron Defense",
+            "fr": "Mur de Fer",
+            "it": "Ferroscudo",
+            "de": "Eisenabwehr",
+            "es": "Defensa Férrea",
+            "ko": "철벽"
+          },
+          "category": "status",
+          "type": "normal",
+          "pp": 5,
+          "power": 0,
+          "accuracy": 0
+        },
+        {
+          "symbol": "frenzy_plant",
+          "id": 338,
+          "klass": "TutorLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Dragon Claw",
+            "fr": "Draco-Griffe",
+            "it": "Dragartigli",
+            "de": "Drachenklaue",
+            "es": "Garra Dragón",
+            "ko": "드래곤크루"
+          },
+          "category": "special",
+          "type": "grass",
+          "pp": 5,
+          "power": 150,
+          "accuracy": 90
+        },
+        {
+          "symbol": "worry_seed",
+          "id": 388,
+          "klass": "TutorLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Last Resort",
+            "fr": "Dernier Recours",
+            "it": "Ultimascelta",
+            "de": "Zuflucht",
+            "es": "Última Baza",
+            "ko": "뒀다쓰기"
+          },
+          "category": "status",
+          "type": "grass",
+          "pp": 10,
+          "power": 0,
+          "accuracy": 100
+        },
+        {
+          "symbol": "seed_bomb",
+          "id": 402,
+          "klass": "TutorLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Aqua Tail",
+            "fr": "Hydro-Queue",
+            "it": "Idrondata",
+            "de": "Nassschweif",
+            "es": "Acua Cola",
+            "ko": "아쿠아테일"
+          },
+          "category": "physical",
+          "type": "grass",
+          "pp": 15,
+          "power": 80,
+          "accuracy": 100
+        },
+        {
+          "symbol": "dazzling_gleam",
+          "id": 605,
+          "klass": "EvolutionLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Electric Terrain",
+            "fr": "Champ Électrifié",
+            "it": "Campo Elettrico",
+            "de": "Elektrofeld",
+            "es": "Campo Eléctrico",
+            "ko": "일렉트릭필드"
+          },
+          "category": "special",
+          "type": "fairy",
+          "pp": 10,
+          "power": 80,
+          "accuracy": 100
+        },
+        {
+          "symbol": "cut",
+          "id": 15,
+          "klass": "TechLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Swords Dance",
+            "fr": "Danse Lames",
+            "it": "Danzaspada",
+            "de": "Schwerttanz",
+            "es": "Danza Espada",
+            "ko": "칼춤"
+          },
+          "category": "physical",
+          "type": "normal",
+          "pp": 30,
+          "power": 50,
+          "accuracy": 95
+        },
+        {
+          "symbol": "strength",
+          "id": 70,
+          "klass": "TechLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Seismic Toss",
+            "fr": "Frappe Atlas",
+            "it": "Movim. Sismico",
+            "de": "Geowurf",
+            "es": "Sísmico",
+            "ko": "지구던지기"
+          },
+          "category": "physical",
+          "type": "normal",
+          "pp": 15,
+          "power": 80,
+          "accuracy": 100
+        },
+        {
+          "symbol": "toxic",
+          "id": 92,
+          "klass": "TechLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Dig",
+            "fr": "Tunnel",
+            "it": "Fossa",
+            "de": "Schaufler",
+            "es": "Excavar",
+            "ko": "구멍파기"
+          },
+          "category": "status",
+          "type": "poison",
+          "pp": 10,
+          "power": 0,
+          "accuracy": 90
+        },
+        {
+          "symbol": "venoshock",
+          "id": 474,
+          "klass": "TechLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Psyshock",
+            "fr": "Choc Psy",
+            "it": "Psicoshock",
+            "de": "Psychoschock",
+            "es": "Psicocarga",
+            "ko": "사이코쇼크"
+          },
+          "category": "special",
+          "type": "poison",
+          "pp": 10,
+          "power": 65,
+          "accuracy": 100
+        },
+        {
+          "symbol": "hidden_power",
+          "id": 237,
+          "klass": "TechLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Moonlight",
+            "fr": "Rayon Lune",
+            "it": "Lucelunare",
+            "de": "Mondschein",
+            "es": "Luz Lunar",
+            "ko": "달의불빛"
+          },
+          "category": "special",
+          "type": "normal",
+          "pp": 15,
+          "power": 60,
+          "accuracy": 100
+        },
+        {
+          "symbol": "sunny_day",
+          "id": 241,
+          "klass": "TechLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Rain Dance",
+            "fr": "Danse Pluie",
+            "it": "Pioggiadanza",
+            "de": "Regentanz",
+            "es": "Danza Lluvia",
+            "ko": "비바라기"
+          },
+          "category": "status",
+          "type": "fire",
+          "pp": 5,
+          "power": 0,
+          "accuracy": 0
+        },
+        {
+          "symbol": "hyper_beam",
+          "id": 63,
+          "klass": "TechLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Aurora Beam",
+            "fr": "Onde Boréale",
+            "it": "Raggiaurora",
+            "de": "Aurorastrahl",
+            "es": "Rayo Aurora",
+            "ko": "오로라빔"
+          },
+          "category": "special",
+          "type": "normal",
+          "pp": 5,
+          "power": 150,
+          "accuracy": 90
+        },
+        {
+          "symbol": "light_screen",
+          "id": 113,
+          "klass": "TechLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Barrier",
+            "fr": "Bouclier",
+            "it": "Barriera",
+            "de": "Barriere",
+            "es": "Barrera",
+            "ko": "배리어"
+          },
+          "category": "status",
+          "type": "psychic",
+          "pp": 30,
+          "power": 0,
+          "accuracy": 0
+        },
+        {
+          "symbol": "protect",
+          "id": 182,
+          "klass": "TechLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Powder Snow",
+            "fr": "Poudreuse",
+            "it": "Polneve",
+            "de": "Pulverschnee",
+            "es": "Nieve Polvo",
+            "ko": "눈싸라기"
+          },
+          "category": "status",
+          "type": "normal",
+          "pp": 10,
+          "power": 0,
+          "accuracy": 0
+        },
+        {
+          "symbol": "safeguard",
+          "id": 219,
+          "klass": "TechLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Frustration",
+            "fr": "Frustration",
+            "it": "Frustrazione",
+            "de": "Frustration",
+            "es": "Frustración",
+            "ko": "화풀이"
+          },
+          "category": "status",
+          "type": "normal",
+          "pp": 25,
+          "power": 0,
+          "accuracy": 0
+        },
+        {
+          "symbol": "frustration",
+          "id": 218,
+          "klass": "TechLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Present",
+            "fr": "Cadeau",
+            "it": "Regalino",
+            "de": "Geschenk",
+            "es": "Presente",
+            "ko": "프레젠트"
+          },
+          "category": "physical",
+          "type": "normal",
+          "pp": 20,
+          "power": 0,
+          "accuracy": 100
+        },
+        {
+          "symbol": "solar_beam",
+          "id": 76,
+          "klass": "TechLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Razor Leaf",
+            "fr": "Tranch’Herbe",
+            "it": "Foglielama",
+            "de": "Rasierblatt",
+            "es": "Hoja Afilada",
+            "ko": "잎날가르기"
+          },
+          "category": "special",
+          "type": "grass",
+          "pp": 10,
+          "power": 120,
+          "accuracy": 100
+        },
+        {
+          "symbol": "return",
+          "id": 216,
+          "klass": "TechLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Heal Bell",
+            "fr": "Glas de Soin",
+            "it": "Rintoccasana",
+            "de": "Vitalglocke",
+            "es": "Campana Cura",
+            "ko": "치료방울"
+          },
+          "category": "physical",
+          "type": "normal",
+          "pp": 20,
+          "power": 0,
+          "accuracy": 100
+        },
+        {
+          "symbol": "psychic",
+          "id": 94,
+          "klass": "TechLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Confusion",
+            "fr": "Choc Mental",
+            "it": "Confusione",
+            "de": "Konfusion",
+            "es": "Confusión",
+            "ko": "염동력"
+          },
+          "category": "special",
+          "type": "psychic",
+          "pp": 10,
+          "power": 90,
+          "accuracy": 100
+        },
+        {
+          "symbol": "double_team",
+          "id": 104,
+          "klass": "TechLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Screech",
+            "fr": "Grincement",
+            "it": "Stridio",
+            "de": "Kreideschrei",
+            "es": "Chirrido",
+            "ko": "싫은소리"
+          },
+          "category": "status",
+          "type": "normal",
+          "pp": 15,
+          "power": 0,
+          "accuracy": 0
+        },
+        {
+          "symbol": "sludge_bomb",
+          "id": 188,
+          "klass": "TechLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Belly Drum",
+            "fr": "Cognobidon",
+            "it": "Panciamburo",
+            "de": "Bauchtrommel",
+            "es": "Tambor",
+            "ko": "배북"
+          },
+          "category": "special",
+          "type": "poison",
+          "pp": 10,
+          "power": 90,
+          "accuracy": 100
+        },
+        {
+          "symbol": "facade",
+          "id": 263,
+          "klass": "TechLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Memento",
+            "fr": "Souvenir",
+            "it": "Memento",
+            "de": "Memento-Mori",
+            "es": "Legado",
+            "ko": "추억의선물"
+          },
+          "category": "physical",
+          "type": "normal",
+          "pp": 20,
+          "power": 70,
+          "accuracy": 100
+        },
+        {
+          "symbol": "rest",
+          "id": 156,
+          "klass": "TechLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Bonemerang",
+            "fr": "Osmerang",
+            "it": "Ossomerang",
+            "de": "Knochmerang",
+            "es": "Huesomerang",
+            "ko": "뼈다귀부메랑"
+          },
+          "category": "status",
+          "type": "psychic",
+          "pp": 10,
+          "power": 0,
+          "accuracy": 0
+        },
+        {
+          "symbol": "attract",
+          "id": 213,
+          "klass": "TechLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Mean Look",
+            "fr": "Regard Noir",
+            "it": "Malosguardo",
+            "de": "Horrorblick",
+            "es": "Mal de Ojo",
+            "ko": "검은눈빛"
+          },
+          "category": "status",
+          "type": "normal",
+          "pp": 15,
+          "power": 0,
+          "accuracy": 100
+        },
+        {
+          "symbol": "round",
+          "id": 496,
+          "klass": "TechLearnableMove",
+          "level": null,
+          "names": {
+            "en": "After You",
+            "fr": "Après Vous",
+            "it": "Cortesia",
+            "de": "Galanterie",
+            "es": "Cede Paso",
+            "ko": "당신먼저"
+          },
+          "category": "special",
+          "type": "normal",
+          "pp": 15,
+          "power": 60,
+          "accuracy": 100
+        },
+        {
+          "symbol": "echoed_voice",
+          "id": 497,
+          "klass": "TechLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Round",
+            "fr": "Chant Canon",
+            "it": "Coro",
+            "de": "Kanon",
+            "es": "Canon",
+            "ko": "돌림노래"
+          },
+          "category": "special",
+          "type": "normal",
+          "pp": 15,
+          "power": 40,
+          "accuracy": 100
+        },
+        {
+          "symbol": "giga_impact",
+          "id": 416,
+          "klass": "TechLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Switcheroo",
+            "fr": "Passe-Passe",
+            "it": "Rapidscambio",
+            "de": "Wechseldich",
+            "es": "Trapicheo",
+            "ko": "바꿔치기"
+          },
+          "category": "physical",
+          "type": "normal",
+          "pp": 5,
+          "power": 150,
+          "accuracy": 90
+        },
+        {
+          "symbol": "flash",
+          "id": 148,
+          "klass": "TechLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Spore",
+            "fr": "Spore",
+            "it": "Spora",
+            "de": "Pilzspore",
+            "es": "Espora",
+            "ko": "버섯포자"
+          },
+          "category": "status",
+          "type": "normal",
+          "pp": 20,
+          "power": 0,
+          "accuracy": 100
+        },
+        {
+          "symbol": "psych_up",
+          "id": 244,
+          "klass": "TechLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Mirror Coat",
+            "fr": "Voile Miroir",
+            "it": "Specchiovelo",
+            "de": "Spiegelcape",
+            "es": "Manto Espejo",
+            "ko": "미러코트"
+          },
+          "category": "status",
+          "type": "normal",
+          "pp": 10,
+          "power": 0,
+          "accuracy": 0
+        },
+        {
+          "symbol": "grass_knot",
+          "id": 447,
+          "klass": "TechLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Stealth Rock",
+            "fr": "Piège de Roc",
+            "it": "Levitoroccia",
+            "de": "Tarnsteine",
+            "es": "Trampa Rocas",
+            "ko": "스텔스록"
+          },
+          "category": "special",
+          "type": "grass",
+          "pp": 20,
+          "power": 0,
+          "accuracy": 100
+        },
+        {
+          "symbol": "swagger",
+          "id": 207,
+          "klass": "TechLearnableMove",
+          "level": null,
+          "names": {
+            "en": "False Swipe",
+            "fr": "Faux-Chage",
+            "it": "Falsofinale",
+            "de": "Trugschlag",
+            "es": "Falso Tortazo",
+            "ko": "칼등치기"
+          },
+          "category": "status",
+          "type": "normal",
+          "pp": 15,
+          "power": 0,
+          "accuracy": 85
+        },
+        {
+          "symbol": "substitute",
+          "id": 164,
+          "klass": "TechLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Slash",
+            "fr": "Tranche",
+            "it": "Lacerazione",
+            "de": "Schlitzer",
+            "es": "Cuchillada",
+            "ko": "베어가르기"
+          },
+          "category": "status",
+          "type": "normal",
+          "pp": 10,
+          "power": 0,
+          "accuracy": 0
+        },
+        {
+          "symbol": "nature_power",
+          "id": 267,
+          "klass": "TechLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Follow Me",
+            "fr": "Par Ici",
+            "it": "Sonoqui",
+            "de": "Spotlight",
+            "es": "Señuelo",
+            "ko": "날따름"
+          },
+          "category": "status",
+          "type": "normal",
+          "pp": 20,
+          "power": 0,
+          "accuracy": 0
+        },
+        {
+          "symbol": "confide",
+          "id": 590,
+          "klass": "TechLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Play Nice",
+            "fr": "Camaraderie",
+            "it": "Simpatia",
+            "de": "Kameradschaft",
+            "es": "Camaradería",
+            "ko": "친해지기"
+          },
+          "category": "status",
+          "type": "normal",
+          "pp": 20,
+          "power": 0,
+          "accuracy": 0
+        },
+        {
+          "symbol": "trick_room",
+          "id": 433,
+          "klass": "TutorLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Defog",
+            "fr": "Anti-Brume",
+            "it": "Scacciabruma",
+            "de": "Auflockern",
+            "es": "Despejar",
+            "ko": "안개제거"
+          },
+          "category": "status",
+          "type": "psychic",
+          "pp": 5,
+          "power": 0,
+          "accuracy": 0
+        }
+      ]
+    },
+    {
+      "form": 1,
+      "formTextId": {
+        "name": 162,
+        "description": 56
+      },
+      "height": 2,
+      "weight": 100,
+      "type1": "grass",
+      "type2": "poison",
+      "baseHp": 80,
+      "baseAtk": 82,
+      "baseDfe": 83,
+      "baseSpd": 80,
+      "baseAts": 100,
+      "baseDfs": 100,
+      "evHp": 0,
+      "evAtk": 0,
+      "evDfe": 0,
+      "evSpd": 0,
+      "evAts": 2,
+      "evDfs": 1,
+      "evolutions": [],
+      "experienceType": 3,
+      "baseExperience": 208,
+      "baseLoyalty": 70,
+      "catchRate": 45,
+      "femaleRate": 12.5,
+      "breedGroups": [
+        1,
+        7
+      ],
+      "hatchSteps": 5120,
+      "babyDbSymbol": "chlorofyte",
+      "babyForm": 1,
+      "itemHeld": [
+        {
+          "dbSymbol": "none",
+          "chance": 0
+        },
+        {
+          "dbSymbol": "none",
+          "chance": 0
+        }
+      ],
+      "abilities": [
+        "overgrow",
+        "overgrow",
+        "chlorophyll"
+      ],
+      "frontOffsetY": 0,
+      "resources": {
+        "icon": "003",
+        "iconShiny": "Chloroqueen",
+        "front": "Chloroqueen",
+        "frontF": "Chloroqueen",
+        "frontShiny": "Chloroqueen",
+        "frontShinyF": "Chloroqueen",
+        "back": "Chloroqueen",
+        "backF": "Chloroqueen",
+        "backShiny": "Chloroqueen",
+        "backShinyF": "Chloroqueen",
+        "footprint": "Chloroqueen",
+        "character": "Chloroqueen",
+        "characterShiny": "Chloroqueen",
+        "cry": "003cry.ogg",
+        "hasFemale": true,
+        "egg": "",
+        "iconEgg": ""
+      },
+      "moveSet": [
+        {
+          "klass": "LevelLearnableMove",
+          "move": "tackle",
+          "level": 1
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "leech_seed",
+          "level": 1
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "vine_whip",
+          "level": 1
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "growl",
+          "level": 1
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "growl",
+          "level": 3
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "leech_seed",
+          "level": 7
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "vine_whip",
+          "level": 9
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "sleep_powder",
+          "level": 13
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "poison_powder",
+          "level": 13
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "take_down",
+          "level": 15
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "razor_leaf",
+          "level": 20
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "sweet_scent",
+          "level": 23
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "growth",
+          "level": 28
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "double_edge",
+          "level": 31
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "petal_dance",
+          "level": 32
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "worry_seed",
+          "level": 39
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "synthesis",
+          "level": 45
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "petal_blizzard",
+          "level": 50
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "solar_beam",
+          "level": 53
+        },
+        {
+          "klass": "TutorLearnableMove",
+          "move": "grass_pledge"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "toxic"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "venoshock"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "hidden_power"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "sunny_day"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "light_screen"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "protect"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "safeguard"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "frustration"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "solar_beam"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "return"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "double_team"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "sludge_bomb"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "facade"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "rest"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "attract"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "round"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "echoed_voice"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "energy_ball"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "flash"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "swords_dance"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "grass_knot"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "swagger"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "sleep_talk"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "substitute"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "cut"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "strength"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "rock_smash"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "secret_power"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "nature_power"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "confide"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "roar"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "hyper_beam"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "earthquake"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "giga_impact"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "bulldoze"
+        }
+      ]
+    },
+    {
+      "form": 30,
+      "formTextId": {
+        "name": 163,
+        "description": 57
+      },
+      "height": 2.4,
+      "weight": 155.5,
+      "type1": "grass",
+      "type2": "poison",
+      "baseHp": 80,
+      "baseAtk": 100,
+      "baseDfe": 123,
+      "baseSpd": 80,
+      "baseAts": 122,
+      "baseDfs": 120,
+      "evHp": 0,
+      "evAtk": 0,
+      "evDfe": 0,
+      "evSpd": 0,
+      "evAts": 2,
+      "evDfs": 1,
+      "evolutions": [],
+      "experienceType": 3,
+      "baseExperience": 281,
+      "baseLoyalty": 70,
+      "catchRate": 45,
+      "femaleRate": 12.5,
+      "breedGroups": [
+        1,
+        7
+      ],
+      "hatchSteps": 5120,
+      "babyDbSymbol": "chlorofyte",
+      "babyForm": 0,
+      "itemHeld": [
+        {
+          "dbSymbol": "none",
+          "chance": 0
+        },
+        {
+          "dbSymbol": "none",
+          "chance": 0
+        }
+      ],
+      "abilities": [
+        "thick_fat",
+        "thick_fat",
+        "thick_fat"
+      ],
+      "frontOffsetY": 0,
+      "resources": {
+        "icon": "003_30",
+        "iconShiny": "Chloroqueen",
+        "front": "Chloroqueen",
+        "frontF": "Chloroqueen",
+        "frontShiny": "Chloroqueen",
+        "frontShinyF": "Chloroqueen",
+        "back": "Chloroqueen",
+        "backF": "Chloroqueen",
+        "backShiny": "Chloroqueen",
+        "backShinyF": "Chloroqueen",
+        "footprint": "Chloroqueen",
+        "character": "Chloroqueen",
+        "characterShiny": "Chloroqueen",
+        "cry": "003cry.ogg",
+        "hasFemale": true,
+        "egg": "",
+        "iconEgg": ""
+      },
+      "moveSet": [
+        {
+          "klass": "LevelLearnableMove",
+          "move": "tackle",
+          "level": 1
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "growl",
+          "level": 1
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "leech_seed",
+          "level": 1
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "vine_whip",
+          "level": 1
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "growl",
+          "level": 3
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "leech_seed",
+          "level": 7
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "vine_whip",
+          "level": 9
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "poison_powder",
+          "level": 13
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "sleep_powder",
+          "level": 13
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "take_down",
+          "level": 15
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "razor_leaf",
+          "level": 20
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "sweet_scent",
+          "level": 23
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "growth",
+          "level": 28
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "double_edge",
+          "level": 31
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "petal_dance",
+          "level": 32
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "worry_seed",
+          "level": 39
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "synthesis",
+          "level": 45
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "petal_blizzard",
+          "level": 50
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "solar_beam",
+          "level": 53
+        },
+        {
+          "klass": "TutorLearnableMove",
+          "move": "bind"
+        },
+        {
+          "klass": "TutorLearnableMove",
+          "move": "snore"
+        },
+        {
+          "klass": "TutorLearnableMove",
+          "move": "outrage"
+        },
+        {
+          "klass": "TutorLearnableMove",
+          "move": "giga_drain"
+        },
+        {
+          "klass": "TutorLearnableMove",
+          "move": "synthesis"
+        },
+        {
+          "klass": "TutorLearnableMove",
+          "move": "knock_off"
+        },
+        {
+          "klass": "TutorLearnableMove",
+          "move": "block"
+        },
+        {
+          "klass": "TutorLearnableMove",
+          "move": "frenzy_plant"
+        },
+        {
+          "klass": "TutorLearnableMove",
+          "move": "worry_seed"
+        },
+        {
+          "klass": "TutorLearnableMove",
+          "move": "seed_bomb"
+        },
+        {
+          "klass": "TutorLearnableMove",
+          "move": "grass_pledge"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "swords_dance"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "cut"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "roar"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "hyper_beam"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "strength"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "solar_beam"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "earthquake"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "toxic"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "double_team"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "light_screen"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "flash"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "rest"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "substitute"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "protect"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "sludge_bomb"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "swagger"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "attract"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "sleep_talk"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "return"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "frustration"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "safeguard"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "hidden_power"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "sunny_day"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "rock_smash"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "facade"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "nature_power"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "secret_power"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "energy_ball"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "giga_impact"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "grass_knot"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "venoshock"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "round"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "echoed_voice"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "bulldoze"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "confide"
+        }
+      ]
+    },
+    {
+      "form": 31,
+      "formTextId": {
+        "name": 164,
+        "description": 58
+      },
+      "height": 2.4,
+      "weight": 155.5,
+      "type1": "grass",
+      "type2": "poison",
+      "baseHp": 80,
+      "baseAtk": 100,
+      "baseDfe": 123,
+      "baseSpd": 80,
+      "baseAts": 122,
+      "baseDfs": 120,
+      "evHp": 0,
+      "evAtk": 0,
+      "evDfe": 0,
+      "evSpd": 0,
+      "evAts": 2,
+      "evDfs": 1,
+      "evolutions": [],
+      "experienceType": 3,
+      "baseExperience": 208,
+      "baseLoyalty": 70,
+      "catchRate": 45,
+      "femaleRate": 12.5,
+      "breedGroups": [
+        1,
+        7
+      ],
+      "hatchSteps": 5120,
+      "babyDbSymbol": "chlorofyte",
+      "babyForm": 0,
+      "itemHeld": [
+        {
+          "dbSymbol": "none",
+          "chance": 0
+        },
+        {
+          "dbSymbol": "none",
+          "chance": 0
+        }
+      ],
+      "abilities": [
+        "thick_fat",
+        "thick_fat",
+        "thick_fat"
+      ],
+      "frontOffsetY": 0,
+      "resources": {
+        "icon": "003",
+        "iconShiny": "Chloroqueen",
+        "front": "Chloroqueen",
+        "frontF": "Chloroqueen",
+        "frontShiny": "Chloroqueen",
+        "frontShinyF": "Chloroqueen",
+        "back": "Chloroqueen",
+        "backF": "Chloroqueen",
+        "backShiny": "Chloroqueen",
+        "backShinyF": "Chloroqueen",
+        "footprint": "Chloroqueen",
+        "character": "Chloroqueen",
+        "characterShiny": "Chloroqueen",
+        "cry": "003cry.ogg",
+        "hasFemale": true,
+        "egg": "",
+        "iconEgg": ""
+      },
+      "moveSet": [
+        {
+          "klass": "LevelLearnableMove",
+          "move": "tackle",
+          "level": 1
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "leech_seed",
+          "level": 1
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "vine_whip",
+          "level": 1
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "growl",
+          "level": 1
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "growl",
+          "level": 3
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "leech_seed",
+          "level": 7
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "vine_whip",
+          "level": 9
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "sleep_powder",
+          "level": 13
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "poison_powder",
+          "level": 13
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "take_down",
+          "level": 15
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "razor_leaf",
+          "level": 20
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "sweet_scent",
+          "level": 23
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "growth",
+          "level": 28
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "double_edge",
+          "level": 31
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "petal_dance",
+          "level": 32
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "worry_seed",
+          "level": 39
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "synthesis",
+          "level": 45
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "petal_blizzard",
+          "level": 50
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "solar_beam",
+          "level": 53
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "hone_claws"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "dragon_claw"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "psyshock"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "calm_mind"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "roar"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "toxic"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "hail"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "bulk_up"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "venoshock"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "hidden_power"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "sunny_day"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "taunt"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "ice_beam"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "blizzard"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "hyper_beam"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "light_screen"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "protect"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "rain_dance"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "roost"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "safeguard"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "frustration"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "solar_beam"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "smack_down"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "thunderbolt"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "thunder"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "earthquake"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "return"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "dig"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "psychic"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "shadow_ball"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "brick_break"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "double_team"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "reflect"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "sludge_wave"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "flamethrower"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "sludge_bomb"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "sandstorm"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "fire_blast"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "rock_tomb"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "aerial_ace"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "torment"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "facade"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "flame_charge"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "rest"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "attract"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "thief"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "low_sweep"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "round"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "echoed_voice"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "overheat"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "steel_wing"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "focus_blast"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "energy_ball"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "false_swipe"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "scald"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "fling"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "charge_beam"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "sky_drop"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "incinerate"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "quash"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "will_o_wisp"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "acrobatics"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "embargo"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "explosion"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "shadow_claw"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "payback"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "retaliate"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "giga_impact"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "rock_polish"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "flash"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "stone_edge"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "volt_switch"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "thunder_wave"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "gyro_ball"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "swords_dance"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "struggle_bug"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "psych_up"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "bulldoze"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "frost_breath"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "rock_slide"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "x_scissor"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "dragon_tail"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "infestation"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "poison_jab"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "dream_eater"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "grass_knot"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "swagger"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "sleep_talk"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "u_turn"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "substitute"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "flash_cannon"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "trick_room"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "cut"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "fly"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "surf"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "strength"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "waterfall"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "rock_smash"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "wild_charge"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "secret_power"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "snarl"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "nature_power"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "dark_pulse"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "power_up_punch"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "dazzling_gleam"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "confide"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "dive"
+        }
+      ]
+    }
+  ]
+}

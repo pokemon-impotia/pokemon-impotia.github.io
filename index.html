@@ -3,41 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Accueil</title>
-    <link rel="stylesheet" href="css/styles_pokedex.css">
-    <link rel="stylesheet" href="css/navbar.css">
-    <style>
-        body {
-            background-color: #1d1c22;
-            color: #ffffff;
-            font-family: Arial, sans-serif;
-            text-align: center;
-            padding: 20px;
-        }
-        h1 {
-            margin-bottom: 30px;
-        }
-        p {
-            max-width: 600px;
-            margin: 0 auto;
-            line-height: 1.6;
-        }
-        footer {
-            margin-top: 50px;
-            font-size: 14px;
-        }
-    </style>
+    <title data-translate="page_title">Pokédex Hub</title>
+    <link rel="stylesheet" href="css/styles_main.css">
 </head>
 <body>
-    <link rel="stylesheet" href="css/navbar.css">
-    <div id="navbar"></div>
+    <div id="navbar-placeholder"></div>
 
-    <h1>Bienvenue sur le pokédex de Pokémon Impotia.</h1>
-    <p>Explorez et découvrez une multitude de Fakemons en utilisant la navigation ci-dessus.</p>
-    <h2>Le pokédex peut prendre du temps à charger, mais il est parfaitement fonctionnel.</h2>
+    <div class="container" style="text-align: center; margin-top: 50px;">
+        <h1 data-translate="welcome_message">Bienvenue sur le Hub du Pokédex</h1>
+        <p data-translate="hub_description">Vous êtes sur le hub.</p>
+    </div>
 
-    <div id="footer"></div>
+    <script src="js/LanguageManager.js"></script>
+    <script src="js/load_navbar.js"></script>
 </body>
-<script src="loadFooter.js"></script>
-<script src="loadNavbar.js"></script>
 </html>

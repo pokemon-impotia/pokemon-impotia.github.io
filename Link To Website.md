@@ -1,0 +1,1 @@
+[Cliquez ici pour accéder au pokédex!](https://pokemon-impotia.github.io)

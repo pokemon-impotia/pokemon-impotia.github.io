@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title data-translate="type_pokedex_title">Pokédex par Type</title>
+    <link rel="stylesheet" href="css/styles_main.css"> 
+    <link rel="stylesheet" href="css/styles_TypePokedex.css">
+</head>
+<body>
+    <div id="navbar-placeholder"></div>
+
+    <div class="container">
+        <h1 data-translate="pokemon_by_type">Pokémon par Type</h1>
+        
+        <div id="statsContainer">
+            <p id="totalCounter" class="total-counter">
+                <span data-translate="total_pokemon">Total :</span> 
+                <span id="totalCount">0</span> Pokémon
+            </p>
+        </div>
+
+        <!-- Type buttons grid -->
+        <div id="typesGrid" class="types-grid"></div>
+
+        <!-- Pokemon display area (hidden by default) -->
+        <div id="pokemonSection" class="pokemon-section hidden">
+            <div class="section-header">
+                <h2 id="selectedTypeTitle"></h2>
+                <button id="backButton" class="back-button" data-translate="back_to_types">Retour aux types</button>
+            </div>
+            <div id="pokemonGrid" class="grid-container"></div>
+        </div>
+    </div>
+
+    <script src="js/LanguageManager.js"></script>
+    <script src="js/load_navbar.js"></script>
+    <script src="js/TypePokedex.js"></script>
+</body>
+</html>

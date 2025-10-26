@@ -32,7 +32,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
                 // Make the card clickable
                 pokemonCard.addEventListener('click', () => {
-                    window.location.href = `pokemon_search.html?pokemon=${pokemon.dbSymbol}`;
+                    window.location.href = `pokedex_entry.html?pokemon=${pokemon.dbSymbol}`;
                 });
 
                 pokedexGrid.appendChild(pokemonCard);

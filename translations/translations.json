@@ -38,7 +38,12 @@
             "page_title": "Hub du Pokédex",
             "welcome_message": "Bienvenue sur le Hub du Pokédex",
             "hub_description": "Vous êtes sur le hub.",
-            "all_the_pokemons": "Tous les pokémons"
+            "all_the_pokemons": "Tous les pokémons",
+
+            "type_pokedex_title": "Pokédex par Type",
+            "pokemon_by_type": "Pokémon par Type",
+            "total_pokemon": "Total :",
+            "back_to_types": "Retour aux types"
         },
         "en": {
             "Stats": "Stats",
@@ -69,7 +74,12 @@
             "page_title": "Pokédex Hub",
             "welcome_message": "Welcome to the Pokédex Hub",
             "hub_description": "You are on the hub.",
-            "all_the_pokemons": "All the pokémons"
+            "all_the_pokemons": "All the pokémons",
+
+            "type_pokedex_title": "Pokédex by Type",
+            "pokemon_by_type": "Pokémon by Type",
+            "total_pokemon": "Total:",
+            "back_to_types": "Back to types"
         }
     }
 }

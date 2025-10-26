@@ -103,7 +103,7 @@ document.addEventListener('DOMContentLoaded', () => {
             const lang = getCurrentLanguage();
             const typeFrench = removeAccents(typeTranslations[typeName]?.fr || typeName);
             const typeIcon = document.createElement('img');
-            typeIcon.src = `resources/icons/types/${typeFrench}.png`;
+            typeIcon.src = `resources/icons/types/${typeFrench.toLowerCase()}.png`;
             typeIcon.alt = typeName;
             typeIcon.classList.add('type-icon');
 

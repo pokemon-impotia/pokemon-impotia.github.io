@@ -43,7 +43,9 @@
             "type_pokedex_title": "Pokédex par Type",
             "pokemon_by_type": "Pokémon par Type",
             "total_pokemon": "Total :",
-            "back_to_types": "Retour aux types"
+            "back_to_types": "Retour aux types",
+
+            "Pokedex per types" : "Pokédex par types"
         },
         "en": {
             "Stats": "Stats",
@@ -79,7 +81,9 @@
             "type_pokedex_title": "Pokédex by Type",
             "pokemon_by_type": "Pokémon by Type",
             "total_pokemon": "Total:",
-            "back_to_types": "Back to types"
+            "back_to_types": "Back to types",
+
+            "Pokedex per types": "Pokedex per types"
         }
     }
 }

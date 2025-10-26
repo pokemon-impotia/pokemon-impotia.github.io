@@ -107,23 +107,16 @@ document.addEventListener('DOMContentLoaded', () => {
             typeIcon.alt = typeName;
             typeIcon.classList.add('type-icon');
 
-            // Type info
-            const typeInfo_div = document.createElement('div');
-            typeInfo_div.classList.add('type-info');
+            // Line break
+            const lineBreak = document.createElement('br');
 
-            const typeName_span = document.createElement('span');
-            typeName_span.classList.add('type-name');
-            typeName_span.textContent = getTypeName(typeName);
-
+            // Type count
             const typeCount = document.createElement('span');
             typeCount.classList.add('type-count');
             typeCount.textContent = `${typeInfo.count} Pokémon`;
 
-            typeInfo_div.appendChild(typeName_span);
-            typeInfo_div.appendChild(typeCount);
-
             typeButton.appendChild(typeIcon);
-            typeButton.appendChild(typeInfo_div);
+            typeButton.appendChild(typeCount);
 
             // Click handler
             typeButton.addEventListener('click', () => {

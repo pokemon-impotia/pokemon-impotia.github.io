@@ -76,7 +76,7 @@ export class PokemonRenderer {
 
     async renderEvolution(evolutions) {
         const evolutionsData = evolutions.length > 0 ? evolutions.map(evo => `
-            <a href="pokedex_entry.html?pokemon=${evo.dbSymbol}&lang=${this.languageManager.getCurrentLanguage()}" 
+            <a href="PokedexEntry.html?pokemon=${evo.dbSymbol}&lang=${this.languageManager.getCurrentLanguage()}" 
                class="evolution-item" style="text-decoration: none; color: inherit; display: block; pointer-events: auto !important; position: relative; z-index: 999;">
                 <img src="data/pokefront/${evo.dbSymbol}.png" alt="${this.capitalizeFirstLetter(evo.dbSymbol)}">
                 <p>${this.capitalizeFirstLetter(evo.dbSymbol)} (level ${evo.level})</p>

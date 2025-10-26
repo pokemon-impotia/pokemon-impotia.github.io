@@ -78,8 +78,8 @@ def process_pokemon_types():
                     types_data[type1]['pokemon'].append(db_symbol)
                     types_data[type1]['count'] += 1
             
-            # Add Pokémon to type2 if it exists and is different from type1
-            if type2 and type2 != type1:
+            # Add Pokémon to type2 if it exists, is different from type1, and is not __undef__
+            if type2 and type2 != type1 and type2 != '__undef__':
                 if type2 not in types_data:
                     types_data[type2] = {
                         'count': 0,

@@ -163,7 +163,7 @@ document.addEventListener('DOMContentLoaded', () => {
             pokemonCard.addEventListener('click', () => {
                 const urlParams = new URLSearchParams(window.location.search);
                 const lang = urlParams.get('lang') || 'fr';
-                window.location.href = `pokemon_search.html?pokemon=${dbSymbol}&lang=${lang}`;
+                window.location.href = `PokedexEntry.html?pokemon=${dbSymbol}&lang=${lang}`;
             });
 
             pokemonGrid.appendChild(pokemonCard);

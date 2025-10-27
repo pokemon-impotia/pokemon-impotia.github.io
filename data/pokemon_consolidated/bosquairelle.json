@@ -1,44 +1,44 @@
 {
   "klass": "Specie",
-  "id": 387,
-  "dbSymbol": "turtwig",
+  "id": 388,
+  "dbSymbol": "bosquairelle",
   "forms": [
     {
       "form": 0,
       "formTextId": {
-        "name": 939,
+        "name": 401,
         "description": 0
       },
-      "height": 0.4,
-      "weight": 10.2,
+      "height": 1.1,
+      "weight": 97,
       "type1": "grass",
       "type2": "__undef__",
-      "baseHp": 40,
-      "baseAtk": 60,
-      "baseDfe": 50,
-      "baseSpd": 50,
-      "baseAts": 50,
-      "baseDfs": 80,
+      "baseHp": 66,
+      "baseAtk": 85,
+      "baseDfe": 69,
+      "baseSpd": 66,
+      "baseAts": 80,
+      "baseDfs": 82,
       "evHp": 0,
-      "evAtk": 0,
+      "evAtk": 1,
       "evDfe": 0,
       "evSpd": 0,
       "evAts": 0,
       "evDfs": 1,
       "evolutions": [
         {
-          "dbSymbol": "grotle",
+          "dbSymbol": "bigbocage",
           "form": 0,
           "conditions": [
             {
               "type": "minLevel",
-              "value": 18
+              "value": 32
             }
           ]
         }
       ],
       "experienceType": 3,
-      "baseExperience": 64,
+      "baseExperience": 142,
       "baseLoyalty": 70,
       "catchRate": 45,
       "femaleRate": 12,
@@ -47,7 +47,7 @@
         7
       ],
       "hatchSteps": 5120,
-      "babyDbSymbol": "turtwig",
+      "babyDbSymbol": "broussard",
       "babyForm": 0,
       "itemHeld": [
         {
@@ -64,18 +64,18 @@
         "chlorophyll",
         "overgrow"
       ],
-      "frontOffsetY": 27,
+      "frontOffsetY": 19,
       "resources": {
-        "icon": "Broussard",
-        "iconShiny": "broussard_shiny",
-        "front": "Broussard",
-        "frontShiny": "Broussard",
-        "back": "Broussard",
-        "backShiny": "Broussard",
-        "footprint": "387",
-        "character": "387",
-        "characterShiny": "387",
-        "cry": "387cry.ogg",
+        "icon": "Bosquairelle",
+        "iconShiny": "bosquairelle_shiny",
+        "front": "Bosquairelle",
+        "frontShiny": "Bosquairelle",
+        "back": "Bosquairelle",
+        "backShiny": "Bosquairelle",
+        "footprint": "388",
+        "character": "388",
+        "characterShiny": "388",
+        "cry": "388cry.ogg",
         "hasFemale": false,
         "egg": "",
         "iconEgg": ""
@@ -192,70 +192,6 @@
           "move": "grass_pledge"
         },
         {
-          "klass": "BreedLearnableMove",
-          "move": "body_slam"
-        },
-        {
-          "klass": "BreedLearnableMove",
-          "move": "thrash"
-        },
-        {
-          "klass": "BreedLearnableMove",
-          "move": "double_edge"
-        },
-        {
-          "klass": "BreedLearnableMove",
-          "move": "growth"
-        },
-        {
-          "klass": "BreedLearnableMove",
-          "move": "amnesia"
-        },
-        {
-          "klass": "BreedLearnableMove",
-          "move": "stockpile"
-        },
-        {
-          "klass": "BreedLearnableMove",
-          "move": "spit_up"
-        },
-        {
-          "klass": "BreedLearnableMove",
-          "move": "swallow"
-        },
-        {
-          "klass": "BreedLearnableMove",
-          "move": "superpower"
-        },
-        {
-          "klass": "BreedLearnableMove",
-          "move": "tickle"
-        },
-        {
-          "klass": "BreedLearnableMove",
-          "move": "sand_tomb"
-        },
-        {
-          "klass": "BreedLearnableMove",
-          "move": "worry_seed"
-        },
-        {
-          "klass": "BreedLearnableMove",
-          "move": "seed_bomb"
-        },
-        {
-          "klass": "BreedLearnableMove",
-          "move": "earth_power"
-        },
-        {
-          "klass": "BreedLearnableMove",
-          "move": "wide_guard"
-        },
-        {
-          "klass": "BreedLearnableMove",
-          "move": "grassy_terrain"
-        },
-        {
           "klass": "TechLearnableMove",
           "move": "cut"
         },
@@ -366,6 +302,10 @@
         {
           "klass": "TechLearnableMove",
           "move": "dark_pulse"
+        },
+        {
+          "klass": "EvolutionLearnableMove",
+          "move": "leech_life"
         },
         {
           "klass": "TechLearnableMove",
@@ -833,234 +773,6 @@
           "pp": 10,
           "power": 80,
           "accuracy": 100
-        },
-        {
-          "symbol": "body_slam",
-          "id": 34,
-          "klass": "BreedLearnableMove",
-          "level": null,
-          "names": {
-            "en": "Tackle",
-            "fr": "Charge",
-            "it": "Azione",
-            "de": "Tackle",
-            "es": "Placaje",
-            "ko": "몸통박치기"
-          },
-          "category": "physical",
-          "type": "normal",
-          "pp": 15,
-          "power": 85,
-          "accuracy": 100
-        },
-        {
-          "symbol": "thrash",
-          "id": 37,
-          "klass": "BreedLearnableMove",
-          "level": null,
-          "names": {
-            "en": "Take Down",
-            "fr": "Bélier",
-            "it": "Riduttore",
-            "de": "Bodycheck",
-            "es": "Derribo",
-            "ko": "돌진"
-          },
-          "category": "physical",
-          "type": "normal",
-          "pp": 10,
-          "power": 120,
-          "accuracy": 100
-        },
-        {
-          "symbol": "double_edge",
-          "id": 38,
-          "klass": "BreedLearnableMove",
-          "level": null,
-          "names": {
-            "en": "Thrash",
-            "fr": "Mania",
-            "it": "Colpo",
-            "de": "Fuchtler",
-            "es": "Golpe",
-            "ko": "난동부리기"
-          },
-          "category": "physical",
-          "type": "normal",
-          "pp": 15,
-          "power": 120,
-          "accuracy": 100
-        },
-        {
-          "symbol": "growth",
-          "id": 74,
-          "klass": "BreedLearnableMove",
-          "level": null,
-          "names": {
-            "en": "Leech Seed",
-            "fr": "Vampigraine",
-            "it": "Parassiseme",
-            "de": "Egelsamen",
-            "es": "Drenadoras",
-            "ko": "씨뿌리기"
-          },
-          "category": "status",
-          "type": "normal",
-          "pp": 20,
-          "power": 0,
-          "accuracy": 0
-        },
-        {
-          "symbol": "amnesia",
-          "id": 133,
-          "klass": "BreedLearnableMove",
-          "level": null,
-          "names": {
-            "en": "Constrict",
-            "fr": "Constriction",
-            "it": "Limitazione",
-            "de": "Umklammerung",
-            "es": "Restricción",
-            "ko": "휘감기"
-          },
-          "category": "status",
-          "type": "psychic",
-          "pp": 20,
-          "power": 0,
-          "accuracy": 0
-        },
-        {
-          "symbol": "stockpile",
-          "id": 254,
-          "klass": "BreedLearnableMove",
-          "level": null,
-          "names": {
-            "en": "Uproar",
-            "fr": "Brouhaha",
-            "it": "Baraonda",
-            "de": "Aufruhr",
-            "es": "Alboroto",
-            "ko": "소란피기"
-          },
-          "category": "status",
-          "type": "normal",
-          "pp": 20,
-          "power": 0,
-          "accuracy": 0
-        },
-        {
-          "symbol": "spit_up",
-          "id": 255,
-          "klass": "BreedLearnableMove",
-          "level": null,
-          "names": {
-            "en": "Stockpile",
-            "fr": "Stockage",
-            "it": "Accumulo",
-            "de": "Horter",
-            "es": "Reserva",
-            "ko": "비축하기"
-          },
-          "category": "special",
-          "type": "normal",
-          "pp": 10,
-          "power": 0,
-          "accuracy": 100
-        },
-        {
-          "symbol": "swallow",
-          "id": 256,
-          "klass": "BreedLearnableMove",
-          "level": null,
-          "names": {
-            "en": "Spit Up",
-            "fr": "Relâche",
-            "it": "Sfoghenergia",
-            "de": "Entfessler",
-            "es": "Escupir",
-            "ko": "토해내기"
-          },
-          "category": "status",
-          "type": "normal",
-          "pp": 10,
-          "power": 0,
-          "accuracy": 0
-        },
-        {
-          "symbol": "tickle",
-          "id": 321,
-          "klass": "BreedLearnableMove",
-          "level": null,
-          "names": {
-            "en": "Grass Whistle",
-            "fr": "Siffl’Herbe",
-            "it": "Meloderba",
-            "de": "Grasflöte",
-            "es": "Silbato",
-            "ko": "풀피리"
-          },
-          "category": "status",
-          "type": "normal",
-          "pp": 20,
-          "power": 0,
-          "accuracy": 100
-        },
-        {
-          "symbol": "sand_tomb",
-          "id": 328,
-          "klass": "BreedLearnableMove",
-          "level": null,
-          "names": {
-            "en": "Sky Uppercut",
-            "fr": "Stratopercut",
-            "it": "Stramontante",
-            "de": "Himmelhieb",
-            "es": "Gancho Alto",
-            "ko": "스카이업퍼"
-          },
-          "category": "physical",
-          "type": "ground",
-          "pp": 15,
-          "power": 35,
-          "accuracy": 85
-        },
-        {
-          "symbol": "wide_guard",
-          "id": 469,
-          "klass": "BreedLearnableMove",
-          "level": null,
-          "names": {
-            "en": "Hone Claws",
-            "fr": "Aiguisage",
-            "it": "Unghiaguzze",
-            "de": "Klauenwetzer",
-            "es": "Afilagarras",
-            "ko": "손톱갈기"
-          },
-          "category": "status",
-          "type": "rock",
-          "pp": 10,
-          "power": 0,
-          "accuracy": 0
-        },
-        {
-          "symbol": "grassy_terrain",
-          "id": 580,
-          "klass": "BreedLearnableMove",
-          "level": null,
-          "names": {
-            "en": "Flower Shield",
-            "fr": "Garde Florale",
-            "it": "Fiordifesa",
-            "de": "Floraschutz",
-            "es": "Defensa Floral",
-            "ko": "플라워가드"
-          },
-          "category": "status",
-          "type": "grass",
-          "pp": 10,
-          "power": 0,
-          "accuracy": 0
         },
         {
           "symbol": "cut",
@@ -1591,6 +1303,25 @@
           "category": "special",
           "type": "dark",
           "pp": 15,
+          "power": 80,
+          "accuracy": 100
+        },
+        {
+          "symbol": "leech_life",
+          "id": 141,
+          "klass": "EvolutionLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Barrage",
+            "fr": "Pilonnage",
+            "it": "Attacco Pioggia",
+            "de": "Stakkato",
+            "es": "Bombardeo",
+            "ko": "구슬던지기"
+          },
+          "category": "physical",
+          "type": "bug",
+          "pp": 10,
           "power": 80,
           "accuracy": 100
         },

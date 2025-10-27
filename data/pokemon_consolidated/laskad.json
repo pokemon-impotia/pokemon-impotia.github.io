@@ -1,42 +1,53 @@
 {
   "klass": "Specie",
-  "id": 101,
-  "dbSymbol": "blocharj",
+  "id": 100,
+  "dbSymbol": "laskad",
   "forms": [
     {
       "form": 0,
       "formTextId": {
-        "name": 98,
+        "name": 838,
         "description": 0
       },
-      "height": 1.2,
-      "weight": 66.6,
+      "height": 0.5,
+      "weight": 10.4,
       "type1": "electric",
       "type2": "water",
-      "baseHp": 80,
-      "baseAtk": 60,
-      "baseDfe": 84,
-      "baseSpd": 52,
-      "baseAts": 114,
-      "baseDfs": 106,
+      "baseHp": 50,
+      "baseAtk": 38,
+      "baseDfe": 63,
+      "baseSpd": 33,
+      "baseAts": 79,
+      "baseDfs": 74,
       "evHp": 0,
       "evAtk": 0,
       "evDfe": 0,
       "evSpd": 0,
-      "evAts": 2,
-      "evDfs": 1,
-      "evolutions": [],
+      "evAts": 1,
+      "evDfs": 0,
+      "evolutions": [
+        {
+          "dbSymbol": "bioluma",
+          "form": 0,
+          "conditions": [
+            {
+              "type": "minLevel",
+              "value": 30
+            }
+          ]
+        }
+      ],
       "experienceType": 1,
-      "baseExperience": 172,
+      "baseExperience": 66,
       "baseLoyalty": 70,
-      "catchRate": 60,
+      "catchRate": 190,
       "femaleRate": -1,
       "breedGroups": [
         10,
         10
       ],
       "hatchSteps": 5120,
-      "babyDbSymbol": "slitik",
+      "babyDbSymbol": "laskad",
       "babyForm": 0,
       "itemHeld": [
         {
@@ -53,20 +64,20 @@
         "volt_absorb",
         "aftermath"
       ],
-      "frontOffsetY": 25,
+      "frontOffsetY": 33,
       "resources": {
-        "icon": "blocharj",
-        "iconShiny": "blocharj_shiny",
-        "front": "Bioluma",
-        "frontShiny": "blocharj",
-        "back": "Bioluma",
-        "backShiny": "blocharj",
-        "footprint": "blocharj",
-        "character": "blocharj",
-        "characterShiny": "blocharj",
+        "icon": "laskad",
+        "iconShiny": "laskad_shiny",
+        "front": "Laskad",
+        "frontShiny": "laskad",
+        "back": "Laskad",
+        "backShiny": "laskad",
+        "footprint": "laskad",
+        "character": "laskad",
+        "characterShiny": "laskad",
         "egg": "",
         "iconEgg": "",
-        "cry": "101cry.ogg",
+        "cry": "100cry.ogg",
         "hasFemale": false
       },
       "moveSet": [
@@ -88,17 +99,12 @@
         {
           "klass": "LevelLearnableMove",
           "move": "electro_ball",
-          "level": 9
+          "level": 11
         },
         {
           "klass": "LevelLearnableMove",
           "move": "water_gun",
-          "level": 12
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "string_shot",
-          "level": 15
+          "level": 13
         },
         {
           "klass": "LevelLearnableMove",
@@ -117,7 +123,7 @@
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "signal_beam",
+          "move": "scald",
           "level": 28
         },
         {
@@ -154,55 +160,6 @@
           "klass": "LevelLearnableMove",
           "move": "charge",
           "level": 50
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "gyro_ball",
-          "level": 53
-        },
-        {
-          "klass": "TutorLearnableMove",
-          "move": "clamp"
-        },
-        {
-          "klass": "TutorLearnableMove",
-          "move": "scald"
-        },
-        {
-          "klass": "TutorLearnableMove",
-          "move": "shock_wave"
-        },
-        {
-          "klass": "TutorLearnableMove",
-          "move": "signal_beam"
-        },
-        {
-          "klass": "TutorLearnableMove",
-          "move": "magic_coat"
-        },
-        {
-          "klass": "TutorLearnableMove",
-          "move": "snore"
-        },
-        {
-          "klass": "TutorLearnableMove",
-          "move": "brine"
-        },
-        {
-          "klass": "TutorLearnableMove",
-          "move": "water_sport"
-        },
-        {
-          "klass": "TutorLearnableMove",
-          "move": "foul_play"
-        },
-        {
-          "klass": "TutorLearnableMove",
-          "move": "magnet_rise"
-        },
-        {
-          "klass": "TutorLearnableMove",
-          "move": "charge"
         },
         {
           "klass": "TechLearnableMove",
@@ -269,8 +226,48 @@
           "move": "nature_power"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "waterfall"
+          "klass": "TutorLearnableMove",
+          "move": "clamp"
+        },
+        {
+          "klass": "TutorLearnableMove",
+          "move": "scald"
+        },
+        {
+          "klass": "TutorLearnableMove",
+          "move": "shock_wave"
+        },
+        {
+          "klass": "TutorLearnableMove",
+          "move": "signal_beam"
+        },
+        {
+          "klass": "TutorLearnableMove",
+          "move": "magic_coat"
+        },
+        {
+          "klass": "TutorLearnableMove",
+          "move": "snore"
+        },
+        {
+          "klass": "TutorLearnableMove",
+          "move": "brine"
+        },
+        {
+          "klass": "TutorLearnableMove",
+          "move": "water_sport"
+        },
+        {
+          "klass": "TutorLearnableMove",
+          "move": "foul_play"
+        },
+        {
+          "klass": "TutorLearnableMove",
+          "move": "magnet_rise"
+        },
+        {
+          "klass": "TutorLearnableMove",
+          "move": "charge"
         },
         {
           "klass": "BreedLearnableMove",
@@ -327,10 +324,6 @@
         {
           "klass": "BreedLearnableMove",
           "move": "bubble_beam"
-        },
-        {
-          "klass": "EvolutionLearnableMove",
-          "move": "electrify"
         }
       ],
       "abilities_data": [
@@ -457,7 +450,7 @@
           "symbol": "electro_ball",
           "id": 486,
           "klass": "LevelLearnableMove",
-          "level": 9,
+          "level": 11,
           "names": {
             "en": "Synchronoise",
             "fr": "Synchropeine",
@@ -476,7 +469,7 @@
           "symbol": "water_gun",
           "id": 55,
           "klass": "LevelLearnableMove",
-          "level": 12,
+          "level": 13,
           "names": {
             "en": "Mist",
             "fr": "Brume",
@@ -490,25 +483,6 @@
           "pp": 25,
           "power": 40,
           "accuracy": 100
-        },
-        {
-          "symbol": "string_shot",
-          "id": 81,
-          "klass": "LevelLearnableMove",
-          "level": 15,
-          "names": {
-            "en": "Petal Dance",
-            "fr": "Danse Fleurs",
-            "it": "Petalodanza",
-            "de": "Blättertanz",
-            "es": "Danza Pétalo",
-            "ko": "꽃잎댄스"
-          },
-          "category": "status",
-          "type": "bug",
-          "pp": 40,
-          "power": 0,
-          "accuracy": 95
         },
         {
           "symbol": "metal_sound",
@@ -568,22 +542,22 @@
           "accuracy": 100
         },
         {
-          "symbol": "signal_beam",
-          "id": 324,
+          "symbol": "scald",
+          "id": 503,
           "klass": "LevelLearnableMove",
           "level": 28,
           "names": {
-            "en": "Water Spout",
-            "fr": "Giclédo",
-            "it": "Zampillo",
-            "de": "Fontränen",
-            "es": "Salpicar",
-            "ko": "해수스파우팅"
+            "en": "Ally Switch",
+            "fr": "Interversion",
+            "it": "Cambiaposto",
+            "de": "Seitentausch",
+            "es": "Cambio de Banda",
+            "ko": "사이드체인지"
           },
           "category": "special",
-          "type": "bug",
+          "type": "water",
           "pp": 15,
-          "power": 75,
+          "power": 80,
           "accuracy": 100
         },
         {
@@ -716,196 +690,6 @@
           "category": "status",
           "type": "electric",
           "pp": 20,
-          "power": 0,
-          "accuracy": 0
-        },
-        {
-          "symbol": "gyro_ball",
-          "id": 360,
-          "klass": "LevelLearnableMove",
-          "level": 53,
-          "names": {
-            "en": "Hammer Arm",
-            "fr": "Marto-Poing",
-            "it": "Martelpugno",
-            "de": "Hammerarm",
-            "es": "Machada",
-            "ko": "암해머"
-          },
-          "category": "physical",
-          "type": "steel",
-          "pp": 5,
-          "power": 0,
-          "accuracy": 100
-        },
-        {
-          "symbol": "clamp",
-          "id": 128,
-          "klass": "TutorLearnableMove",
-          "level": null,
-          "names": {
-            "en": "Waterfall",
-            "fr": "Cascade",
-            "it": "Cascata",
-            "de": "Kaskade",
-            "es": "Cascada",
-            "ko": "폭포오르기"
-          },
-          "category": "physical",
-          "type": "water",
-          "pp": 15,
-          "power": 35,
-          "accuracy": 85
-        },
-        {
-          "symbol": "scald",
-          "id": 503,
-          "klass": "TutorLearnableMove",
-          "level": null,
-          "names": {
-            "en": "Ally Switch",
-            "fr": "Interversion",
-            "it": "Cambiaposto",
-            "de": "Seitentausch",
-            "es": "Cambio de Banda",
-            "ko": "사이드체인지"
-          },
-          "category": "special",
-          "type": "water",
-          "pp": 15,
-          "power": 80,
-          "accuracy": 100
-        },
-        {
-          "symbol": "shock_wave",
-          "id": 351,
-          "klass": "TutorLearnableMove",
-          "level": null,
-          "names": {
-            "en": "Rock Blast",
-            "fr": "Boule Roc",
-            "it": "Cadutamassi",
-            "de": "Felswurf",
-            "es": "Pedrada",
-            "ko": "락블레스트"
-          },
-          "category": "special",
-          "type": "electric",
-          "pp": 20,
-          "power": 60,
-          "accuracy": 0
-        },
-        {
-          "symbol": "magic_coat",
-          "id": 277,
-          "klass": "TutorLearnableMove",
-          "level": null,
-          "names": {
-            "en": "Superpower",
-            "fr": "Surpuissance",
-            "it": "Troppoforte",
-            "de": "Kraftkoloss",
-            "es": "Fuerza Bruta",
-            "ko": "엄청난힘"
-          },
-          "category": "status",
-          "type": "psychic",
-          "pp": 15,
-          "power": 0,
-          "accuracy": 0
-        },
-        {
-          "symbol": "snore",
-          "id": 173,
-          "klass": "TutorLearnableMove",
-          "level": null,
-          "names": {
-            "en": "Flame Wheel",
-            "fr": "Roue de Feu",
-            "it": "Ruotafuoco",
-            "de": "Flammenrad",
-            "es": "Rueda Fuego",
-            "ko": "화염자동차"
-          },
-          "category": "special",
-          "type": "normal",
-          "pp": 15,
-          "power": 50,
-          "accuracy": 100
-        },
-        {
-          "symbol": "brine",
-          "id": 362,
-          "klass": "TutorLearnableMove",
-          "level": null,
-          "names": {
-            "en": "Healing Wish",
-            "fr": "Vœu Soin",
-            "it": "Curardore",
-            "de": "Heilopfer",
-            "es": "Deseo Cura",
-            "ko": "치유소원"
-          },
-          "category": "special",
-          "type": "water",
-          "pp": 10,
-          "power": 65,
-          "accuracy": 100
-        },
-        {
-          "symbol": "water_sport",
-          "id": 346,
-          "klass": "TutorLearnableMove",
-          "level": null,
-          "names": {
-            "en": "Magical Leaf",
-            "fr": "Feuille Magik",
-            "it": "Fogliamagica",
-            "de": "Zauberblatt",
-            "es": "Hoja Mágica",
-            "ko": "메지컬리프"
-          },
-          "category": "status",
-          "type": "water",
-          "pp": 15,
-          "power": 0,
-          "accuracy": 0
-        },
-        {
-          "symbol": "foul_play",
-          "id": 492,
-          "klass": "TutorLearnableMove",
-          "level": null,
-          "names": {
-            "en": "Acid Spray",
-            "fr": "Bombe Acide",
-            "it": "Acidobomba",
-            "de": "Säurespeier",
-            "es": "Bomba Ácida",
-            "ko": "애시드봄"
-          },
-          "category": "physical",
-          "type": "dark",
-          "pp": 15,
-          "power": 95,
-          "accuracy": 100
-        },
-        {
-          "symbol": "magnet_rise",
-          "id": 393,
-          "klass": "TutorLearnableMove",
-          "level": null,
-          "names": {
-            "en": "Aqua Ring",
-            "fr": "Anneau Hydro",
-            "it": "Acquanello",
-            "de": "Wasserring",
-            "es": "Acua Aro",
-            "ko": "아쿠아링"
-          },
-          "category": "status",
-          "type": "electric",
-          "pp": 10,
           "power": 0,
           "accuracy": 0
         },
@@ -1138,6 +922,25 @@
           "accuracy": 100
         },
         {
+          "symbol": "gyro_ball",
+          "id": 360,
+          "klass": "TechLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Hammer Arm",
+            "fr": "Marto-Poing",
+            "it": "Martelpugno",
+            "de": "Hammerarm",
+            "es": "Machada",
+            "ko": "암해머"
+          },
+          "category": "physical",
+          "type": "steel",
+          "pp": 5,
+          "power": 0,
+          "accuracy": 100
+        },
+        {
           "symbol": "x_scissor",
           "id": 404,
           "klass": "TechLearnableMove",
@@ -1176,23 +979,175 @@
           "accuracy": 0
         },
         {
-          "symbol": "waterfall",
-          "id": 127,
-          "klass": "TechLearnableMove",
+          "symbol": "clamp",
+          "id": 128,
+          "klass": "TutorLearnableMove",
           "level": null,
           "names": {
-            "en": "Fire Blast",
-            "fr": "Déflagration",
-            "it": "Fuocobomba",
-            "de": "Feuersturm",
-            "es": "Llamarada",
-            "ko": "불대문자"
+            "en": "Waterfall",
+            "fr": "Cascade",
+            "it": "Cascata",
+            "de": "Kaskade",
+            "es": "Cascada",
+            "ko": "폭포오르기"
           },
           "category": "physical",
           "type": "water",
           "pp": 15,
-          "power": 80,
+          "power": 35,
+          "accuracy": 85
+        },
+        {
+          "symbol": "shock_wave",
+          "id": 351,
+          "klass": "TutorLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Rock Blast",
+            "fr": "Boule Roc",
+            "it": "Cadutamassi",
+            "de": "Felswurf",
+            "es": "Pedrada",
+            "ko": "락블레스트"
+          },
+          "category": "special",
+          "type": "electric",
+          "pp": 20,
+          "power": 60,
+          "accuracy": 0
+        },
+        {
+          "symbol": "signal_beam",
+          "id": 324,
+          "klass": "TutorLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Water Spout",
+            "fr": "Giclédo",
+            "it": "Zampillo",
+            "de": "Fontränen",
+            "es": "Salpicar",
+            "ko": "해수스파우팅"
+          },
+          "category": "special",
+          "type": "bug",
+          "pp": 15,
+          "power": 75,
           "accuracy": 100
+        },
+        {
+          "symbol": "magic_coat",
+          "id": 277,
+          "klass": "TutorLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Superpower",
+            "fr": "Surpuissance",
+            "it": "Troppoforte",
+            "de": "Kraftkoloss",
+            "es": "Fuerza Bruta",
+            "ko": "엄청난힘"
+          },
+          "category": "status",
+          "type": "psychic",
+          "pp": 15,
+          "power": 0,
+          "accuracy": 0
+        },
+        {
+          "symbol": "snore",
+          "id": 173,
+          "klass": "TutorLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Flame Wheel",
+            "fr": "Roue de Feu",
+            "it": "Ruotafuoco",
+            "de": "Flammenrad",
+            "es": "Rueda Fuego",
+            "ko": "화염자동차"
+          },
+          "category": "special",
+          "type": "normal",
+          "pp": 15,
+          "power": 50,
+          "accuracy": 100
+        },
+        {
+          "symbol": "brine",
+          "id": 362,
+          "klass": "TutorLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Healing Wish",
+            "fr": "Vœu Soin",
+            "it": "Curardore",
+            "de": "Heilopfer",
+            "es": "Deseo Cura",
+            "ko": "치유소원"
+          },
+          "category": "special",
+          "type": "water",
+          "pp": 10,
+          "power": 65,
+          "accuracy": 100
+        },
+        {
+          "symbol": "water_sport",
+          "id": 346,
+          "klass": "TutorLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Magical Leaf",
+            "fr": "Feuille Magik",
+            "it": "Fogliamagica",
+            "de": "Zauberblatt",
+            "es": "Hoja Mágica",
+            "ko": "메지컬리프"
+          },
+          "category": "status",
+          "type": "water",
+          "pp": 15,
+          "power": 0,
+          "accuracy": 0
+        },
+        {
+          "symbol": "foul_play",
+          "id": 492,
+          "klass": "TutorLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Acid Spray",
+            "fr": "Bombe Acide",
+            "it": "Acidobomba",
+            "de": "Säurespeier",
+            "es": "Bomba Ácida",
+            "ko": "애시드봄"
+          },
+          "category": "physical",
+          "type": "dark",
+          "pp": 15,
+          "power": 95,
+          "accuracy": 100
+        },
+        {
+          "symbol": "magnet_rise",
+          "id": 393,
+          "klass": "TutorLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Aqua Ring",
+            "fr": "Anneau Hydro",
+            "it": "Acquanello",
+            "de": "Wasserring",
+            "es": "Acua Aro",
+            "ko": "아쿠아링"
+          },
+          "category": "status",
+          "type": "electric",
+          "pp": 10,
+          "power": 0,
+          "accuracy": 0
         },
         {
           "symbol": "curse",
@@ -1400,25 +1355,6 @@
           "category": "status",
           "type": "normal",
           "pp": 40,
-          "power": 0,
-          "accuracy": 0
-        },
-        {
-          "symbol": "electrify",
-          "id": 582,
-          "klass": "EvolutionLearnableMove",
-          "level": null,
-          "names": {
-            "en": "Misty Terrain",
-            "fr": "Champ Brumeux",
-            "it": "Campo Nebbioso",
-            "de": "Nebelfeld",
-            "es": "Campo de Niebla",
-            "ko": "미스트필드"
-          },
-          "category": "status",
-          "type": "electric",
-          "pp": 20,
           "power": 0,
           "accuracy": 0
         }

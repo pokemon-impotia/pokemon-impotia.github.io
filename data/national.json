@@ -73,7 +73,7 @@
       "form": 0
     },
     {
-      "dbSymbol": "criquage",
+      "dbSymbol": "mimue",
       "form": 0
     },
     {
@@ -217,7 +217,7 @@
       "form": 0
     },
     {
-      "dbSymbol": "steelix",
+      "dbSymbol": "arpancton",
       "form": 0
     },
     {
@@ -241,23 +241,11 @@
       "form": 0
     },
     {
-      "dbSymbol": "frainy",
-      "form": 0
-    },
-    {
-      "dbSymbol": "fraisyste",
-      "form": 0
-    },
-    {
       "dbSymbol": "yamete",
       "form": 0
     },
     {
       "dbSymbol": "rodeursan",
-      "form": 0
-    },
-    {
-      "dbSymbol": "rainatal",
       "form": 0
     },
     {
@@ -345,19 +333,11 @@
       "form": 0
     },
     {
-      "dbSymbol": "slitik",
+      "dbSymbol": "laskad",
       "form": 0
     },
     {
-      "dbSymbol": "blocharj",
-      "form": 0
-    },
-    {
-      "dbSymbol": "bourgea",
-      "form": 0
-    },
-    {
-      "dbSymbol": "dention",
+      "dbSymbol": "bioluma",
       "form": 0
     },
     {
@@ -534,10 +514,6 @@
     },
     {
       "dbSymbol": "forouvrie",
-      "form": 0
-    },
-    {
-      "dbSymbol": "miltap",
       "form": 0
     },
     {
@@ -837,15 +813,15 @@
       "form": 0
     },
     {
-      "dbSymbol": "turtwig",
+      "dbSymbol": "broussard",
       "form": 0
     },
     {
-      "dbSymbol": "grotle",
+      "dbSymbol": "bosquairelle",
       "form": 0
     },
     {
-      "dbSymbol": "torterra",
+      "dbSymbol": "bigbocage",
       "form": 0
     },
     {
@@ -854,6 +830,38 @@
     },
     {
       "dbSymbol": "mymessen",
+      "form": 0
+    },
+    {
+      "dbSymbol": "embusbag",
+      "form": 0
+    },
+    {
+      "dbSymbol": "bourgea",
+      "form": 0
+    },
+    {
+      "dbSymbol": "dention",
+      "form": 0
+    },
+    {
+      "dbSymbol": "ophrysk",
+      "form": 0
+    },
+    {
+      "dbSymbol": "prolemi",
+      "form": 0
+    },
+    {
+      "dbSymbol": "patronmi",
+      "form": 0
+    },
+    {
+      "dbSymbol": "salmerdva",
+      "form": 0
+    },
+    {
+      "dbSymbol": "detripost",
       "form": 0
     }
   ]

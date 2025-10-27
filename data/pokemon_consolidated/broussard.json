@@ -1,33 +1,44 @@
 {
   "klass": "Specie",
-  "id": 389,
-  "dbSymbol": "torterra",
+  "id": 387,
+  "dbSymbol": "broussard",
   "forms": [
     {
       "form": 0,
       "formTextId": {
-        "name": 923,
+        "name": 939,
         "description": 0
       },
-      "height": 2.2,
-      "weight": 310,
+      "height": 0.4,
+      "weight": 10.2,
       "type1": "grass",
-      "type2": "ghost",
-      "baseHp": 80,
-      "baseAtk": 105,
-      "baseDfe": 83,
-      "baseSpd": 80,
-      "baseAts": 90,
-      "baseDfs": 100,
+      "type2": "__undef__",
+      "baseHp": 40,
+      "baseAtk": 60,
+      "baseDfe": 50,
+      "baseSpd": 50,
+      "baseAts": 50,
+      "baseDfs": 80,
       "evHp": 0,
-      "evAtk": 2,
+      "evAtk": 0,
       "evDfe": 0,
       "evSpd": 0,
       "evAts": 0,
       "evDfs": 1,
-      "evolutions": [],
+      "evolutions": [
+        {
+          "dbSymbol": "bosquairelle",
+          "form": 0,
+          "conditions": [
+            {
+              "type": "minLevel",
+              "value": 18
+            }
+          ]
+        }
+      ],
       "experienceType": 3,
-      "baseExperience": 236,
+      "baseExperience": 64,
       "baseLoyalty": 70,
       "catchRate": 45,
       "femaleRate": 12,
@@ -36,7 +47,7 @@
         7
       ],
       "hatchSteps": 5120,
-      "babyDbSymbol": "turtwig",
+      "babyDbSymbol": "broussard",
       "babyForm": 0,
       "itemHeld": [
         {
@@ -51,20 +62,20 @@
       "abilities": [
         "harvest",
         "chlorophyll",
-        "technician"
+        "overgrow"
       ],
-      "frontOffsetY": 9,
+      "frontOffsetY": 27,
       "resources": {
-        "icon": "Bigbocage",
-        "iconShiny": "bigbocage_shiny",
-        "front": "Bigbocage",
-        "frontShiny": "Bigbocage",
-        "back": "Bigbocage",
-        "backShiny": "Bigbocage",
-        "footprint": "389",
-        "character": "389",
-        "characterShiny": "389",
-        "cry": "389cry.ogg",
+        "icon": "Broussard",
+        "iconShiny": "broussard_shiny",
+        "front": "Broussard",
+        "frontShiny": "Broussard",
+        "back": "Broussard",
+        "backShiny": "Broussard",
+        "footprint": "387",
+        "character": "387",
+        "characterShiny": "387",
+        "cry": "387cry.ogg",
         "hasFemale": false,
         "egg": "",
         "iconEgg": ""
@@ -127,11 +138,6 @@
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "drain_punch",
-          "level": 35
-        },
-        {
-          "klass": "LevelLearnableMove",
           "move": "crunch",
           "level": 37
         },
@@ -142,56 +148,12 @@
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "wood_hammer",
-          "level": 43
-        },
-        {
-          "klass": "LevelLearnableMove",
           "move": "leaf_storm",
           "level": 45
         },
         {
-          "klass": "LevelLearnableMove",
-          "move": "draining_kiss",
-          "level": 49
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "ingrain",
-          "level": 51
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "nasty_plot",
-          "level": 54
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "body_slam",
-          "level": 56
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "horn_leech",
-          "level": 59
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "strength_sap",
-          "level": 62
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "rest",
-          "level": 66
-        },
-        {
           "klass": "TutorLearnableMove",
           "move": "snore"
-        },
-        {
-          "klass": "TutorLearnableMove",
-          "move": "outrage"
         },
         {
           "klass": "TutorLearnableMove",
@@ -211,14 +173,6 @@
         },
         {
           "klass": "TutorLearnableMove",
-          "move": "block"
-        },
-        {
-          "klass": "TutorLearnableMove",
-          "move": "frenzy_plant"
-        },
-        {
-          "klass": "TutorLearnableMove",
           "move": "worry_seed"
         },
         {
@@ -231,10 +185,6 @@
         },
         {
           "klass": "TutorLearnableMove",
-          "move": "iron_head"
-        },
-        {
-          "klass": "TutorLearnableMove",
           "move": "stealth_rock"
         },
         {
@@ -242,8 +192,68 @@
           "move": "grass_pledge"
         },
         {
-          "klass": "EvolutionLearnableMove",
-          "move": "shadow_ball"
+          "klass": "BreedLearnableMove",
+          "move": "body_slam"
+        },
+        {
+          "klass": "BreedLearnableMove",
+          "move": "thrash"
+        },
+        {
+          "klass": "BreedLearnableMove",
+          "move": "double_edge"
+        },
+        {
+          "klass": "BreedLearnableMove",
+          "move": "growth"
+        },
+        {
+          "klass": "BreedLearnableMove",
+          "move": "amnesia"
+        },
+        {
+          "klass": "BreedLearnableMove",
+          "move": "stockpile"
+        },
+        {
+          "klass": "BreedLearnableMove",
+          "move": "spit_up"
+        },
+        {
+          "klass": "BreedLearnableMove",
+          "move": "swallow"
+        },
+        {
+          "klass": "BreedLearnableMove",
+          "move": "superpower"
+        },
+        {
+          "klass": "BreedLearnableMove",
+          "move": "tickle"
+        },
+        {
+          "klass": "BreedLearnableMove",
+          "move": "sand_tomb"
+        },
+        {
+          "klass": "BreedLearnableMove",
+          "move": "worry_seed"
+        },
+        {
+          "klass": "BreedLearnableMove",
+          "move": "seed_bomb"
+        },
+        {
+          "klass": "BreedLearnableMove",
+          "move": "earth_power"
+        },
+        {
+          "klass": "BreedLearnableMove",
+          "move": "wide_guard"
+        },
+        {
+          "klass": "BreedLearnableMove",
+          "move": "grassy_terrain"
         },
         {
           "klass": "TechLearnableMove",
@@ -359,10 +369,6 @@
         },
         {
           "klass": "TechLearnableMove",
-          "move": "calm_mind"
-        },
-        {
-          "klass": "TechLearnableMove",
           "move": "hidden_power"
         }
       ],
@@ -408,23 +414,23 @@
           }
         },
         {
-          "symbol": "technician",
-          "textId": 101,
+          "symbol": "overgrow",
+          "textId": 65,
           "names": {
-            "en": "Stall",
-            "fr": "Frein",
-            "it": "Rallentatore",
-            "de": "Zeitspiel",
-            "es": "Rezagado",
-            "ko": "시간벌기"
+            "en": "Liquid Ooze",
+            "fr": "Suintement",
+            "it": "Melma",
+            "de": "Kloakensoße",
+            "es": "Lodo Líquido",
+            "ko": "해감액"
           },
           "descriptions": {
-            "en": "The Pokémon moves after all other Pokémon do.",
-            "fr": "Le Pokémon utilise toujours sa capacité en dernier.",
-            "it": "Il Pokémon agisce sempre per ultimo.",
-            "de": "Handelt auch mit Initiative-Vorteil stets als Letztes.",
-            "es": "Ejecuta su movimiento tras todos los demás.",
-            "ko": "기술을 사용하는 순서가 반드시 마지막이 된다."
+            "en": "The oozed liquid has a strong stench, which damages attackers using any draining move.",
+            "fr": "Le Pokémon suinte un liquide toxique nauséabond qui blesse tous ceux qui tentent de voler ses PV.",
+            "it": "Il Pokémon secerne delle sostanze tossiche. Se un nemico manda a segno una mossa che assorbe i PS, subisce dei danni.",
+            "de": "Angreifer, die durch Saug-Attacken Kloakensoße in sich aufgenommen haben, nehmen durch deren widerwärtigen Gestank Schaden.",
+            "es": "Exuda una sustancia tóxica de intenso hedor que hiere a quienes intentan drenarle PS.",
+            "ko": "해감액을 흡수한 상대는 강렬한 악취로 데미지를 받아 HP가 줄어든다."
           }
         }
       ],
@@ -620,25 +626,6 @@
           "accuracy": 90
         },
         {
-          "symbol": "drain_punch",
-          "id": 409,
-          "klass": "LevelLearnableMove",
-          "level": 35,
-          "names": {
-            "en": "Power Gem",
-            "fr": "Rayon Gemme",
-            "it": "Gemmoforza",
-            "de": "Juwelenkraft",
-            "es": "Joya de Luz",
-            "ko": "파워젬"
-          },
-          "category": "physical",
-          "type": "fighting",
-          "pp": 10,
-          "power": 75,
-          "accuracy": 100
-        },
-        {
           "symbol": "crunch",
           "id": 242,
           "klass": "LevelLearnableMove",
@@ -677,25 +664,6 @@
           "accuracy": 100
         },
         {
-          "symbol": "wood_hammer",
-          "id": 452,
-          "klass": "LevelLearnableMove",
-          "level": 43,
-          "names": {
-            "en": "Charge Beam",
-            "fr": "Rayon Chargé",
-            "it": "Raggioscossa",
-            "de": "Ladestrahl",
-            "es": "Rayo Carga",
-            "ko": "차지빔"
-          },
-          "category": "physical",
-          "type": "grass",
-          "pp": 15,
-          "power": 120,
-          "accuracy": 100
-        },
-        {
           "symbol": "leaf_storm",
           "id": 437,
           "klass": "LevelLearnableMove",
@@ -715,139 +683,6 @@
           "accuracy": 90
         },
         {
-          "symbol": "draining_kiss",
-          "id": 577,
-          "klass": "LevelLearnableMove",
-          "level": 49,
-          "names": {
-            "en": "Topsy-Turvy",
-            "fr": "Renversement",
-            "it": "Sottosopra",
-            "de": "Invertigo",
-            "es": "Reversión",
-            "ko": "뒤집어엎기"
-          },
-          "category": "special",
-          "type": "fairy",
-          "pp": 10,
-          "power": 50,
-          "accuracy": 100
-        },
-        {
-          "symbol": "ingrain",
-          "id": 275,
-          "klass": "LevelLearnableMove",
-          "level": 51,
-          "names": {
-            "en": "Assist",
-            "fr": "Assistance",
-            "it": "Assistente",
-            "de": "Zuschuss",
-            "es": "Ayuda",
-            "ko": "조수"
-          },
-          "category": "status",
-          "type": "grass",
-          "pp": 20,
-          "power": 0,
-          "accuracy": 0
-        },
-        {
-          "symbol": "nasty_plot",
-          "id": 417,
-          "klass": "LevelLearnableMove",
-          "level": 54,
-          "names": {
-            "en": "Giga Impact",
-            "fr": "Giga Impact",
-            "it": "Gigaimpatto",
-            "de": "Gigastoß",
-            "es": "Gigaimpacto",
-            "ko": "기가임팩트"
-          },
-          "category": "status",
-          "type": "dark",
-          "pp": 20,
-          "power": 0,
-          "accuracy": 0
-        },
-        {
-          "symbol": "body_slam",
-          "id": 34,
-          "klass": "LevelLearnableMove",
-          "level": 56,
-          "names": {
-            "en": "Tackle",
-            "fr": "Charge",
-            "it": "Azione",
-            "de": "Tackle",
-            "es": "Placaje",
-            "ko": "몸통박치기"
-          },
-          "category": "physical",
-          "type": "normal",
-          "pp": 15,
-          "power": 85,
-          "accuracy": 100
-        },
-        {
-          "symbol": "horn_leech",
-          "id": 532,
-          "klass": "LevelLearnableMove",
-          "level": 59,
-          "names": {
-            "en": "Heart Stamp",
-            "fr": "Crève-Cœur",
-            "it": "Cuorestampo",
-            "de": "Herzstempel",
-            "es": "Arrumaco",
-            "ko": "하트스탬프"
-          },
-          "category": "physical",
-          "type": "grass",
-          "pp": 10,
-          "power": 75,
-          "accuracy": 100
-        },
-        {
-          "symbol": "strength_sap",
-          "id": 668,
-          "klass": "LevelLearnableMove",
-          "level": 62,
-          "names": {
-            "en": "High Horsepower",
-            "fr": "Cavalerie Lourde",
-            "it": "Forza Equina",
-            "de": "Pferdestärke",
-            "es": "Fuerza Equina",
-            "ko": "10만마력"
-          },
-          "category": "status",
-          "type": "grass",
-          "pp": 10,
-          "power": 0,
-          "accuracy": 100
-        },
-        {
-          "symbol": "rest",
-          "id": 156,
-          "klass": "LevelLearnableMove",
-          "level": 66,
-          "names": {
-            "en": "Bonemerang",
-            "fr": "Osmerang",
-            "it": "Ossomerang",
-            "de": "Knochmerang",
-            "es": "Huesomerang",
-            "ko": "뼈다귀부메랑"
-          },
-          "category": "status",
-          "type": "psychic",
-          "pp": 10,
-          "power": 0,
-          "accuracy": 0
-        },
-        {
           "symbol": "snore",
           "id": 173,
           "klass": "TutorLearnableMove",
@@ -864,25 +699,6 @@
           "type": "normal",
           "pp": 15,
           "power": 50,
-          "accuracy": 100
-        },
-        {
-          "symbol": "outrage",
-          "id": 200,
-          "klass": "TutorLearnableMove",
-          "level": null,
-          "names": {
-            "en": "Lock-On",
-            "fr": "Verrouillage",
-            "it": "Localizza",
-            "de": "Zielschuss",
-            "es": "Fijar Blanco",
-            "ko": "록온"
-          },
-          "category": "physical",
-          "type": "dragon",
-          "pp": 10,
-          "power": 120,
           "accuracy": 100
         },
         {
@@ -922,44 +738,6 @@
           "pp": 5,
           "power": 120,
           "accuracy": 100
-        },
-        {
-          "symbol": "block",
-          "id": 335,
-          "klass": "TutorLearnableMove",
-          "level": null,
-          "names": {
-            "en": "Iron Defense",
-            "fr": "Mur de Fer",
-            "it": "Ferroscudo",
-            "de": "Eisenabwehr",
-            "es": "Defensa Férrea",
-            "ko": "철벽"
-          },
-          "category": "status",
-          "type": "normal",
-          "pp": 5,
-          "power": 0,
-          "accuracy": 0
-        },
-        {
-          "symbol": "frenzy_plant",
-          "id": 338,
-          "klass": "TutorLearnableMove",
-          "level": null,
-          "names": {
-            "en": "Dragon Claw",
-            "fr": "Draco-Griffe",
-            "it": "Dragartigli",
-            "de": "Drachenklaue",
-            "es": "Garra Dragón",
-            "ko": "드래곤크루"
-          },
-          "category": "special",
-          "type": "grass",
-          "pp": 5,
-          "power": 150,
-          "accuracy": 90
         },
         {
           "symbol": "worry_seed",
@@ -1019,25 +797,6 @@
           "accuracy": 100
         },
         {
-          "symbol": "iron_head",
-          "id": 442,
-          "klass": "TutorLearnableMove",
-          "level": null,
-          "names": {
-            "en": "Gunk Shot",
-            "fr": "Détricanon",
-            "it": "Sporcolancio",
-            "de": "Mülltreffer",
-            "es": "Lanzamugre",
-            "ko": "더스트슈트"
-          },
-          "category": "physical",
-          "type": "steel",
-          "pp": 15,
-          "power": 80,
-          "accuracy": 100
-        },
-        {
           "symbol": "stealth_rock",
           "id": 446,
           "klass": "TutorLearnableMove",
@@ -1076,23 +835,232 @@
           "accuracy": 100
         },
         {
-          "symbol": "shadow_ball",
-          "id": 247,
-          "klass": "EvolutionLearnableMove",
+          "symbol": "body_slam",
+          "id": 34,
+          "klass": "BreedLearnableMove",
           "level": null,
           "names": {
-            "en": "Ancient Power",
-            "fr": "Pouvoir Antique",
-            "it": "Forzantica",
-            "de": "Antik-Kraft",
-            "es": "Poder Pasado",
-            "ko": "원시의힘"
+            "en": "Tackle",
+            "fr": "Charge",
+            "it": "Azione",
+            "de": "Tackle",
+            "es": "Placaje",
+            "ko": "몸통박치기"
+          },
+          "category": "physical",
+          "type": "normal",
+          "pp": 15,
+          "power": 85,
+          "accuracy": 100
+        },
+        {
+          "symbol": "thrash",
+          "id": 37,
+          "klass": "BreedLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Take Down",
+            "fr": "Bélier",
+            "it": "Riduttore",
+            "de": "Bodycheck",
+            "es": "Derribo",
+            "ko": "돌진"
+          },
+          "category": "physical",
+          "type": "normal",
+          "pp": 10,
+          "power": 120,
+          "accuracy": 100
+        },
+        {
+          "symbol": "double_edge",
+          "id": 38,
+          "klass": "BreedLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Thrash",
+            "fr": "Mania",
+            "it": "Colpo",
+            "de": "Fuchtler",
+            "es": "Golpe",
+            "ko": "난동부리기"
+          },
+          "category": "physical",
+          "type": "normal",
+          "pp": 15,
+          "power": 120,
+          "accuracy": 100
+        },
+        {
+          "symbol": "growth",
+          "id": 74,
+          "klass": "BreedLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Leech Seed",
+            "fr": "Vampigraine",
+            "it": "Parassiseme",
+            "de": "Egelsamen",
+            "es": "Drenadoras",
+            "ko": "씨뿌리기"
+          },
+          "category": "status",
+          "type": "normal",
+          "pp": 20,
+          "power": 0,
+          "accuracy": 0
+        },
+        {
+          "symbol": "amnesia",
+          "id": 133,
+          "klass": "BreedLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Constrict",
+            "fr": "Constriction",
+            "it": "Limitazione",
+            "de": "Umklammerung",
+            "es": "Restricción",
+            "ko": "휘감기"
+          },
+          "category": "status",
+          "type": "psychic",
+          "pp": 20,
+          "power": 0,
+          "accuracy": 0
+        },
+        {
+          "symbol": "stockpile",
+          "id": 254,
+          "klass": "BreedLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Uproar",
+            "fr": "Brouhaha",
+            "it": "Baraonda",
+            "de": "Aufruhr",
+            "es": "Alboroto",
+            "ko": "소란피기"
+          },
+          "category": "status",
+          "type": "normal",
+          "pp": 20,
+          "power": 0,
+          "accuracy": 0
+        },
+        {
+          "symbol": "spit_up",
+          "id": 255,
+          "klass": "BreedLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Stockpile",
+            "fr": "Stockage",
+            "it": "Accumulo",
+            "de": "Horter",
+            "es": "Reserva",
+            "ko": "비축하기"
           },
           "category": "special",
-          "type": "ghost",
-          "pp": 15,
-          "power": 80,
+          "type": "normal",
+          "pp": 10,
+          "power": 0,
           "accuracy": 100
+        },
+        {
+          "symbol": "swallow",
+          "id": 256,
+          "klass": "BreedLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Spit Up",
+            "fr": "Relâche",
+            "it": "Sfoghenergia",
+            "de": "Entfessler",
+            "es": "Escupir",
+            "ko": "토해내기"
+          },
+          "category": "status",
+          "type": "normal",
+          "pp": 10,
+          "power": 0,
+          "accuracy": 0
+        },
+        {
+          "symbol": "tickle",
+          "id": 321,
+          "klass": "BreedLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Grass Whistle",
+            "fr": "Siffl’Herbe",
+            "it": "Meloderba",
+            "de": "Grasflöte",
+            "es": "Silbato",
+            "ko": "풀피리"
+          },
+          "category": "status",
+          "type": "normal",
+          "pp": 20,
+          "power": 0,
+          "accuracy": 100
+        },
+        {
+          "symbol": "sand_tomb",
+          "id": 328,
+          "klass": "BreedLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Sky Uppercut",
+            "fr": "Stratopercut",
+            "it": "Stramontante",
+            "de": "Himmelhieb",
+            "es": "Gancho Alto",
+            "ko": "스카이업퍼"
+          },
+          "category": "physical",
+          "type": "ground",
+          "pp": 15,
+          "power": 35,
+          "accuracy": 85
+        },
+        {
+          "symbol": "wide_guard",
+          "id": 469,
+          "klass": "BreedLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Hone Claws",
+            "fr": "Aiguisage",
+            "it": "Unghiaguzze",
+            "de": "Klauenwetzer",
+            "es": "Afilagarras",
+            "ko": "손톱갈기"
+          },
+          "category": "status",
+          "type": "rock",
+          "pp": 10,
+          "power": 0,
+          "accuracy": 0
+        },
+        {
+          "symbol": "grassy_terrain",
+          "id": 580,
+          "klass": "BreedLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Flower Shield",
+            "fr": "Garde Florale",
+            "it": "Fiordifesa",
+            "de": "Floraschutz",
+            "es": "Defensa Floral",
+            "ko": "플라워가드"
+          },
+          "category": "status",
+          "type": "grass",
+          "pp": 10,
+          "power": 0,
+          "accuracy": 0
         },
         {
           "symbol": "cut",
@@ -1300,6 +1268,25 @@
           "category": "physical",
           "type": "ground",
           "pp": 10,
+          "power": 80,
+          "accuracy": 100
+        },
+        {
+          "symbol": "shadow_ball",
+          "id": 247,
+          "klass": "TechLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Ancient Power",
+            "fr": "Pouvoir Antique",
+            "it": "Forzantica",
+            "de": "Antik-Kraft",
+            "es": "Poder Pasado",
+            "ko": "원시의힘"
+          },
+          "category": "special",
+          "type": "ghost",
+          "pp": 15,
           "power": 80,
           "accuracy": 100
         },
@@ -1606,25 +1593,6 @@
           "pp": 15,
           "power": 80,
           "accuracy": 100
-        },
-        {
-          "symbol": "calm_mind",
-          "id": 347,
-          "klass": "TechLearnableMove",
-          "level": null,
-          "names": {
-            "en": "Water Sport",
-            "fr": "Tourniquet",
-            "it": "Docciascudo",
-            "de": "Nassmacher",
-            "es": "Hidrochorro",
-            "ko": "물놀이"
-          },
-          "category": "status",
-          "type": "psychic",
-          "pp": 20,
-          "power": 0,
-          "accuracy": 0
         },
         {
           "symbol": "hidden_power",

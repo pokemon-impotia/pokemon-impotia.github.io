@@ -1,10 +1,10 @@
 {
-  "totalPokemon": 212,
+  "totalPokemon": 214,
   "types": {
     "bug": {
-      "count": 19,
+      "count": 21,
       "pokemon": [
-        "criquage",
+        "mimue",
         "colaero",
         "hybraero",
         "sabluscade",
@@ -12,7 +12,6 @@
         "scarabebe",
         "coleopierre",
         "petribilis",
-        "miltap",
         "pictik",
         "fauchtik",
         "insy",
@@ -22,11 +21,14 @@
         "dracorpion",
         "printhana",
         "mymidisk",
-        "mymessen"
+        "mymessen",
+        "ophrysk",
+        "prolemi",
+        "patronmi"
       ]
     },
     "dark": {
-      "count": 22,
+      "count": 23,
       "pokemon": [
         "relaja",
         "dozero",
@@ -49,7 +51,8 @@
         "gabarombr",
         "panleon",
         "bouffeleon",
-        "gourmantaz"
+        "gourmantaz",
+        "embusbag"
       ]
     },
     "dragon": {
@@ -72,7 +75,7 @@
       ]
     },
     "electric": {
-      "count": 18,
+      "count": 17,
       "pokemon": [
         "amplam",
         "usboa",
@@ -80,11 +83,10 @@
         "chtuage",
         "bagicien",
         "yggdracien",
-        "fraisyste",
         "aimantpeine",
         "jokaimant",
-        "slitik",
-        "blocharj",
+        "laskad",
+        "bioluma",
         "manar",
         "percaj",
         "forouvrie",
@@ -118,7 +120,7 @@
       ]
     },
     "fighting": {
-      "count": 18,
+      "count": 19,
       "pokemon": [
         "qualtox",
         "baltox",
@@ -137,7 +139,8 @@
         "monklace",
         "manquise",
         "mymidisk",
-        "mymessen"
+        "mymessen",
+        "embusbag"
       ]
     },
     "fire": {
@@ -199,7 +202,7 @@
       "pokemon": [
         "plancto",
         "errancton",
-        "steelix",
+        "arpancton",
         "aimantpeine",
         "jokaimant",
         "posette",
@@ -218,11 +221,11 @@
         "cireano",
         "nurympher",
         "irodonna",
-        "torterra"
+        "bigbocage"
       ]
     },
     "grass": {
-      "count": 26,
+      "count": 24,
       "pokemon": [
         "chlorofyte",
         "chloropas",
@@ -234,10 +237,6 @@
         "shinollen",
         "vilearcane",
         "robarome",
-        "frainy",
-        "fraisyste",
-        "bourgea",
-        "dention",
         "mauvaine",
         "bapple",
         "zanitus",
@@ -246,14 +245,16 @@
         "buisorna",
         "cornera",
         "cora",
-        "miltap",
-        "turtwig",
-        "grotle",
-        "torterra"
+        "broussard",
+        "bosquairelle",
+        "bigbocage",
+        "bourgea",
+        "dention",
+        "ophrysk"
       ]
     },
     "ground": {
-      "count": 21,
+      "count": 23,
       "pokemon": [
         "corauzaure",
         "solepine",
@@ -275,7 +276,9 @@
         "cetallery",
         "totama",
         "egicroc",
-        "totesert"
+        "totesert",
+        "salmerdva",
+        "detripost"
       ]
     },
     "ice": {
@@ -307,7 +310,7 @@
       "pokemon": [
         "sourissono",
         "quokeridoo",
-        "criquage",
+        "mimue",
         "vectime",
         "mafiozo",
         "tentaj",
@@ -331,7 +334,7 @@
       ]
     },
     "poison": {
-      "count": 18,
+      "count": 20,
       "pokemon": [
         "jongbat",
         "krustybat",
@@ -350,7 +353,9 @@
         "agluant",
         "slimtrap",
         "champlosion",
-        "nucloom"
+        "nucloom",
+        "salmerdva",
+        "detripost"
       ]
     },
     "psychic": {
@@ -417,26 +422,25 @@
       ]
     },
     "water": {
-      "count": 29,
+      "count": 28,
       "pokemon": [
         "hydrozaure",
         "royauzaure",
         "corauzaure",
         "plancto",
         "errancton",
-        "steelix",
+        "arpancton",
         "poisscarnaj",
         "yamete",
         "rodeursan",
-        "rainatal",
         "alvouille",
         "taurouille",
         "vervu",
         "verosion",
         "crabouee",
         "crabato",
-        "slitik",
-        "blocharj",
+        "laskad",
+        "bioluma",
         "skeulo",
         "requossement",
         "cocortue",

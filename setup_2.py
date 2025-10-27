@@ -1,6 +1,16 @@
 import json
 import os
+import shutil
 from pathlib import Path
+
+# --- Configuration ---
+FANGAME_ROOT_FOLDER = r'C:\Users\fuyutaa\Documents\GitHub\POKEMON-IMPOTIA\IMPOTIA RMXP'
+WEB_PROJECT_ROOT_FOLDER = r'C:\xampp\htdocs\pokedex_web'
+
+# Paths
+PSDK_NATIONAL_DEX_PATH = os.path.join(FANGAME_ROOT_FOLDER, r'Data\Studio\dex\national.json')
+OUTPUT_DATA_FOLDER = os.path.join(WEB_PROJECT_ROOT_FOLDER, 'data')
+WEB_NATIONAL_DEX_PATH = os.path.join(OUTPUT_DATA_FOLDER, 'national.json')
 
 def load_json(filepath):
     """Load and parse a JSON file."""
@@ -17,8 +27,20 @@ def process_pokemon_types():
     Process all Pokémon from national.json and their individual files
     to generate a summary of types with counts and Pokémon lists.
     """
+    # Copy national.json from Studio project
+    print(f"Copying national.json from {PSDK_NATIONAL_DEX_PATH} to {WEB_NATIONAL_DEX_PATH}...")
+    try:
+        shutil.copy(PSDK_NATIONAL_DEX_PATH, WEB_NATIONAL_DEX_PATH)
+        print("✓ national.json copied successfully")
+    except FileNotFoundError:
+        print(f"Error: {PSDK_NATIONAL_DEX_PATH} not found!")
+        return
+    except Exception as e:
+        print(f"Error copying national.json: {e}")
+        return
+    
     # Load the national pokedex
-    national_path = Path('data/national.json')
+    national_path = Path(WEB_NATIONAL_DEX_PATH)
     if not national_path.exists():
         print(f"Error: {national_path} not found!")
         return

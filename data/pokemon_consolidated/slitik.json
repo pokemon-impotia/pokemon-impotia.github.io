@@ -68,17 +68,17 @@
       "resources": {
         "icon": "slitik",
         "iconShiny": "slitik_shiny",
-        "front": "slitik",
+        "front": "Laskad",
         "frontShiny": "slitik",
-        "back": "slitik",
+        "back": "Laskad",
         "backShiny": "slitik",
         "footprint": "slitik",
         "character": "slitik",
         "characterShiny": "slitik",
-        "cry": "100cry.ogg",
-        "hasFemale": false,
         "egg": "",
-        "iconEgg": ""
+        "iconEgg": "",
+        "cry": "100cry.ogg",
+        "hasFemale": false
       },
       "moveSet": [
         {
@@ -99,17 +99,12 @@
         {
           "klass": "LevelLearnableMove",
           "move": "electro_ball",
-          "level": 9
+          "level": 11
         },
         {
           "klass": "LevelLearnableMove",
           "move": "water_gun",
-          "level": 12
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "string_shot",
-          "level": 15
+          "level": 13
         },
         {
           "klass": "LevelLearnableMove",
@@ -128,7 +123,7 @@
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "signal_beam",
+          "move": "scald",
           "level": 28
         },
         {
@@ -455,7 +450,7 @@
           "symbol": "electro_ball",
           "id": 486,
           "klass": "LevelLearnableMove",
-          "level": 9,
+          "level": 11,
           "names": {
             "en": "Synchronoise",
             "fr": "Synchropeine",
@@ -474,7 +469,7 @@
           "symbol": "water_gun",
           "id": 55,
           "klass": "LevelLearnableMove",
-          "level": 12,
+          "level": 13,
           "names": {
             "en": "Mist",
             "fr": "Brume",
@@ -488,25 +483,6 @@
           "pp": 25,
           "power": 40,
           "accuracy": 100
-        },
-        {
-          "symbol": "string_shot",
-          "id": 81,
-          "klass": "LevelLearnableMove",
-          "level": 15,
-          "names": {
-            "en": "Petal Dance",
-            "fr": "Danse Fleurs",
-            "it": "Petalodanza",
-            "de": "Blättertanz",
-            "es": "Danza Pétalo",
-            "ko": "꽃잎댄스"
-          },
-          "category": "status",
-          "type": "bug",
-          "pp": 40,
-          "power": 0,
-          "accuracy": 95
         },
         {
           "symbol": "metal_sound",
@@ -566,22 +542,22 @@
           "accuracy": 100
         },
         {
-          "symbol": "signal_beam",
-          "id": 324,
+          "symbol": "scald",
+          "id": 503,
           "klass": "LevelLearnableMove",
           "level": 28,
           "names": {
-            "en": "Water Spout",
-            "fr": "Giclédo",
-            "it": "Zampillo",
-            "de": "Fontränen",
-            "es": "Salpicar",
-            "ko": "해수스파우팅"
+            "en": "Ally Switch",
+            "fr": "Interversion",
+            "it": "Cambiaposto",
+            "de": "Seitentausch",
+            "es": "Cambio de Banda",
+            "ko": "사이드체인지"
           },
           "category": "special",
-          "type": "bug",
+          "type": "water",
           "pp": 15,
-          "power": 75,
+          "power": 80,
           "accuracy": 100
         },
         {
@@ -1022,25 +998,6 @@
           "accuracy": 85
         },
         {
-          "symbol": "scald",
-          "id": 503,
-          "klass": "TutorLearnableMove",
-          "level": null,
-          "names": {
-            "en": "Ally Switch",
-            "fr": "Interversion",
-            "it": "Cambiaposto",
-            "de": "Seitentausch",
-            "es": "Cambio de Banda",
-            "ko": "사이드체인지"
-          },
-          "category": "special",
-          "type": "water",
-          "pp": 15,
-          "power": 80,
-          "accuracy": 100
-        },
-        {
           "symbol": "shock_wave",
           "id": 351,
           "klass": "TutorLearnableMove",
@@ -1058,6 +1015,25 @@
           "pp": 20,
           "power": 60,
           "accuracy": 0
+        },
+        {
+          "symbol": "signal_beam",
+          "id": 324,
+          "klass": "TutorLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Water Spout",
+            "fr": "Giclédo",
+            "it": "Zampillo",
+            "de": "Fontränen",
+            "es": "Salpicar",
+            "ko": "해수스파우팅"
+          },
+          "category": "special",
+          "type": "bug",
+          "pp": 15,
+          "power": 75,
+          "accuracy": 100
         },
         {
           "symbol": "magic_coat",

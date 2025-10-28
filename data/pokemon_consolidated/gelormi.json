@@ -336,60 +336,60 @@
           "symbol": "truant",
           "textId": 54,
           "names": {
-            "en": "Pickup",
-            "fr": "Ramassage",
-            "it": "Raccolta",
-            "de": "Mitnahme",
-            "es": "Recogida",
-            "ko": "픽업"
+            "en": "Truant",
+            "fr": "Absentéisme",
+            "it": "Pigrone",
+            "de": "Schnarchnase",
+            "es": "Ausente",
+            "ko": "게으름"
           },
           "descriptions": {
-            "en": "The Pokémon may pick up the item an opposing Pokémon used during a battle. It may pick up items outside of battle, too.",
-            "fr": "Permet parfois au Pokémon de ramasser les objets que ses ennemis ont utilisés. Il lui arrive aussi d’en trouver hors des combats.",
-            "it": "Il Pokémon può raccogliere lo strumento usato da un nemico durante la lotta. A volte potrebbe raccogliere strumenti anche fuori dalla lotta.",
-            "de": "Hebt gelegentlich von Gegnern benutzte Items auf. Dies geschieht nicht nur während Kämpfen, sondern auch unterwegs.",
-            "es": "Puede recoger objetos que el rival haya usado, o bien otros que encuentre en plena aventura.",
-            "ko": "상대가 사용한 도구를 주워올 때가 있다. 모험 중에도 주워온다."
+            "en": "The Pokémon can’t use a move if it had used a move on the previous turn.",
+            "fr": "Lorsque le Pokémon utilise une capacité, il passe le tour suivant à paresser.",
+            "it": "Quando il Pokémon usa una mossa, nel turno successivo si riposerà.",
+            "de": "Das Pokémon muss nach Einsatz einer Attacke eine Runde lang aussetzen.",
+            "es": "Al ejecutar un movimiento, descansará en el turno siguiente.",
+            "ko": "기술을 사용하면 다음 턴은 쉰다."
           }
         },
         {
           "symbol": "ice_body",
           "textId": 115,
           "names": {
-            "en": "Storm Drain",
-            "fr": "Lavabo",
-            "it": "Acquascolo",
-            "de": "Sturmsog",
-            "es": "Colector",
-            "ko": "마중물"
+            "en": "Ice Body",
+            "fr": "Corps Gel",
+            "it": "Corpogelo",
+            "de": "Eishaut",
+            "es": "Gélido",
+            "ko": "아이스바디"
           },
           "descriptions": {
-            "en": "Draws in all Water-type moves. Instead of being hit by Water-type moves, it boosts its Sp. Atk.",
-            "fr": "Le Pokémon détourne sur lui les capacités de type Eau et les neutralise, tout en montant son Attaque Spéciale.",
-            "it": "Il Pokémon attira e neutralizza le mosse di tipo Acqua e fa aumentare il proprio Attacco Speciale.",
-            "de": "Zieht Wasser-Attacken an. Statt durch diese Schaden zu nehmen, erhöht es den eigenen Spezial-Angriff.",
-            "es": "Atrae y neutraliza los movimientos de tipo Agua, que además le suben el Ataque Especial.",
-            "ko": "물타입의 기술을 자신에게 끌어모아 데미지는 받지 않고 특수공격이 올라간다."
+            "en": "The Pokémon gradually regains HP in a hailstorm.",
+            "fr": "Régénère les PV du Pokémon lors des tempêtes de grêle.",
+            "it": "Se grandina, il Pokémon recupera PS.",
+            "de": "Regeneriert bei Hagel nach und nach KP.",
+            "es": "Recupera PS de forma gradual cuando hay tormentas de granizo.",
+            "ko": "날씨가 싸라기눈일 때 HP를 조금씩 회복한다."
           }
         },
         {
           "symbol": "flame_body",
           "textId": 49,
           "names": {
-            "en": "Early Bird",
-            "fr": "Matinal",
-            "it": "Sveglialampo",
-            "de": "Frühwecker",
-            "es": "Madrugar",
-            "ko": "일찍기상"
+            "en": "Flame Body",
+            "fr": "Corps Ardent",
+            "it": "Corpodifuoco",
+            "de": "Flammkörper",
+            "es": "Cuerpo Llama",
+            "ko": "불꽃몸"
           },
           "descriptions": {
-            "en": "The Pokémon awakens from sleep twice as fast as other Pokémon.",
-            "fr": "Le Pokémon se réveille deux fois plus rapidement que les autres.",
-            "it": "Il Pokémon impiega metà del tempo per risvegliarsi dal sonno rispetto agli altri.",
-            "de": "Wenn es eingeschlafen ist, kann es doppelt so schnell wieder aufwachen wie andere Pokémon.",
-            "es": "Si se duerme, tardará la mitad de tiempo en despertarse.",
-            "ko": "잠듦 상태가 되어도 2배 스피드로 깨어날 수 있다."
+            "en": "Contact with the Pokémon may burn the attacker.",
+            "fr": "Peut brûler l’attaquant lorsque le Pokémon subit une attaque directe.",
+            "it": "Può scottare chi manda a segno un attacco diretto.",
+            "de": "Fügt dem Angreifer bei Berührung eventuell Verbrennungen zu.",
+            "es": "Puede quemar al mínimo contacto.",
+            "ko": "자신과 접촉한 상대를 화상 상태로 만들 때가 있다."
           }
         }
       ],
@@ -400,12 +400,12 @@
           "klass": "LevelLearnableMove",
           "level": 1,
           "names": {
-            "en": "Spite",
-            "fr": "Dépit",
-            "it": "Dispetto",
-            "de": "Groll",
-            "es": "Rencor",
-            "ko": "원한"
+            "en": "Powder Snow",
+            "fr": "Poudreuse",
+            "it": "Polneve",
+            "de": "Pulverschnee",
+            "es": "Nieve Polvo",
+            "ko": "눈싸라기"
           },
           "category": "special",
           "type": "ice",
@@ -419,12 +419,12 @@
           "klass": "LevelLearnableMove",
           "level": 1,
           "names": {
-            "en": "Meteor Mash",
-            "fr": "Poing Météore",
-            "it": "Meteorpugno",
-            "de": "Sternenhieb",
-            "es": "Puño Meteoro",
-            "ko": "코멧펀치"
+            "en": "Astonish",
+            "fr": "Étonnement",
+            "it": "Sgomento",
+            "de": "Erstauner",
+            "es": "Impresionar",
+            "ko": "놀래키기"
           },
           "category": "physical",
           "type": "ghost",
@@ -438,12 +438,12 @@
           "klass": "LevelLearnableMove",
           "level": 5,
           "names": {
-            "en": "Pin Missile",
-            "fr": "Dard-Nuée",
-            "it": "Missilspillo",
-            "de": "Nadelrakete",
-            "es": "Pin Misil",
-            "ko": "바늘미사일"
+            "en": "Leer",
+            "fr": "Groz’Yeux",
+            "it": "Fulmisguardo",
+            "de": "Silberblick",
+            "es": "Malicioso",
+            "ko": "째려보기"
           },
           "category": "status",
           "type": "normal",
@@ -457,12 +457,12 @@
           "klass": "LevelLearnableMove",
           "level": 10,
           "names": {
-            "en": "Flatter",
-            "fr": "Flatterie",
-            "it": "Adulazione",
-            "de": "Schmeichler",
-            "es": "Camelo",
-            "ko": "부추기기"
+            "en": "Will-O-Wisp",
+            "fr": "Feu Follet",
+            "it": "Fuocofatuo",
+            "de": "Irrlicht",
+            "es": "Fuego Fatuo",
+            "ko": "도깨비불"
           },
           "category": "status",
           "type": "fire",
@@ -476,12 +476,12 @@
           "klass": "LevelLearnableMove",
           "level": 14,
           "names": {
-            "en": "Powder Snow",
-            "fr": "Poudreuse",
-            "it": "Polneve",
-            "de": "Pulverschnee",
-            "es": "Nieve Polvo",
-            "ko": "눈싸라기"
+            "en": "Protect",
+            "fr": "Abri",
+            "it": "Protezione",
+            "de": "Schutzschild",
+            "es": "Protección",
+            "ko": "방어"
           },
           "category": "status",
           "type": "normal",
@@ -495,12 +495,12 @@
           "klass": "LevelLearnableMove",
           "level": 16,
           "names": {
-            "en": "Avalanche",
-            "fr": "Avalanche",
-            "it": "Slavina",
-            "de": "Lawine",
-            "es": "Alud",
-            "ko": "눈사태"
+            "en": "Ice Shard",
+            "fr": "Éclats Glace",
+            "it": "Geloscheggia",
+            "de": "Eissplitter",
+            "es": "Canto Helado",
+            "ko": "얼음뭉치"
           },
           "category": "physical",
           "type": "ice",
@@ -514,12 +514,12 @@
           "klass": "LevelLearnableMove",
           "level": 20,
           "names": {
-            "en": "Thunder Fang",
-            "fr": "Crocs Éclair",
-            "it": "Fulmindenti",
-            "de": "Donnerzahn",
-            "es": "Colmillo Rayo",
-            "ko": "번개엄니"
+            "en": "Ice Fang",
+            "fr": "Crocs Givre",
+            "it": "Gelodenti",
+            "de": "Eiszahn",
+            "es": "Colmillo Hielo",
+            "ko": "얼음엄니"
           },
           "category": "physical",
           "type": "ice",
@@ -533,12 +533,12 @@
           "klass": "LevelLearnableMove",
           "level": 25,
           "names": {
-            "en": "Ice Fang",
-            "fr": "Crocs Givre",
-            "it": "Gelodenti",
-            "de": "Eiszahn",
-            "es": "Colmillo Hielo",
-            "ko": "얼음엄니"
+            "en": "Fire Fang",
+            "fr": "Crocs Feu",
+            "it": "Rogodenti",
+            "de": "Feuerzahn",
+            "es": "Colmillo Ígneo",
+            "ko": "불꽃엄니"
           },
           "category": "physical",
           "type": "fire",
@@ -552,12 +552,12 @@
           "klass": "LevelLearnableMove",
           "level": 30,
           "names": {
-            "en": "Sunny Day",
-            "fr": "Zénith",
-            "it": "Giornodisole",
-            "de": "Sonnentag",
-            "es": "Día Soleado",
-            "ko": "쾌청"
+            "en": "Crunch",
+            "fr": "Mâchouille",
+            "it": "Sgranocchio",
+            "de": "Knirscher",
+            "es": "Triturar",
+            "ko": "깨물어부수기"
           },
           "category": "physical",
           "type": "dark",
@@ -571,12 +571,12 @@
           "klass": "LevelLearnableMove",
           "level": 36,
           "names": {
-            "en": "Bulldoze",
-            "fr": "Piétisol",
-            "it": "Battiterra",
-            "de": "Dampfwalze",
-            "es": "Terratemblor",
-            "ko": "땅고르기"
+            "en": "Frost Breath",
+            "fr": "Souffle Glacé",
+            "it": "Alitogelido",
+            "de": "Eisesodem",
+            "es": "Vaho Gélido",
+            "ko": "얼음숨결"
           },
           "category": "special",
           "type": "ice",
@@ -590,12 +590,12 @@
           "klass": "LevelLearnableMove",
           "level": 38,
           "names": {
-            "en": "Snarl",
-            "fr": "Aboiement",
-            "it": "Urlorabbia",
-            "de": "Standpauke",
-            "es": "Alarido",
-            "ko": "바크아웃"
+            "en": "Icicle Crash",
+            "fr": "Chute Glace",
+            "it": "Scagliagelo",
+            "de": "Eiszapfhagel",
+            "es": "Chuzos",
+            "ko": "고드름떨구기"
           },
           "category": "physical",
           "type": "ice",
@@ -609,12 +609,12 @@
           "klass": "LevelLearnableMove",
           "level": 42,
           "names": {
-            "en": "Ice Beam",
-            "fr": "Laser Glace",
-            "it": "Geloraggio",
-            "de": "Eisstrahl",
-            "es": "Rayo Hielo",
-            "ko": "냉동빔"
+            "en": "Blizzard",
+            "fr": "Blizzard",
+            "it": "Bora",
+            "de": "Blizzard",
+            "es": "Ventisca",
+            "ko": "눈보라"
           },
           "category": "special",
           "type": "ice",
@@ -628,12 +628,12 @@
           "klass": "LevelLearnableMove",
           "level": 45,
           "names": {
-            "en": "Heat Wave",
-            "fr": "Canicule",
-            "it": "Ondacalda",
-            "de": "Hitzewelle",
-            "es": "Onda Ígnea",
-            "ko": "열풍"
+            "en": "Hail",
+            "fr": "Grêle",
+            "it": "Grandine",
+            "de": "Hagelsturm",
+            "es": "Granizo",
+            "ko": "싸라기눈"
           },
           "category": "status",
           "type": "ice",
@@ -647,12 +647,12 @@
           "klass": "TutorLearnableMove",
           "level": null,
           "names": {
-            "en": "Fire Punch",
-            "fr": "Poing Feu",
-            "it": "Fuocopugno",
-            "de": "Feuerschlag",
-            "es": "Puño Fuego",
-            "ko": "불꽃펀치"
+            "en": "Ice Punch",
+            "fr": "Poing Glace",
+            "it": "Gelopugno",
+            "de": "Eishieb",
+            "es": "Puño Hielo",
+            "ko": "냉동펀치"
           },
           "category": "physical",
           "type": "ice",
@@ -666,12 +666,12 @@
           "klass": "TutorLearnableMove",
           "level": null,
           "names": {
-            "en": "Flame Wheel",
-            "fr": "Roue de Feu",
-            "it": "Ruotafuoco",
-            "de": "Flammenrad",
-            "es": "Rueda Fuego",
-            "ko": "화염자동차"
+            "en": "Snore",
+            "fr": "Ronflement",
+            "it": "Russare",
+            "de": "Schnarcher",
+            "es": "Ronquido",
+            "ko": "코골기"
           },
           "category": "special",
           "type": "normal",
@@ -685,12 +685,12 @@
           "klass": "TutorLearnableMove",
           "level": null,
           "names": {
-            "en": "Perish Song",
-            "fr": "Requiem",
-            "it": "Ultimocanto",
-            "de": "Abgesang",
-            "es": "Canto Mortal",
-            "ko": "멸망의노래"
+            "en": "Icy Wind",
+            "fr": "Vent Glace",
+            "it": "Ventogelato",
+            "de": "Eissturm",
+            "es": "Viento Hielo",
+            "ko": "얼다바람"
           },
           "category": "special",
           "type": "ice",
@@ -704,12 +704,12 @@
           "klass": "TutorLearnableMove",
           "level": null,
           "names": {
-            "en": "Sweet Scent",
-            "fr": "Doux Parfum",
-            "it": "Profumino",
-            "de": "Lockduft",
-            "es": "Dulce Aroma",
-            "ko": "달콤한향기"
+            "en": "Iron Tail",
+            "fr": "Queue de Fer",
+            "it": "Codacciaio",
+            "de": "Eisenschweif",
+            "es": "Cola Férrea",
+            "ko": "아이언테일"
           },
           "category": "physical",
           "type": "steel",
@@ -723,12 +723,12 @@
           "klass": "TutorLearnableMove",
           "level": null,
           "names": {
-            "en": "Water Pledge",
-            "fr": "Aire d’Eau",
-            "it": "Acquapatto",
-            "de": "Wassersäulen",
-            "es": "Voto Agua",
-            "ko": "물의맹세"
+            "en": "Fire Pledge",
+            "fr": "Aire de Feu",
+            "it": "Fiammapatto",
+            "de": "Feuersäulen",
+            "es": "Voto Fuego",
+            "ko": "불꽃의맹세"
           },
           "category": "special",
           "type": "fire",
@@ -742,12 +742,12 @@
           "klass": "TutorLearnableMove",
           "level": null,
           "names": {
-            "en": "Trick",
-            "fr": "Tour de Magie",
-            "it": "Raggiro",
-            "de": "Trickbetrug",
-            "es": "Truco",
-            "ko": "트릭"
+            "en": "Role Play",
+            "fr": "Imitation",
+            "it": "Giocodiruolo",
+            "de": "Rollenspiel",
+            "es": "Imitación",
+            "ko": "역할"
           },
           "category": "status",
           "type": "psychic",
@@ -761,12 +761,12 @@
           "klass": "TutorLearnableMove",
           "level": null,
           "names": {
-            "en": "Shock Wave",
-            "fr": "Onde de Choc",
-            "it": "Ondashock",
-            "de": "Schockwelle",
-            "es": "Onda Voltio",
-            "ko": "전격파"
+            "en": "Water Pulse",
+            "fr": "Vibraqua",
+            "it": "Idropulsar",
+            "de": "Aquawelle",
+            "es": "Hidropulso",
+            "ko": "물의파동"
           },
           "category": "special",
           "type": "water",
@@ -780,12 +780,12 @@
           "klass": "TutorLearnableMove",
           "level": null,
           "names": {
-            "en": "Soak",
-            "fr": "Détrempage",
-            "it": "Inondazione",
-            "de": "Überflutung",
-            "es": "Anegar",
-            "ko": "물붓기"
+            "en": "Flame Charge",
+            "fr": "Nitrocharge",
+            "it": "Nitrocarica",
+            "de": "Nitroladung",
+            "es": "Nitrocarga",
+            "ko": "니트로차지"
           },
           "category": "physical",
           "type": "fire",
@@ -799,12 +799,12 @@
           "klass": "TutorLearnableMove",
           "level": null,
           "names": {
-            "en": "Acid",
-            "fr": "Acide",
-            "it": "Acido",
-            "de": "Säure",
-            "es": "Ácido",
-            "ko": "용해액"
+            "en": "Ember",
+            "fr": "Flammèche",
+            "it": "Braciere",
+            "de": "Glut",
+            "es": "Ascuas",
+            "ko": "불꽃세례"
           },
           "category": "special",
           "type": "fire",
@@ -818,12 +818,12 @@
           "klass": "BreedLearnableMove",
           "level": null,
           "names": {
-            "en": "Vine Whip",
-            "fr": "Fouet Lianes",
-            "it": "Frustata",
-            "de": "Rankenhieb",
-            "es": "Látigo Cepa",
-            "ko": "덩굴채찍"
+            "en": "Stomp",
+            "fr": "Écrasement",
+            "it": "Pestone",
+            "de": "Stampfer",
+            "es": "Pisotón",
+            "ko": "짓밟기"
           },
           "category": "physical",
           "type": "normal",
@@ -837,12 +837,12 @@
           "klass": "BreedLearnableMove",
           "level": null,
           "names": {
-            "en": "Thrash",
-            "fr": "Mania",
-            "it": "Colpo",
-            "de": "Fuchtler",
-            "es": "Golpe",
-            "ko": "난동부리기"
+            "en": "Double-Edge",
+            "fr": "Damoclès",
+            "it": "Sdoppiatore",
+            "de": "Risikotackle",
+            "es": "Doble Filo",
+            "ko": "이판사판태클"
           },
           "category": "physical",
           "type": "normal",
@@ -856,12 +856,12 @@
           "klass": "BreedLearnableMove",
           "level": null,
           "names": {
-            "en": "Flamethrower",
-            "fr": "Lance-Flammes",
-            "it": "Lanciafiamme",
-            "de": "Flammenwurf",
-            "es": "Lanzallamas",
-            "ko": "화염방사"
+            "en": "Mist",
+            "fr": "Brume",
+            "it": "Nebbia",
+            "de": "Weißnebel",
+            "es": "Neblina",
+            "ko": "흰안개"
           },
           "category": "status",
           "type": "ice",
@@ -875,12 +875,12 @@
           "klass": "BreedLearnableMove",
           "level": null,
           "names": {
-            "en": "Leech Seed",
-            "fr": "Vampigraine",
-            "it": "Parassiseme",
-            "de": "Egelsamen",
-            "es": "Drenadoras",
-            "ko": "씨뿌리기"
+            "en": "Growth",
+            "fr": "Croissance",
+            "it": "Crescita",
+            "de": "Wachstum",
+            "es": "Desarrollo",
+            "ko": "성장"
           },
           "category": "status",
           "type": "normal",
@@ -894,12 +894,12 @@
           "klass": "BreedLearnableMove",
           "level": null,
           "names": {
-            "en": "Swift",
-            "fr": "Météores",
-            "it": "Comete",
-            "de": "Sternschauer",
-            "es": "Rapidez",
-            "ko": "스피드스타"
+            "en": "Skull Bash",
+            "fr": "Coud’Krâne",
+            "it": "Capocciata",
+            "de": "Schädelwumme",
+            "es": "Cabezazo",
+            "ko": "로케트박치기"
           },
           "category": "physical",
           "type": "normal",
@@ -913,12 +913,12 @@
           "klass": "BreedLearnableMove",
           "level": null,
           "names": {
-            "en": "———",
-            "fr": "―――――",
-            "it": "-----",
-            "de": "-----",
-            "es": "—",
-            "ko": "―――――"
+            "en": "Pound",
+            "fr": "Écras’Face",
+            "it": "Botta",
+            "de": "Klaps",
+            "es": "Destructor",
+            "ko": "막치기"
           },
           "category": "physical",
           "type": "normal",
@@ -932,12 +932,12 @@
           "klass": "BreedLearnableMove",
           "level": null,
           "names": {
-            "en": "Brine",
-            "fr": "Saumure",
-            "it": "Acquadisale",
-            "de": "Lake",
-            "es": "Salmuera",
-            "ko": "소금물"
+            "en": "Natural Gift",
+            "fr": "Don Naturel",
+            "it": "Dononaturale",
+            "de": "Beerenkräfte",
+            "es": "Don Natural",
+            "ko": "자연의은혜"
           },
           "category": "physical",
           "type": "normal",
@@ -951,12 +951,12 @@
           "klass": "BreedLearnableMove",
           "level": null,
           "names": {
-            "en": "Dragon Rage",
-            "fr": "Draco-Rage",
-            "it": "Ira di Drago",
-            "de": "Drachenwut",
-            "es": "Furia Dragón",
-            "ko": "용의분노"
+            "en": "Fire Spin",
+            "fr": "Danse Flammes",
+            "it": "Turbofuoco",
+            "de": "Feuerwirbel",
+            "es": "Giro Fuego",
+            "ko": "회오리불꽃"
           },
           "category": "special",
           "type": "fire",
@@ -970,12 +970,12 @@
           "klass": "BreedLearnableMove",
           "level": null,
           "names": {
-            "en": "Bullet Punch",
-            "fr": "Pisto-Poing",
-            "it": "Pugnoscarica",
-            "de": "Patronenhieb",
-            "es": "Puño Bala",
-            "ko": "불릿펀치"
+            "en": "Avalanche",
+            "fr": "Avalanche",
+            "it": "Slavina",
+            "de": "Lawine",
+            "es": "Alud",
+            "ko": "눈사태"
           },
           "category": "physical",
           "type": "ice",
@@ -989,12 +989,12 @@
           "klass": "TechLearnableMove",
           "level": null,
           "names": {
-            "en": "Hydro Pump",
-            "fr": "Hydrocanon",
-            "it": "Idropompa",
-            "de": "Hydropumpe",
-            "es": "Hidrobomba",
-            "ko": "하이드로펌프"
+            "en": "Surf",
+            "fr": "Surf",
+            "it": "Surf",
+            "de": "Surfer",
+            "es": "Surf",
+            "ko": "파도타기"
           },
           "category": "special",
           "type": "water",
@@ -1008,12 +1008,12 @@
           "klass": "TechLearnableMove",
           "level": null,
           "names": {
-            "en": "Rain Dance",
-            "fr": "Danse Pluie",
-            "it": "Pioggiadanza",
-            "de": "Regentanz",
-            "es": "Danza Lluvia",
-            "ko": "비바라기"
+            "en": "Sunny Day",
+            "fr": "Zénith",
+            "it": "Giornodisole",
+            "de": "Sonnentag",
+            "es": "Día Soleado",
+            "ko": "쾌청"
           },
           "category": "status",
           "type": "fire",
@@ -1027,12 +1027,12 @@
           "klass": "TechLearnableMove",
           "level": null,
           "names": {
-            "en": "Wonder Room",
-            "fr": "Zone Étrange",
-            "it": "Mirabilzona",
-            "de": "Wunderraum",
-            "es": "Zona Extraña",
-            "ko": "원더룸"
+            "en": "Psyshock",
+            "fr": "Choc Psy",
+            "it": "Psicoshock",
+            "de": "Psychoschock",
+            "es": "Psicocarga",
+            "ko": "사이코쇼크"
           },
           "category": "special",
           "type": "psychic",
@@ -1046,12 +1046,12 @@
           "klass": "TechLearnableMove",
           "level": null,
           "names": {
-            "en": "Surf",
-            "fr": "Surf",
-            "it": "Surf",
-            "de": "Surfer",
-            "es": "Surf",
-            "ko": "파도타기"
+            "en": "Ice Beam",
+            "fr": "Laser Glace",
+            "it": "Geloraggio",
+            "de": "Eisstrahl",
+            "es": "Rayo Hielo",
+            "ko": "냉동빔"
           },
           "category": "special",
           "type": "ice",
@@ -1065,12 +1065,12 @@
           "klass": "TechLearnableMove",
           "level": null,
           "names": {
-            "en": "Aurora Beam",
-            "fr": "Onde Boréale",
-            "it": "Raggiaurora",
-            "de": "Aurorastrahl",
-            "es": "Rayo Aurora",
-            "ko": "오로라빔"
+            "en": "Hyper Beam",
+            "fr": "Ultralaser",
+            "it": "Iper Raggio",
+            "de": "Hyperstrahl",
+            "es": "Hiperrayo",
+            "ko": "파괴광선"
           },
           "category": "special",
           "type": "normal",
@@ -1084,12 +1084,12 @@
           "klass": "TechLearnableMove",
           "level": null,
           "names": {
-            "en": "Confusion",
-            "fr": "Choc Mental",
-            "it": "Confusione",
-            "de": "Konfusion",
-            "es": "Confusión",
-            "ko": "염동력"
+            "en": "Psychic",
+            "fr": "Psyko",
+            "it": "Psichico",
+            "de": "Psychokinese",
+            "es": "Psíquico",
+            "ko": "사이코키네시스"
           },
           "category": "special",
           "type": "psychic",
@@ -1103,12 +1103,12 @@
           "klass": "TechLearnableMove",
           "level": null,
           "names": {
-            "en": "Flame Burst",
-            "fr": "Rebondifeu",
-            "it": "Pirolancio",
-            "de": "Funkenflug",
-            "es": "Pirotecnia",
-            "ko": "불꽃튀기기"
+            "en": "Sludge Wave",
+            "fr": "Cradovague",
+            "it": "Fangonda",
+            "de": "Schlammwoge",
+            "es": "Onda Tóxica",
+            "ko": "오물웨이브"
           },
           "category": "special",
           "type": "poison",
@@ -1122,12 +1122,12 @@
           "klass": "TechLearnableMove",
           "level": null,
           "names": {
-            "en": "Ember",
-            "fr": "Flammèche",
-            "it": "Braciere",
-            "de": "Glut",
-            "es": "Ascuas",
-            "ko": "불꽃세례"
+            "en": "Flamethrower",
+            "fr": "Lance-Flammes",
+            "it": "Lanciafiamme",
+            "de": "Flammenwurf",
+            "es": "Lanzallamas",
+            "ko": "화염방사"
           },
           "category": "special",
           "type": "fire",
@@ -1141,12 +1141,12 @@
           "klass": "TechLearnableMove",
           "level": null,
           "names": {
-            "en": "Bone Club",
-            "fr": "Massd’Os",
-            "it": "Ossoclava",
-            "de": "Knochenkeule",
-            "es": "Hueso Palo",
-            "ko": "뼈다귀치기"
+            "en": "Fire Blast",
+            "fr": "Déflagration",
+            "it": "Fuocobomba",
+            "de": "Feuersturm",
+            "es": "Llamarada",
+            "ko": "불대문자"
           },
           "category": "special",
           "type": "fire",
@@ -1160,12 +1160,12 @@
           "klass": "TechLearnableMove",
           "level": null,
           "names": {
-            "en": "Odor Sleuth",
-            "fr": "Flair",
-            "it": "Segugio",
-            "de": "Schnüffler",
-            "es": "Rastreo",
-            "ko": "냄새구별"
+            "en": "Rock Tomb",
+            "fr": "Tomberoche",
+            "it": "Rocciotomba",
+            "de": "Felsgrab",
+            "es": "Tumba Rocas",
+            "ko": "암석봉인"
           },
           "category": "physical",
           "type": "rock",
@@ -1179,12 +1179,12 @@
           "klass": "TechLearnableMove",
           "level": null,
           "names": {
-            "en": "Bonemerang",
-            "fr": "Osmerang",
-            "it": "Ossomerang",
-            "de": "Knochmerang",
-            "es": "Huesomerang",
-            "ko": "뼈다귀부메랑"
+            "en": "Rest",
+            "fr": "Repos",
+            "it": "Riposo",
+            "de": "Erholung",
+            "es": "Descanso",
+            "ko": "잠자기"
           },
           "category": "status",
           "type": "psychic",
@@ -1198,12 +1198,12 @@
           "klass": "TechLearnableMove",
           "level": null,
           "names": {
-            "en": "Revenge",
-            "fr": "Vendetta",
-            "it": "Vendetta",
-            "de": "Vergeltung",
-            "es": "Desquite",
-            "ko": "리벤지"
+            "en": "Brick Break",
+            "fr": "Casse-Brique",
+            "it": "Breccia",
+            "de": "Durchbruch",
+            "es": "Demolición",
+            "ko": "깨트리다"
           },
           "category": "physical",
           "type": "fighting",
@@ -1217,12 +1217,12 @@
           "klass": "TechLearnableMove",
           "level": null,
           "names": {
-            "en": "Air Cutter",
-            "fr": "Tranch’Air",
-            "it": "Aerasoio",
-            "de": "Windschnitt",
-            "es": "Aire Afilado",
-            "ko": "에어컷터"
+            "en": "Overheat",
+            "fr": "Surchauffe",
+            "it": "Vampata",
+            "de": "Hitzekoller",
+            "es": "Sofoco",
+            "ko": "오버히트"
           },
           "category": "special",
           "type": "fire",
@@ -1236,12 +1236,12 @@
           "klass": "TechLearnableMove",
           "level": null,
           "names": {
-            "en": "Ally Switch",
-            "fr": "Interversion",
-            "it": "Cambiaposto",
-            "de": "Seitentausch",
-            "es": "Cambio de Banda",
-            "ko": "사이드체인지"
+            "en": "Scald",
+            "fr": "Ébullition",
+            "it": "Idrovampata",
+            "de": "Siedewasser",
+            "es": "Escaldar",
+            "ko": "열탕"
           },
           "category": "special",
           "type": "water",
@@ -1255,12 +1255,12 @@
           "klass": "TechLearnableMove",
           "level": null,
           "names": {
-            "en": "Crabhammer",
-            "fr": "Pince-Masse",
-            "it": "Martellata",
-            "de": "Krabbhammer",
-            "es": "Martillazo",
-            "ko": "찝게햄머"
+            "en": "Explosion",
+            "fr": "Explosion",
+            "it": "Esplosione",
+            "de": "Explosion",
+            "es": "Explosión",
+            "ko": "대폭발"
           },
           "category": "physical",
           "type": "normal",
@@ -1274,12 +1274,12 @@
           "klass": "TechLearnableMove",
           "level": null,
           "names": {
-            "en": "Magnet Bomb",
-            "fr": "Bombe Aimant",
-            "it": "Bombagnete",
-            "de": "Magnetbombe",
-            "es": "Bomba Imán",
-            "ko": "마그넷봄"
+            "en": "Stone Edge",
+            "fr": "Lame de Roc",
+            "it": "Pietrataglio",
+            "de": "Steinkante",
+            "es": "Roca Afilada",
+            "ko": "스톤에지"
           },
           "category": "physical",
           "type": "rock",
@@ -1293,12 +1293,12 @@
           "klass": "TechLearnableMove",
           "level": null,
           "names": {
-            "en": "Spore",
-            "fr": "Spore",
-            "it": "Spora",
-            "de": "Pilzspore",
-            "es": "Espora",
-            "ko": "버섯포자"
+            "en": "Flash",
+            "fr": "Flash",
+            "it": "Flash",
+            "de": "Blitz",
+            "es": "Destello",
+            "ko": "플래시"
           },
           "category": "status",
           "type": "normal",
@@ -1312,12 +1312,12 @@
           "klass": "TechLearnableMove",
           "level": null,
           "names": {
-            "en": "Aura Sphere",
-            "fr": "Aurasphère",
-            "it": "Forzasfera",
-            "de": "Aurasphäre",
-            "es": "Esfera Aural",
-            "ko": "파동탄"
+            "en": "Rock Polish",
+            "fr": "Poliroche",
+            "it": "Lucidatura",
+            "de": "Steinpolitur",
+            "es": "Pulimento",
+            "ko": "록커트"
           },
           "category": "status",
           "type": "rock",
@@ -1331,12 +1331,12 @@
           "klass": "TechLearnableMove",
           "level": null,
           "names": {
-            "en": "Mirror Shot",
-            "fr": "Miroi-Tir",
-            "it": "Cristalcolpo",
-            "de": "Spiegelsalve",
-            "es": "Disparo Espejo",
-            "ko": "미러숏"
+            "en": "Flash Cannon",
+            "fr": "Luminocanon",
+            "it": "Cannonflash",
+            "de": "Lichtkanone",
+            "es": "Foco Resplandor",
+            "ko": "러스터캐논"
           },
           "category": "special",
           "type": "steel",
@@ -1350,12 +1350,12 @@
           "klass": "TechLearnableMove",
           "level": null,
           "names": {
-            "en": "Follow Me",
-            "fr": "Par Ici",
-            "it": "Sonoqui",
-            "de": "Spotlight",
-            "es": "Señuelo",
-            "ko": "날따름"
+            "en": "Nature Power",
+            "fr": "Force Nature",
+            "it": "Naturforza",
+            "de": "Natur-Kraft",
+            "es": "Adaptación",
+            "ko": "자연의힘"
           },
           "category": "status",
           "type": "normal",

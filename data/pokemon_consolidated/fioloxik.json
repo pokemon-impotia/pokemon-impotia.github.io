@@ -281,60 +281,60 @@
           "symbol": "corrosion",
           "textId": 212,
           "names": {
-            "en": "Power Construct",
-            "fr": "Rassemblement",
-            "it": "Sciamefusione",
-            "de": "Scharwandel",
-            "es": "Agrupamiento",
-            "ko": "스웜체인지"
+            "en": "Corrosion",
+            "fr": "Corrosion",
+            "it": "Corrosione",
+            "de": "Korrosion",
+            "es": "Corrosión",
+            "ko": "부식"
           },
           "descriptions": {
-            "en": "Other Cells gather to aid when its HP becomes half or less. Then the Pokémon changes its form to Complete Forme.",
-            "fr": "Lorsque le Pokémon perd la moitié de ses PV, ses Cellules se rassemblent pour l’encourager, ce qui lui permet de prendre sa Forme Parfaite.",
-            "it": "Se i PS del Pokémon scendono a metà o meno, le cellule si raggruppano e gli permettono di assumere la Forma Perfetta.",
-            "de": "Fallen seine KP auf die Hälfte des Maximalwerts oder weniger, eilen ihm weitere Zellen zu Hilfe und es nimmt die Optimumform an.",
-            "es": "Cuando sus PS se ven reducidos a la mitad, las células se reagrupan y adopta su Forma Completa.",
-            "ko": "HP가 절반이 되면 셀들이 응원하러 달려와 퍼펙트폼으로 모습이 변한다."
+            "en": "The Pokémon can poison the target even if it’s a Steel or Poison type.",
+            "fr": "Permet d’empoisonner les Pokémon de type Acier ou Poison.",
+            "it": "Il Pokémon è in grado di avvelenare il bersaglio anche se questo è di tipo Acciaio o Veleno.",
+            "de": "Kann selbst Pokémon vom Typ Stahl oder Gift vergiften.",
+            "es": "Puede envenenar incluso a rivales de tipo Acero o Veneno.",
+            "ko": "강철타입이나 독타입도 독 상태로 만들 수 있다."
           }
         },
         {
           "symbol": "poison_point",
           "textId": 38,
           "names": {
-            "en": "Huge Power",
-            "fr": "Coloforce",
-            "it": "Macroforza",
-            "de": "Kraftkoloss",
-            "es": "Potencia",
-            "ko": "천하장사"
+            "en": "Poison Point",
+            "fr": "Point Poison",
+            "it": "Velenopunto",
+            "de": "Giftdorn",
+            "es": "Punto Tóxico",
+            "ko": "독가시"
           },
           "descriptions": {
-            "en": "Doubles the Pokémon’s Attack stat.",
-            "fr": "Double l’Attaque du Pokémon.",
-            "it": "Raddoppia l’Attacco del Pokémon.",
-            "de": "Verdoppelt die Stärke von physischen Attacken.",
-            "es": "Duplica la potencia de sus ataques físicos.",
-            "ko": "물리공격의 위력이 2배가 된다."
+            "en": "Contact with the Pokémon may poison the attacker.",
+            "fr": "Peut empoisonner l’attaquant lorsque le Pokémon subit une attaque directe.",
+            "it": "Può avvelenare chi manda a segno un attacco diretto.",
+            "de": "Vergiftet den Angreifer bei Berührung eventuell.",
+            "es": "Puede envenenar al mínimo contacto.",
+            "ko": "자신과 접촉한 상대를 독 상태로 만들 때가 있다."
           }
         },
         {
           "symbol": "sticky_hold",
           "textId": 60,
           "names": {
-            "en": "Forecast",
-            "fr": "Météo",
-            "it": "Previsioni",
-            "de": "Prognose",
-            "es": "Predicción",
-            "ko": "기분파"
+            "en": "Sticky Hold",
+            "fr": "Glu",
+            "it": "Antifurto",
+            "de": "Klebekörper",
+            "es": "Viscosidad",
+            "ko": "점착"
           },
           "descriptions": {
-            "en": "The Pokémon transforms with the weather to change its type to Water, Fire, or Ice.",
-            "fr": "Le Pokémon prend le type Eau, Feu ou Glace en fonction de la météo.",
-            "it": "Cambia il tipo del Pokémon in Acqua, Fuoco o Ghiaccio in base alle condizioni atmosferiche.",
-            "de": "Nimmt je nach Wetter entweder den Typ Wasser, Feuer oder Eis an.",
-            "es": "Cambia a tipo Agua, Fuego o Hielo en función del tiempo atmosférico.",
-            "ko": "날씨의 영향을 받아 물타입, 불꽃타입, 얼음타입 중 하나로 변화한다."
+            "en": "Items held by the Pokémon are stuck fast and cannot be removed by other Pokémon.",
+            "fr": "Les objets sont collés au corps gluant du Pokémon, ce qui empêche ses adversaires de les dérober.",
+            "it": "Gli strumenti restano appiccicati al corpo adesivo del Pokémon e non possono essere rubati.",
+            "de": "Trägt es ein Item, bleibt dieses an seinem klebrigen Körper haften, wodurch Item-Diebstahl verhindert wird.",
+            "es": "Los objetos se quedan pegados a su cuerpo, por lo que no pueden robárselos.",
+            "ko": "점착질의 몸에 도구가 달라붙어 있어 상대에게 도구를 뺏기지 않는다."
           }
         }
       ],
@@ -345,12 +345,12 @@
           "klass": "LevelLearnableMove",
           "level": 1,
           "names": {
-            "en": "———",
-            "fr": "―――――",
-            "it": "-----",
-            "de": "-----",
-            "es": "—",
-            "ko": "―――――"
+            "en": "Pound",
+            "fr": "Écras’Face",
+            "it": "Botta",
+            "de": "Klaps",
+            "es": "Destructor",
+            "ko": "막치기"
           },
           "category": "physical",
           "type": "normal",
@@ -364,12 +364,12 @@
           "klass": "LevelLearnableMove",
           "level": 1,
           "names": {
-            "en": "Dream Eater",
-            "fr": "Dévorêve",
-            "it": "Mangiasogni",
-            "de": "Traumfresser",
-            "es": "Comesueños",
-            "ko": "꿈먹기"
+            "en": "Poison Gas",
+            "fr": "Gaz Toxik",
+            "it": "Velenogas",
+            "de": "Giftwolke",
+            "es": "Gas Venenoso",
+            "ko": "독가스"
           },
           "category": "status",
           "type": "poison",
@@ -383,12 +383,12 @@
           "klass": "LevelLearnableMove",
           "level": 4,
           "names": {
-            "en": "Present",
-            "fr": "Cadeau",
-            "it": "Regalino",
-            "de": "Geschenk",
-            "es": "Presente",
-            "ko": "프레젠트"
+            "en": "Frustration",
+            "fr": "Frustration",
+            "it": "Frustrazione",
+            "de": "Frustration",
+            "es": "Frustración",
+            "ko": "화풀이"
           },
           "category": "physical",
           "type": "normal",
@@ -402,12 +402,12 @@
           "klass": "LevelLearnableMove",
           "level": 7,
           "names": {
-            "en": "Sludge Bomb",
-            "fr": "Bombe Beurk",
-            "it": "Fangobomba",
-            "de": "Matschbombe",
-            "es": "Bomba Lodo",
-            "ko": "오물폭탄"
+            "en": "Mud-Slap",
+            "fr": "Coud’Boue",
+            "it": "Fangosberla",
+            "de": "Lehmschelle",
+            "es": "Bofetón Lodo",
+            "ko": "진흙뿌리기"
           },
           "category": "special",
           "type": "ground",
@@ -421,12 +421,12 @@
           "klass": "LevelLearnableMove",
           "level": 12,
           "names": {
-            "en": "Sonic Boom",
-            "fr": "Sonic Boom",
-            "it": "Sonicboom",
-            "de": "Ultraschall",
-            "es": "Bomba Sónica",
-            "ko": "소닉붐"
+            "en": "Disable",
+            "fr": "Entrave",
+            "it": "Inibitore",
+            "de": "Aussetzer",
+            "es": "Anulación",
+            "ko": "사슬묶기"
           },
           "category": "status",
           "type": "normal",
@@ -440,12 +440,12 @@
           "klass": "LevelLearnableMove",
           "level": 15,
           "names": {
-            "en": "Chip Away",
-            "fr": "Attrition",
-            "it": "Insidia",
-            "de": "Zermürben",
-            "es": "Guardia Baja",
-            "ko": "야금야금"
+            "en": "Clear Smog",
+            "fr": "Bain de Smog",
+            "it": "Pulifumo",
+            "de": "Klärsmog",
+            "es": "Niebla Clara",
+            "ko": "클리어스모그"
           },
           "category": "special",
           "type": "poison",
@@ -459,12 +459,12 @@
           "klass": "LevelLearnableMove",
           "level": 18,
           "names": {
-            "en": "Shadow Sneak",
-            "fr": "Ombre Portée",
-            "it": "Furtivombra",
-            "de": "Schattenstoß",
-            "es": "Sombra Vil",
-            "ko": "야습"
+            "en": "Mud Bomb",
+            "fr": "Boue-Bombe",
+            "it": "Pantanobomba",
+            "de": "Schlammbombe",
+            "es": "Bomba Fango",
+            "ko": "진흙폭탄"
           },
           "category": "special",
           "type": "ground",
@@ -478,12 +478,12 @@
           "klass": "LevelLearnableMove",
           "level": 21,
           "names": {
-            "en": "Harden",
-            "fr": "Armure",
-            "it": "Rafforzatore",
-            "de": "Härtner",
-            "es": "Fortaleza",
-            "ko": "단단해지기"
+            "en": "Minimize",
+            "fr": "Lilliput",
+            "it": "Minimizzato",
+            "de": "Komprimator",
+            "es": "Reducción",
+            "ko": "작아지기"
           },
           "category": "status",
           "type": "normal",
@@ -497,12 +497,12 @@
           "klass": "LevelLearnableMove",
           "level": 26,
           "names": {
-            "en": "Psybeam",
-            "fr": "Rafale Psy",
-            "it": "Psicoraggio",
-            "de": "Psystrahl",
-            "es": "Psicorrayo",
-            "ko": "환상빔"
+            "en": "Bubble Beam",
+            "fr": "Bulles d’O",
+            "it": "Bollaraggio",
+            "de": "Blubbstrahl",
+            "es": "Rayo Burbuja",
+            "ko": "거품광선"
           },
           "category": "special",
           "type": "water",
@@ -516,12 +516,12 @@
           "klass": "LevelLearnableMove",
           "level": 29,
           "names": {
-            "en": "Belly Drum",
-            "fr": "Cognobidon",
-            "it": "Panciamburo",
-            "de": "Bauchtrommel",
-            "es": "Tambor",
-            "ko": "배북"
+            "en": "Sludge Bomb",
+            "fr": "Bombe Beurk",
+            "it": "Fangobomba",
+            "de": "Matschbombe",
+            "es": "Bomba Lodo",
+            "ko": "오물폭탄"
           },
           "category": "special",
           "type": "poison",
@@ -535,12 +535,12 @@
           "klass": "LevelLearnableMove",
           "level": 32,
           "names": {
-            "en": "Flame Burst",
-            "fr": "Rebondifeu",
-            "it": "Pirolancio",
-            "de": "Funkenflug",
-            "es": "Pirotecnia",
-            "ko": "불꽃튀기기"
+            "en": "Sludge Wave",
+            "fr": "Cradovague",
+            "it": "Fangonda",
+            "de": "Schlammwoge",
+            "es": "Onda Tóxica",
+            "ko": "오물웨이브"
           },
           "category": "special",
           "type": "poison",
@@ -554,12 +554,12 @@
           "klass": "LevelLearnableMove",
           "level": 37,
           "names": {
-            "en": "First Impression",
-            "fr": "Escarmouche",
-            "it": "Schermaglia",
-            "de": "Überrumpler",
-            "es": "Escaramuza",
-            "ko": "만나자마자"
+            "en": "Baneful Bunker",
+            "fr": "Blockhaus",
+            "it": "Fortino",
+            "de": "Bunker",
+            "es": "Búnker",
+            "ko": "토치카"
           },
           "category": "status",
           "type": "poison",
@@ -573,12 +573,12 @@
           "klass": "LevelLearnableMove",
           "level": 40,
           "names": {
-            "en": "Cross Poison",
-            "fr": "Poison Croix",
-            "it": "Velenocroce",
-            "de": "Giftstreich",
-            "es": "Veneno X",
-            "ko": "크로스포이즌"
+            "en": "Gunk Shot",
+            "fr": "Détricanon",
+            "it": "Sporcolancio",
+            "de": "Mülltreffer",
+            "es": "Lanzamugre",
+            "ko": "더스트슈트"
           },
           "category": "physical",
           "type": "poison",
@@ -592,12 +592,12 @@
           "klass": "LevelLearnableMove",
           "level": 43,
           "names": {
-            "en": "Splash",
-            "fr": "Trempette",
-            "it": "Splash",
-            "de": "Platscher",
-            "es": "Salpicadura",
-            "ko": "튀어오르기"
+            "en": "Acid Armor",
+            "fr": "Acidarmure",
+            "it": "Scudo Acido",
+            "de": "Säurepanzer",
+            "es": "Armadura Ácida",
+            "ko": "녹기"
           },
           "category": "status",
           "type": "poison",
@@ -611,12 +611,12 @@
           "klass": "LevelLearnableMove",
           "level": 46,
           "names": {
-            "en": "Mat Block",
-            "fr": "Tatamigaeshi",
-            "it": "Ribaltappeto",
-            "de": "Tatami-Schild",
-            "es": "Escudo Tatami",
-            "ko": "마룻바닥세워막기"
+            "en": "Belch",
+            "fr": "Éructation",
+            "it": "Rutto",
+            "de": "Rülpser",
+            "es": "Eructo",
+            "ko": "트림"
           },
           "category": "special",
           "type": "poison",
@@ -630,12 +630,12 @@
           "klass": "LevelLearnableMove",
           "level": 48,
           "names": {
-            "en": "Will-O-Wisp",
-            "fr": "Feu Follet",
-            "it": "Fuocofatuo",
-            "de": "Irrlicht",
-            "es": "Fuego Fatuo",
-            "ko": "도깨비불"
+            "en": "Memento",
+            "fr": "Souvenir",
+            "it": "Memento",
+            "de": "Memento-Mori",
+            "es": "Legado",
+            "ko": "추억의선물"
           },
           "category": "status",
           "type": "dark",
@@ -649,12 +649,12 @@
           "klass": "LevelLearnableMove",
           "level": 50,
           "names": {
-            "en": "Ally Switch",
-            "fr": "Interversion",
-            "it": "Cambiaposto",
-            "de": "Seitentausch",
-            "es": "Cambio de Banda",
-            "ko": "사이드체인지"
+            "en": "Scald",
+            "fr": "Ébullition",
+            "it": "Idrovampata",
+            "de": "Siedewasser",
+            "es": "Escaldar",
+            "ko": "열탕"
           },
           "category": "special",
           "type": "water",
@@ -668,12 +668,12 @@
           "klass": "TutorLearnableMove",
           "level": null,
           "names": {
-            "en": "Safeguard",
-            "fr": "Rune Protect",
-            "it": "Salvaguardia",
-            "de": "Bodyguard",
-            "es": "Velo Sagrado",
-            "ko": "신비의부적"
+            "en": "Pain Split",
+            "fr": "Balance",
+            "it": "Malcomune",
+            "de": "Leidteiler",
+            "es": "Divide Dolor",
+            "ko": "아픔나누기"
           },
           "category": "status",
           "type": "normal",
@@ -687,12 +687,12 @@
           "klass": "TutorLearnableMove",
           "level": null,
           "names": {
-            "en": "Sandstorm",
-            "fr": "Tempête de Sable",
-            "it": "Terrempesta",
-            "de": "Sandsturm",
-            "es": "Tormenta Arena",
-            "ko": "모래바람"
+            "en": "Giga Drain",
+            "fr": "Giga-Sangsue",
+            "it": "Gigassorbimento",
+            "de": "Gigasauger",
+            "es": "Gigadrenado",
+            "ko": "기가드레인"
           },
           "category": "special",
           "type": "grass",
@@ -706,12 +706,12 @@
           "klass": "TutorLearnableMove",
           "level": null,
           "names": {
-            "en": "Rock Blast",
-            "fr": "Boule Roc",
-            "it": "Cadutamassi",
-            "de": "Felswurf",
-            "es": "Pedrada",
-            "ko": "락블레스트"
+            "en": "Shock Wave",
+            "fr": "Onde de Choc",
+            "it": "Ondashock",
+            "de": "Schockwelle",
+            "es": "Onda Voltio",
+            "ko": "전격파"
           },
           "category": "special",
           "type": "electric",
@@ -725,12 +725,12 @@
           "klass": "TutorLearnableMove",
           "level": null,
           "names": {
-            "en": "Solar Beam",
-            "fr": "Lance-Soleil",
-            "it": "Solarraggio",
-            "de": "Solarstrahl",
-            "es": "Rayo Solar",
-            "ko": "솔라빔"
+            "en": "Poison Powder",
+            "fr": "Poudre Toxik",
+            "it": "Velenpolvere",
+            "de": "Giftpuder",
+            "es": "Polvo Veneno",
+            "ko": "독가루"
           },
           "category": "status",
           "type": "poison",
@@ -744,12 +744,12 @@
           "klass": "TutorLearnableMove",
           "level": null,
           "names": {
-            "en": "Mega Drain",
-            "fr": "Méga-Sangsue",
-            "it": "Megassorbimento",
-            "de": "Megasauger",
-            "es": "Megaagotar",
-            "ko": "메가드레인"
+            "en": "Leech Seed",
+            "fr": "Vampigraine",
+            "it": "Parassiseme",
+            "de": "Egelsamen",
+            "es": "Drenadoras",
+            "ko": "씨뿌리기"
           },
           "category": "status",
           "type": "grass",
@@ -763,12 +763,12 @@
           "klass": "TechLearnableMove",
           "level": null,
           "names": {
-            "en": "Dig",
-            "fr": "Tunnel",
-            "it": "Fossa",
-            "de": "Schaufler",
-            "es": "Excavar",
-            "ko": "구멍파기"
+            "en": "Toxic",
+            "fr": "Toxik",
+            "it": "Tossina",
+            "de": "Toxin",
+            "es": "Tóxico",
+            "ko": "맹독"
           },
           "category": "status",
           "type": "poison",
@@ -782,12 +782,12 @@
           "klass": "TechLearnableMove",
           "level": null,
           "names": {
-            "en": "Moonlight",
-            "fr": "Rayon Lune",
-            "it": "Lucelunare",
-            "de": "Mondschein",
-            "es": "Luz Lunar",
-            "ko": "달의불빛"
+            "en": "Hidden Power",
+            "fr": "Puissance Cachée",
+            "it": "Introforza",
+            "de": "Kraftreserve",
+            "es": "Poder Oculto",
+            "ko": "잠재파워"
           },
           "category": "special",
           "type": "normal",
@@ -801,12 +801,12 @@
           "klass": "TechLearnableMove",
           "level": null,
           "names": {
-            "en": "Powder Snow",
-            "fr": "Poudreuse",
-            "it": "Polneve",
-            "de": "Pulverschnee",
-            "es": "Nieve Polvo",
-            "ko": "눈싸라기"
+            "en": "Protect",
+            "fr": "Abri",
+            "it": "Protezione",
+            "de": "Schutzschild",
+            "es": "Protección",
+            "ko": "방어"
           },
           "category": "status",
           "type": "normal",
@@ -820,12 +820,12 @@
           "klass": "TechLearnableMove",
           "level": null,
           "names": {
-            "en": "Heal Bell",
-            "fr": "Glas de Soin",
-            "it": "Rintoccasana",
-            "de": "Vitalglocke",
-            "es": "Campana Cura",
-            "ko": "치료방울"
+            "en": "Return",
+            "fr": "Retour",
+            "it": "Ritorno",
+            "de": "Rückkehr",
+            "es": "Retribución",
+            "ko": "은혜갚기"
           },
           "category": "physical",
           "type": "normal",
@@ -839,12 +839,12 @@
           "klass": "TechLearnableMove",
           "level": null,
           "names": {
-            "en": "Air Cutter",
-            "fr": "Tranch’Air",
-            "it": "Aerasoio",
-            "de": "Windschnitt",
-            "es": "Aire Afilado",
-            "ko": "에어컷터"
+            "en": "Overheat",
+            "fr": "Surchauffe",
+            "it": "Vampata",
+            "de": "Hitzekoller",
+            "es": "Sofoco",
+            "ko": "오버히트"
           },
           "category": "special",
           "type": "fire",
@@ -858,12 +858,12 @@
           "klass": "TechLearnableMove",
           "level": null,
           "names": {
-            "en": "Crabhammer",
-            "fr": "Pince-Masse",
-            "it": "Martellata",
-            "de": "Krabbhammer",
-            "es": "Martillazo",
-            "ko": "찝게햄머"
+            "en": "Explosion",
+            "fr": "Explosion",
+            "it": "Esplosione",
+            "de": "Explosion",
+            "es": "Explosión",
+            "ko": "대폭발"
           },
           "category": "physical",
           "type": "normal",
@@ -877,12 +877,12 @@
           "klass": "TechLearnableMove",
           "level": null,
           "names": {
-            "en": "Bulldoze",
-            "fr": "Piétisol",
-            "it": "Battiterra",
-            "de": "Dampfwalze",
-            "es": "Terratemblor",
-            "ko": "땅고르기"
+            "en": "Frost Breath",
+            "fr": "Souffle Glacé",
+            "it": "Alitogelido",
+            "de": "Eisesodem",
+            "es": "Vaho Gélido",
+            "ko": "얼음숨결"
           },
           "category": "special",
           "type": "ice",
@@ -896,12 +896,12 @@
           "klass": "TechLearnableMove",
           "level": null,
           "names": {
-            "en": "Electric Terrain",
-            "fr": "Champ Électrifié",
-            "it": "Campo Elettrico",
-            "de": "Elektrofeld",
-            "es": "Campo Eléctrico",
-            "ko": "일렉트릭필드"
+            "en": "Dazzling Gleam",
+            "fr": "Éclat Magique",
+            "it": "Magibrillio",
+            "de": "Zauberschein",
+            "es": "Brillo Mágico",
+            "ko": "매지컬샤인"
           },
           "category": "special",
           "type": "fairy",
@@ -915,12 +915,12 @@
           "klass": "TechLearnableMove",
           "level": null,
           "names": {
-            "en": "Embargo",
-            "fr": "Embargo",
-            "it": "Divieto",
-            "de": "Itemsperre",
-            "es": "Embargo",
-            "ko": "금제"
+            "en": "Fling",
+            "fr": "Dégommage",
+            "it": "Lancio",
+            "de": "Schleuder",
+            "es": "Lanzamiento",
+            "ko": "내던지기"
           },
           "category": "physical",
           "type": "dark",
@@ -934,12 +934,12 @@
           "klass": "BreedLearnableMove",
           "level": null,
           "names": {
-            "en": "Spit Up",
-            "fr": "Relâche",
-            "it": "Sfoghenergia",
-            "de": "Entfessler",
-            "es": "Escupir",
-            "ko": "토해내기"
+            "en": "Swallow",
+            "fr": "Avale",
+            "it": "Introenergia",
+            "de": "Verzehrer",
+            "es": "Tragar",
+            "ko": "꿀꺽"
           },
           "category": "status",
           "type": "normal",
@@ -953,12 +953,12 @@
           "klass": "BreedLearnableMove",
           "level": null,
           "names": {
-            "en": "Low Sweep",
-            "fr": "Balayette",
-            "it": "Calciobasso",
-            "de": "Fußtritt",
-            "es": "Puntapié",
-            "ko": "로킥"
+            "en": "Acid Spray",
+            "fr": "Bombe Acide",
+            "it": "Acidobomba",
+            "de": "Säurespeier",
+            "es": "Bomba Ácida",
+            "ko": "애시드봄"
           },
           "category": "special",
           "type": "poison",
@@ -972,12 +972,12 @@
           "klass": "BreedLearnableMove",
           "level": null,
           "names": {
-            "en": "Light Screen",
-            "fr": "Mur Lumière",
-            "it": "Schermoluce",
-            "de": "Lichtschild",
-            "es": "Pantalla de Luz",
-            "ko": "빛의장막"
+            "en": "Haze",
+            "fr": "Buée Noire",
+            "it": "Nube",
+            "de": "Dunkelnebel",
+            "es": "Niebla",
+            "ko": "흑안개"
           },
           "category": "status",
           "type": "ice",
@@ -991,12 +991,12 @@
           "klass": "BreedLearnableMove",
           "level": null,
           "names": {
-            "en": "Mach Punch",
-            "fr": "Mach Punch",
-            "it": "Pugnorapido",
-            "de": "Tempohieb",
-            "es": "Ultrapuño",
-            "ko": "마하펀치"
+            "en": "Scary Face",
+            "fr": "Grimace",
+            "it": "Visotruce",
+            "de": "Grimasse",
+            "es": "Cara Susto",
+            "ko": "겁나는얼굴"
           },
           "category": "status",
           "type": "normal",
@@ -1010,12 +1010,12 @@
           "klass": "BreedLearnableMove",
           "level": null,
           "names": {
-            "en": "Egg Bomb",
-            "fr": "Bombe Œuf",
-            "it": "Uovobomba",
-            "de": "Eierbombe",
-            "es": "Bomba Huevo",
-            "ko": "알폭탄"
+            "en": "Lick",
+            "fr": "Léchouille",
+            "it": "Leccata",
+            "de": "Schlecker",
+            "es": "Lengüetazo",
+            "ko": "핥기"
           },
           "category": "physical",
           "type": "ghost",
@@ -1029,12 +1029,12 @@
           "klass": "BreedLearnableMove",
           "level": null,
           "names": {
-            "en": "Snore",
-            "fr": "Ronflement",
-            "it": "Russare",
-            "de": "Schnarcher",
-            "es": "Ronquido",
-            "ko": "코골기"
+            "en": "Curse",
+            "fr": "Malédiction",
+            "it": "Maledizione",
+            "de": "Fluch",
+            "es": "Maldición",
+            "ko": "저주"
           },
           "category": "status",
           "type": "ghost",
@@ -1048,12 +1048,12 @@
           "klass": "BreedLearnableMove",
           "level": null,
           "names": {
-            "en": "Fire Fang",
-            "fr": "Crocs Feu",
-            "it": "Rogodenti",
-            "de": "Feuerzahn",
-            "es": "Colmillo Ígneo",
-            "ko": "불꽃엄니"
+            "en": "Shadow Sneak",
+            "fr": "Ombre Portée",
+            "it": "Furtivombra",
+            "de": "Schattenstoß",
+            "es": "Sombra Vil",
+            "ko": "야습"
           },
           "category": "physical",
           "type": "ghost",
@@ -1067,12 +1067,12 @@
           "klass": "BreedLearnableMove",
           "level": null,
           "names": {
-            "en": "Skill Swap",
-            "fr": "Échange",
-            "it": "Baratto",
-            "de": "Fähigkeitstausch",
-            "es": "Intercambio",
-            "ko": "스킬스웹"
+            "en": "Imprison",
+            "fr": "Possessif",
+            "it": "Esclusiva",
+            "de": "Begrenzer",
+            "es": "Sellar",
+            "ko": "봉인"
           },
           "category": "status",
           "type": "psychic",
@@ -1086,12 +1086,12 @@
           "klass": "BreedLearnableMove",
           "level": null,
           "names": {
-            "en": "Steel Wing",
-            "fr": "Ailes d’Acier",
-            "it": "Alacciaio",
-            "de": "Stahlflügel",
-            "es": "Ala de Acero",
-            "ko": "강철날개"
+            "en": "Mean Look",
+            "fr": "Regard Noir",
+            "it": "Malosguardo",
+            "de": "Horrorblick",
+            "es": "Mal de Ojo",
+            "ko": "검은눈빛"
           },
           "category": "status",
           "type": "normal",
@@ -1105,12 +1105,12 @@
           "klass": "BreedLearnableMove",
           "level": null,
           "names": {
-            "en": "Stockpile",
-            "fr": "Stockage",
-            "it": "Accumulo",
-            "de": "Horter",
-            "es": "Reserva",
-            "ko": "비축하기"
+            "en": "Spit Up",
+            "fr": "Relâche",
+            "it": "Sfoghenergia",
+            "de": "Entfessler",
+            "es": "Escupir",
+            "ko": "토해내기"
           },
           "category": "special",
           "type": "normal",
@@ -1124,12 +1124,12 @@
           "klass": "BreedLearnableMove",
           "level": null,
           "names": {
-            "en": "Uproar",
-            "fr": "Brouhaha",
-            "it": "Baraonda",
-            "de": "Aufruhr",
-            "es": "Alboroto",
-            "ko": "소란피기"
+            "en": "Stockpile",
+            "fr": "Stockage",
+            "it": "Accumulo",
+            "de": "Horter",
+            "es": "Reserva",
+            "ko": "비축하기"
           },
           "category": "status",
           "type": "normal",

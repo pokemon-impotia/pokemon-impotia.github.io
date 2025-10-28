@@ -40,11 +40,12 @@ def ensure_directory_exists(path):
     os.makedirs(path, exist_ok=True)
 
 def load_csv_as_dict(file_path):
-    """Loads a CSV file into a dictionary where row index (from 1) maps to a list of column values."""
     data = {}
     with open(file_path, 'r', encoding='utf-8') as f:
         reader = csv.reader(f)
-        for i, row in enumerate(reader):
+        next(reader)  # Skip header
+        next(reader)  # Skip separator
+        for i, row in enumerate(reader, start=1):
             data[i] = row
     return data
 

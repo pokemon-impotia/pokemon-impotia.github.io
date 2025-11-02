@@ -145,7 +145,7 @@
       "form": 0
     },
     {
-      "dbSymbol": "carroflame",
+      "dbSymbol": "dissibier",
       "form": 0
     },
     {
@@ -605,10 +605,6 @@
       "form": 0
     },
     {
-      "dbSymbol": "megamagla",
-      "form": 0
-    },
-    {
       "dbSymbol": "marbra",
       "form": 0
     },
@@ -633,6 +629,14 @@
       "form": 0
     },
     {
+      "dbSymbol": "capyron",
+      "form": 0
+    },
+    {
+      "dbSymbol": "barattu",
+      "form": 0
+    },
+    {
       "dbSymbol": "pictik",
       "form": 0
     },
@@ -646,14 +650,6 @@
     },
     {
       "dbSymbol": "cireano",
-      "form": 0
-    },
-    {
-      "dbSymbol": "gelormi",
-      "form": 0
-    },
-    {
-      "dbSymbol": "jivrai",
       "form": 0
     },
     {
@@ -801,7 +797,15 @@
       "form": 0
     },
     {
+      "dbSymbol": "vampirat",
+      "form": 0
+    },
+    {
       "dbSymbol": "printhana",
+      "form": 0
+    },
+    {
+      "dbSymbol": "hurautomne",
       "form": 0
     },
     {
@@ -862,6 +866,34 @@
     },
     {
       "dbSymbol": "detripost",
+      "form": 0
+    },
+    {
+      "dbSymbol": "wazo",
+      "form": 0
+    },
+    {
+      "dbSymbol": "superwazo",
+      "form": 0
+    },
+    {
+      "dbSymbol": "megawazo",
+      "form": 0
+    },
+    {
+      "dbSymbol": "fiscalis",
+      "form": 0
+    },
+    {
+      "dbSymbol": "fiscalis_supreme",
+      "form": 0
+    },
+    {
+      "dbSymbol": "taxevade",
+      "form": 0
+    },
+    {
+      "dbSymbol": "taxevade_supreme",
       "form": 0
     }
   ]

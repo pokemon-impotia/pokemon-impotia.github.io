@@ -25,18 +25,18 @@ export class PokemonDataProcessor {
             this.languageManager.getTranslation('HP'),
             this.languageManager.getTranslation('Attack'),
             this.languageManager.getTranslation('Defense'),
-            this.languageManager.getTranslation('Speed'),
             this.languageManager.getTranslation('Special Attack'),
-            this.languageManager.getTranslation('Special Defense')
+            this.languageManager.getTranslation('Special Defense'),
+            this.languageManager.getTranslation('Speed')
         ]);
 
         return [
             { name: statLabels[0], value: form.baseHp },
             { name: statLabels[1], value: form.baseAtk },
             { name: statLabels[2], value: form.baseDfe },
-            { name: statLabels[3], value: form.baseSpd },
-            { name: statLabels[4], value: form.baseAts },
-            { name: statLabels[5], value: form.baseDfs }
+            { name: statLabels[3], value: form.baseAts },
+            { name: statLabels[4], value: form.baseDfs },
+            { name: statLabels[5], value: form.baseSpd }
         ];
     }
 
